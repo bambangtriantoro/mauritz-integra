@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/asset/image/edgar-soto-iaHZUC69YHA-unsplash.jpg" class="d-block" alt="mauritz carousel 2">
+                <img src="/asset/image/katie-harp-qmB-5TJ8IiM-unsplash.jpg" class="d-block" alt="mauritz carousel 2">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Second slide label</h2>
                     <p>Some representative placeholder content for the first slide.</p>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/asset/image/anton-Sr7YIVy99pA-unsplash.jpg" class="d-block" alt="mauritz carousel 3">
+                <img src="/asset/image/katie-harp-qmB-5TJ8IiM-unsplash.jpg" class="d-block" alt="mauritz carousel 3">
                 <div class="carousel-caption d-none d-md-block">
                     <h2>Third slide label</h2>
                     <p>Some representative placeholder content for the first slide.</p>
