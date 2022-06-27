@@ -8,9 +8,9 @@
                 <small><i class="bi bi-clock me-1"></i></small> <span id="datetime" class="datetime"></span>
             </div>
             <div class="social">
-                <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.tiktok.com"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="bi bi-tiktok"></i></a>
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@
         <div class="container">
             <h2 class="mb-3">Our <span> Services </span></h2>
 
-            <div class="row row-cols-3 g-3">
+            <div class="row row-cols-1 row-cols-sm-3 g-3">
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
