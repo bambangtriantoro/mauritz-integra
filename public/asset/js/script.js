@@ -1,3 +1,29 @@
+// Loading
+window.onload = function(){hideLoading();}
+
+function hideLoading(){
+    var preloader = document.getElementById("preloader");
+    preloader.style.opacity = 0;
+    setTimeout(function(){
+        preloader.style.display = "none";
+    },1500)
+}
+
+// Sticky Navbar
+window.onscroll = function(){stickyNavbar();} 
+
+var navbar = document.getElementById("navbar");
+var navbarOffset = navbar.offsetTop;
+var carouselCaptionOffset = document.getElementById("carousel").offsetTop + 150;
+
+function stickyNavbar() {
+    if (window.pageYOffset >= carouselCaptionOffset) {
+        navbar.classList.add("sticky")
+    } else if (window.pageYOffset < navbarOffset) {
+        navbar.classList.remove("sticky");
+    }
+} 
+
 // Date and Time
 function showTime(){
     var date = new Date();

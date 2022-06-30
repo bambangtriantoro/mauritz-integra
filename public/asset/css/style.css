@@ -9,6 +9,78 @@ body {
 
 .bg-custom {
     background-color: #333396;
+    color: #fbfbfb;
+}
+
+.preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: opacity 1s;
+}
+
+.loader {
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 3px solid #333396;
+    border-bottom: 3px solid #f93154;
+    width: 69px;
+    height: 69px;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.preloader > h3 {
+    margin-top: 33px;
+    color: #333396;
+    font-weight: 600;
+    animation: color-change1 5s linear infinite;
+}
+
+@keyframes color-change1 {
+    0% { color:#333396; }
+    20% { color: #333396; }
+    40% { color: #f93154; } 
+    60% { color: #f93154;}
+    80% { color: #333396; }
+    100% { color: #333396; }
+}
+
+.preloader > h3 > span {
+    color: #f93154;
+    animation: color-change2 5s linear infinite;
+}
+
+@keyframes color-change2 {
+    0% { color:#f93154; }
+    20% { color: #f93154; }
+    40% { color: #333396; } 
+    60% { color: #333396;}
+    80% { color: #f93154; }
+    100% { color: #f93154; }
+}
+
+.sticky {
+    position: fixed;
+    top: -100px;
+    transform: translateY(100px);
+    width: 100vw;
+    z-index: 2;
+    transition: 1s;
+}
+
+.sticky + .carousel {
+    padding-top: 60px;
 }
 
 .navbar-header > .container {
@@ -102,18 +174,19 @@ section h2 > span {
     color: #f93154;
 }
 
-.card {
+.service .card {
     transition: 0.5s;
+    border-radius: 33px;
 }
 
-.card:hover {
+.service .card:hover {
     border: 1px solid #333396;
     transform: scale(1.05);
     transition: 0.5s;
     z-index: 1;
 }
 
-.card-body {
+.service .card-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,13 +194,13 @@ section h2 > span {
     text-align: center;
 }
 
-.card-body > i {
+.service .card-body > i {
     color: #333396;
     font-size: 69px;
     margin: 13px;
 }
 
-.card-body > h3 {
+.service .card-body > h3 {
     color: #f93154;
     font-weight: 600;
 }
@@ -147,7 +220,6 @@ section h2 > span {
 
 .about > div > div > img {
     width: 100%;
-    border: 6px solid #333396;
     border-radius: 30px;
 }
 
@@ -170,19 +242,87 @@ section h2 > span {
     background-color: #333396;
     color: #fbfbfb;
     border: 1px solid #f93154;
-    border-radius: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 15px;
     padding: 10px 23px;
     transition: 0.5s;
 }
 
 .about > div > div > div > div > button:hover{
     background-color: #f93154;
-    color: #fbfbfb;
-    border: 3px solid #333396;
+    border: 1px solid #333396;
     border-radius: 20px;
-    padding: 10px 23px;
-    transform: scale(1.05);
-    transition: 0.5s;
+    transition: background-color 0.5s,border-radius 0.5s;
+}
+
+.service-detail > * {
+    margin: 50px 10px;
+    padding: 100px 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    position: relative;
+}
+
+.service-detail > div:first-child {
+    background: #333396;
+    color: #fbfbfb;
+}
+
+.service-detail > div:nth-child(2) {
+    background-color: #f93154;
+    color: #fbfbfb;
+}
+
+.service-detail > div:last-child {
+    background-color: #333396;
+    color: #fbfbfb;
+}
+
+.service-detail > div:first-child > i, .service-detail > div:last-child > i {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 69px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #f93154;
+    z-index: 1;
+}
+
+.service-detail > div:nth-child(2) > i {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 69px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #333396;
+    z-index: 1;
+}
+
+.service-detail > div > div > h2 {
+    color: #fbfbfb;
+    text-align: start;
+}
+
+.service-detail > div > div > p {
+    text-align: justify;
+}
+
+.service-detail > div:first-child > div > button,
+.service-detail > div:last-child > div > button {
+    font-weight: 600;
+}
+
+.service-detail > div:nth-child(2) > div > button {
+    background-color: #333396;
+    color: #fbfbfb;
+    font-weight: 600;
+    padding: 6px 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
 }
 
 @media screen and (max-width:576px) {

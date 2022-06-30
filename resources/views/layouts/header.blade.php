@@ -17,6 +17,9 @@
     {{-- BoxIcons --}}
     <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' />
 
+    {{-- Hover --}}
+    <link rel="stylesheet" href="/hover/hover.css">
+
     {{-- My --}}
     <link rel="stylesheet" href="/asset/css/style.css" />
 </head>

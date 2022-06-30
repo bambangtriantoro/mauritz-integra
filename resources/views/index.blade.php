@@ -1,61 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-    {{-- Navbar --}}
-    <div class="navbar-header bg-custom text-light">
-        <div class="container">
-            <div class="datetime">
-                <small><i class='bx bx-calendar me-1'></i></small> <span id="datetime" class="datetime"></span>
-            </div>
-            <div class="social">
-                <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.tiktok.com" target="_blank"><i class='bx bxl-tiktok'></i></i></a>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Company <span>Name</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Shop
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     {{-- Carousel --}}
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="d-block" alt="mauritz carousel 1">
@@ -82,11 +29,11 @@
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bg-custom" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
             <span class="carousel-control-next-icon bg-custom" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -102,7 +49,7 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
-                            <i class='bx bx-pulse'></i>
+                            <i class='bx bx-first-aid'></i>
                             <h3 class="card-title">Service 1</h3>
                             <h5 class="card-subtitle mb-2 text-muted">Card subtitle</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -118,8 +65,7 @@
                             <h3 class="card-title">Service 2</h3>
                             <h5 class="card-subtitle mb-2 text-muted">Card subtitle</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of
-                                the card's content.</p>
+                                bulk of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -163,4 +109,46 @@
             </div>
         </div>
     </section>
+    <div class="container">
+        <section class="service-detail">
+            <div class="d-flex flex-wrap flex-sm-nowrap justify-content-center align-items-center gap-3">
+                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                    alt="medical kit" class="w-75 me-3">
+                <div>
+                    <h2>Service 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
+                        beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
+                        repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
+                    <button class="hvr-sweep-to-right-type2">Read More</button>
+                </div>
+                <i class='bx bx-first-aid'></i>
+            </div>
+
+            <div class="d-flex flex-wrap flex-sm-nowrap gap-3 justify-content-center align-items-center">
+                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
+                    alt="chicken" class="w-75 me-3">
+                <div>
+                    <h2>Service 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
+                        beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
+                        repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
+                    <button class="hvr-sweep-to-right-type1">Read More</button>
+                </div>
+                <i class='bx bx-restaurant'></i>
+            </div>
+
+            <div class="d-flex flex-wrap flex-sm-nowrap gap-3 justify-content-center align-items-center">
+                <img src="/asset/image/kisspng-hard-hat-cap-yellow-safety-hat-5a6cd84b853be6.3053923015170826995457.png"
+                    alt="construction helmet" class="w-75 me-3">
+                <div>
+                    <h2>Service 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
+                        beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
+                        repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
+                    <button class="hvr-sweep-to-right-type2">Read More</button>
+                </div>
+                <i class='bx bx-building'></i>
+            </div>
+        </section>
+    </div>
 @endsection
