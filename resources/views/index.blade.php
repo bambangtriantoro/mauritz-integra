@@ -47,18 +47,19 @@
 
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
                             <i class='bx bx-first-aid'></i>
                             <h3 class="card-title">Alat Kesehatan</h3>
                             <h5 class="card-subtitle mb-2 text-muted">HEALT CARE PRODUCT DIVISION</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt
                                 ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
                             <i class='bx bx-restaurant'></i>
                             <h3 class="card-title">Food/Makanan</h3>
@@ -68,12 +69,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
                             <i class='bx bx-building'></i>
                             <h3 class="card-title">Konstruksi</h3>
                             <h5 class="card-subtitle mb-2 text-muted">JASA KONSTRUKSI TELEKOMUNIKASI DAN PROPERTY</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt
                                 ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
@@ -106,6 +108,7 @@
             </div>
         </div>
     </section>
+
     <div class="container">
         <section class="service-detail">
             <div
@@ -188,12 +191,55 @@
                 <div>
                     <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
                 </div>
-                <div class="card-body">
+                <div class="card-body position-relative">
                     <h3>Medical Kit Products</h3>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis iste incidunt numquam.
                     Reprehenderit
                     rem velit totam eos sequi numquam maxime nulla eum consectetur, voluptate incidunt temporibus odio
                     corporis asperiores aut.
+
+                    <div class="position-absolute product-item">
+                        <div class="card mx-3">
+                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                class="card-img-top shadow" alt="product1">
+                            <div class="card-body bg-custom">
+                                <h5 class="card-title">Product 1</h5>
+                                <button class="card-text">Rp. 250.000</button>
+                            </div>
+                        </div>
+                        <div class="card mx-3">
+                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                class="card-img-top shadow" alt="product1">
+                            <div class="card-body bg-custom">
+                                <h5 class="card-title">Product 1</h5>
+                                <button class="card-text">Rp. 250.000</button>
+                            </div>
+                        </div>
+                        <div class="card mx-3">
+                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                class="card-img-top shadow" alt="product1">
+                            <div class="card-body bg-custom">
+                                <h5 class="card-title">Product 1</h5>
+                                <button class="card-text">Rp. 250.000</button>
+                            </div>
+                        </div>
+                        <div class="card mx-3">
+                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                class="card-img-top shadow" alt="product1">
+                            <div class="card-body bg-custom">
+                                <h5 class="card-title">Product 1</h5>
+                                <button class="card-text">Rp. 250.000</button>
+                            </div>
+                        </div>
+                        <div class="card mx-3">
+                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                class="card-img-top shadow" alt="product1">
+                            <div class="card-body bg-custom">
+                                <h5 class="card-title">Product 1</h5>
+                                <button class="card-text">Rp. 250.000</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -225,6 +271,15 @@
                 </div>
                 <div>
                     <img src="/asset/image/brand/brand9.jpeg" alt="brand9">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand10.jpeg" alt="brand10">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand11.jpeg" alt="brand11">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand12.jpeg" alt="brand12">
                 </div>
             </div>
         </section>

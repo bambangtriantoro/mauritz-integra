@@ -410,6 +410,8 @@ section h2 > span {
 
 .product > div:first-of-type {
     margin-top: 50px;
+    margin-bottom: 300px;
+    padding-bottom: 100px;
     position: relative;
     background-color: #333396;
     color: #fbfbfb;
@@ -418,7 +420,7 @@ section h2 > span {
 
 .product > div:first-of-type > div:first-of-type {
     position: absolute;
-    top: -45px;
+    top: -43px;
     padding: 5px 10px;
     padding-left: 25px;
     background-color: #f93154;
@@ -437,18 +439,57 @@ section h2 > span {
 .product > div:first-of-type > div:first-of-type > h3 > i {
     position: absolute;
     top: -19px;
-    left: -70px;
+    left: -60px;
     background-color: #f93154;
     border-radius: 10px;
     padding: 5px;
     font-size: 60px;
 }
 
+.product > div:first-of-type > div:last-of-type > h3 {
+    font-weight: 700;
+}
+
+.product > div:first-of-type > div:last-of-type > div {
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 96%;
+} 
+
+.product > div:first-of-type > div:last-of-type .slick-slide {
+    border-radius: 30px;
+    overflow: hidden;
+} 
+
+.product > div:first-of-type > div:last-of-type .slick-slide div.card-body .card-title {
+    font-weight: 700;
+} 
+
+.product > div:first-of-type > div:last-of-type .slick-slide div.card-body .card-text {
+    font-weight: 700;
+    background-color: #f93154;
+    color: #fbfbfb;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+} 
+
+.product > div:first-of-type > div:last-of-type .slick-slide div.card-body .card-text:hover {
+    background-color: #fbfbfb;
+    color: #333396;
+    transition: 0.3s;
+}
+
 .product > h3:last-of-type {
     margin-top: 50px;
 }
 
-.product-brand > div > div > div > img {
+.product-brand .slick-slide > img {
     width: 250px;
     height: 150px;
     margin: auto;
