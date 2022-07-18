@@ -50,11 +50,10 @@
                     <div class="card">
                         <div class="card-body">
                             <i class='bx bx-first-aid'></i>
-                            <h3 class="card-title">Service 1</h3>
-                            <h5 class="card-subtitle mb-2 text-muted">Card subtitle</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of
-                                the card's content.</p>
+                            <h3 class="card-title">Alat Kesehatan</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">HEALT CARE PRODUCT DIVISION</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -62,10 +61,9 @@
                     <div class="card">
                         <div class="card-body">
                             <i class='bx bx-restaurant'></i>
-                            <h3 class="card-title">Service 2</h3>
-                            <h5 class="card-subtitle mb-2 text-muted">Card subtitle</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the card's content.</p>
+                            <h3 class="card-title">Food/Makanan</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">AYAM TABOK M2</h5>
+                            <p class="card-text">gerai penjualan online dan offline untuk produk makanan jadi.</p>
                         </div>
                     </div>
                 </div>
@@ -73,11 +71,10 @@
                     <div class="card">
                         <div class="card-body">
                             <i class='bx bx-building'></i>
-                            <h3 class="card-title">Service 3</h3>
-                            <h5 class="card-subtitle mb-2 text-muted">Card subtitle</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of
-                                the card's content.</p>
+                            <h3 class="card-title">Konstruksi</h3>
+                            <h5 class="card-subtitle mb-2 text-muted">JASA KONSTRUKSI TELEKOMUNIKASI DAN PROPERTY</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.</p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +113,7 @@
                 <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
                     alt="medical kit" class="w-75 me-3">
                 <div>
-                    <h2>Service 1</h2>
+                    <h2>Alat Kesehatan</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
                         beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
                         repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
@@ -130,7 +127,7 @@
                 <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
                     alt="chicken" class="w-75 me-3">
                 <div>
-                    <h2>Service 2</h2>
+                    <h2>Food/Makanan</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
                         beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
                         repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
@@ -143,7 +140,7 @@
                 <img src="/asset/image/kisspng-hard-hat-cap-yellow-safety-hat-5a6cd84b853be6.3053923015170826995457.png"
                     alt="construction helmet" class="w-75 me-3">
                 <div>
-                    <h2>Service 3</h2>
+                    <h2>Konstruksi</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
                         beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
                         repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
