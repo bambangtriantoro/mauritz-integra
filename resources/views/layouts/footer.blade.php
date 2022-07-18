@@ -39,6 +39,7 @@
                 </ul>
             </div>
         </div>
+        <p class="text-center opacity-50 me-3 my-3"><small>Copyright &copy; {{ date('Y') }} Company Name</small></p>
     </div>
 </footer>
 

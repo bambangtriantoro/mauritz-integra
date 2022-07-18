@@ -117,6 +117,7 @@
         </section>
     </div>
 
+    {{-- Service Detail --}}
     <div class="container">
         <section class="service-detail">
             <div
@@ -161,6 +162,7 @@
             </div>
         </section>
 
+        {{-- Vision & Mission --}}
         <section class="visionmission" id="visionmission">
             <div class="d-flex justify-content-evenly">
                 <h2 class="text-end">Vision</h2>
@@ -193,6 +195,7 @@
             </ol>
         </section>
 
+        {{-- Product --}}
         <section class="product">
             <h2>Our <span>Products</span></h2>
             <div class="card">
@@ -292,4 +295,69 @@
             </div>
         </section>
     </div>
+
+    <section class="contact-us">
+        <div class="container">
+            <h2>Contact <span>Us</span></h2>
+            <div class="card mb-3 px-5 w-100">
+                <div class="card-body">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 justify-content-center g-3">
+                        <div class="col">
+                            <div
+                                class="d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
+                                <i class='bx bxs-home'></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nulla,
+                                    maiores!</p>
+                            </div>
+                        </div>
+                        <div
+                            class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
+                            <i class='bx bxs-envelope'></i>
+                            <p>email@email.com</p>
+                        </div>
+                        <div
+                            class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
+                            <i class='bx bxs-phone'></i>
+                            <div class="d-flex flex-wrap">
+                                <p class="me-3">+628888888888</p>
+                                <p class="me-3">+628888888888</p>
+                                <p class="me-3">+628888888888</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Your Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Name</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126754.21663738543!2d107.52250835654745!3d-6.882305507007598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e73745a3daf5%3A0xf6fd5ac9115ff3a3!2sOSHA%20Technology!5e0!3m2!1sen!2sid!4v1658156807567!5m2!1sen!2sid"
+                        allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
