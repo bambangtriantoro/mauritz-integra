@@ -23,6 +23,9 @@
     {{-- Animate --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    {{-- Slick Slide --}}
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
     {{-- My --}}
     <link rel="stylesheet" href="/asset/css/style.css" />
 </head>
