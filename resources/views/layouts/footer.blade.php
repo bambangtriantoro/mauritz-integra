@@ -1,41 +1,43 @@
 <footer>
-    <div class="d-flex justify-content-between align-items-center py-2">
-        <p class="ms-3">Follow Our Social Media :</p>
-        <div class="social">
-            <a href="https://www.facebook.com/maurindotekniksolusi" target="_blank"><i
-                    class='bx bxl-facebook-circle'></i></a>
-            <a href="https://www.instagram.com/mauritzintegra/" target="_blank"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.tiktok.com/@mauritzintegra" target="_blank"><i class='bx bxl-tiktok'></i></i></a>
+    <div class="container-xxl">
+        <div class="d-flex justify-content-between align-items-center py-2">
+            <p class="ms-3">Follow Our Social Media :</p>
+            <div class="social">
+                <a href="https://www.facebook.com/maurindotekniksolusi" target="_blank"><i
+                        class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/mauritzintegra/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.tiktok.com/@mauritzintegra" target="_blank"><i class='bx bxl-tiktok'></i></i></a>
+            </div>
         </div>
-    </div>
-    <div class="row justify-content-evenly g-3 mt-3">
-        <div class="col-12 col-sm-5">
-            <h3>Company Name</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, omnis.</p>
-        </div>
-        <div class="col-12 col-sm-2">
-            <h5>Useful Links</h5>
-            <ul class="mx-auto">
-                <li><a href="#">Lorem, ipsum dolor.</a></li>
-                <li><a href="#">Lorem, ipsum.</a></li>
-                <li><a href="#">Lorem.</a></li>
-            </ul>
-        </div>
-        <div class="col-12 col-sm-2">
-            <h5>Marketplace</h5>
-            <ul class="mx-auto">
-                <li><a href="#">Lorem.</a></li>
-                <li><a href="#">Lorem, ipsum.</a></li>
-                <li><a href="#">Lorem, ipsum dolor.</a></li>
-            </ul>
-        </div>
-        <div class="col-12 col-sm-2">
-            <h5>Contact Us</h5>
-            <ul>
-                <li><a href="#">Lorem, ipsum dolor.</a></li>
-                <li><a href="#">Lorem, ipsum.</a></li>
-                <li><a href="#">Lorem.</a></li>
-            </ul>
+        <div class="row justify-content-evenly g-3 mt-3">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                <h2>Company Name</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, omnis.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <h5>Useful Links</h5>
+                <ul class="mx-auto">
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem.</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <h5>Marketplace</h5>
+                <ul class="mx-auto">
+                    <li><a href="#">Lorem.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <h5>Contact Us</h5>
+                <ul>
+                    <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    <li><a href="#">Lorem, ipsum.</a></li>
+                    <li><a href="#">Lorem.</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>

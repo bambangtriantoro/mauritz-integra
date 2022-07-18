@@ -12,6 +12,10 @@ body {
     color: #fbfbfb;
 }
 
+.container-xxl {
+    width: 100%;
+}
+
 .preloader {
     position: fixed;
     width: 100vw;
@@ -452,7 +456,7 @@ section h2 > span {
 
 .product > div:first-of-type > div:last-of-type > div {
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: -9px;
     width: 96%;
 } 
 
@@ -502,15 +506,19 @@ footer {
     overflow: hidden;
 }
 
-footer > div:first-of-type {
+footer > div > div:first-of-type {
     background-color: #f93154;
 }
 
-footer > div:last-of-type {
+footer > div > div:last-of-type {
     margin: 30px;
 }
 
-footer h3, footer h5 {
+footer > div > div:last-of-type > div:first-of-type  p { 
+    margin-bottom: 0;
+}
+
+footer h2, footer h5 {
     display: inline-block;
     background-color: #f93154;
     margin-left: -10px;
@@ -539,6 +547,18 @@ footer > div > div > ul > li {
     margin-left: -31px;
 }
 
+@media screen and (min-width:1400px){
+    .carousel-item > img {
+        width: auto;
+        height: auto;
+        margin: 0 auto
+    }
+
+    .about {
+        min-height: 0;
+    }
+}
+
 /* M */
 @media screen and (max-width:992px) {
     .carousel-item > img {
@@ -565,6 +585,10 @@ footer > div > div > ul > li {
         top: -9px;
         left: -50px;
         font-size: 40px;
+    }
+
+    footer > div:last-of-type > div:first-of-type  p { 
+        margin-bottom: 50px;
     }
 }
 
@@ -597,6 +621,10 @@ footer > div > div > ul > li {
         left: -30px;
         font-size: 40px;
     }
+
+    .product > h3:last-of-type {
+        margin-top: 350px;
+    }
 }
 
 /* XS */
@@ -619,5 +647,9 @@ footer > div > div > ul > li {
 
     .service-detail > div > i {
         transform: scale(0.9);
+    }
+
+    .product > h3:last-of-type {
+        margin-top: 400px;
     }
 }

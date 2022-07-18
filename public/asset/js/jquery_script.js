@@ -42,26 +42,31 @@ $(document).ready(function(){
         slidesToScroll: 4,
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
               infinite: true,
-              dots: true
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToScroll: 2,
+              infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 576,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           }
         ]
