@@ -134,17 +134,17 @@
             </div>
 
             <div
-                class="d-flex flex-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center">
+                class="d-flex flex-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap justify-content-center align-items-center gap-3">
                 <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
                     alt="chicken" class="w-75 me-3">
                 <div>
-                    <h2>Food/Makanan</h2>
+                    <h2>Food / Makanan</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
                         beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
                         repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
-                    <button class="hvr-sweep-to-right-type1">Read More</button>
+                    <button class="hvr-sweep-to-right-type2">Read More</button>
                 </div>
-                <i class='bx bx-restaurant'></i>
+                <i class='bx bx-first-aid'></i>
             </div>
 
             <div class="d-flex flex-wrap flex-md-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center">
