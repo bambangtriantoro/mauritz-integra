@@ -20,6 +20,9 @@
     {{-- Hover --}}
     <link rel="stylesheet" href="/hover/hover.css">
 
+    {{-- Animate --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     {{-- My --}}
     <link rel="stylesheet" href="/asset/css/style.css" />
 </head>

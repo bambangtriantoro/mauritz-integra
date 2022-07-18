@@ -5,9 +5,10 @@
             <small><i class='bx bx-calendar me-1'></i></small> <span id="datetime" class="datetime"></span>
         </div>
         <div class="social">
-            <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.tiktok.com" target="_blank"><i class='bx bxl-tiktok'></i></i></a>
+            <a href="https://www.facebook.com/maurindotekniksolusi" target="_blank"><i
+                    class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/mauritzintegra/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.tiktok.com/@mauritzintegra" target="_blank"><i class='bx bxl-tiktok'></i></i></a>
         </div>
     </div>
 </div>

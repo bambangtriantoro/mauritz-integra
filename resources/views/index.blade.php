@@ -45,7 +45,7 @@
         <section class="service">
             <h2 class="mb-5">Our <span> Services </span></h2>
 
-            <div class="row row-cols-1 row-cols-sm-3 g-3">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
                 <div class="col">
                     <div class="card">
                         <div class="card-body">
@@ -88,7 +88,7 @@
 
     {{-- About --}}
     <section class="about">
-        <div class="row row-cols-1 row-cols-sm-2 align-items-center">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 align-items-center">
             <div class="col">
                 <img src="/asset/image/clayton-cardinalli-mMnU-UMmXok-unsplash.jpg" alt="mauritz team">
             </div>
@@ -111,7 +111,8 @@
     </section>
     <div class="container">
         <section class="service-detail">
-            <div class="d-flex flex-wrap flex-sm-nowrap justify-content-center align-items-center gap-3">
+            <div
+                class="d-flex flex-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap justify-content-center align-items-center gap-3">
                 <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
                     alt="medical kit" class="w-75 me-3">
                 <div>
@@ -124,7 +125,8 @@
                 <i class='bx bx-first-aid'></i>
             </div>
 
-            <div class="d-flex flex-wrap flex-sm-nowrap gap-3 justify-content-center align-items-center">
+            <div
+                class="d-flex flex-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center">
                 <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
                     alt="chicken" class="w-75 me-3">
                 <div>
@@ -137,7 +139,7 @@
                 <i class='bx bx-restaurant'></i>
             </div>
 
-            <div class="d-flex flex-wrap flex-sm-nowrap gap-3 justify-content-center align-items-center">
+            <div class="d-flex flex-wrap flex-md-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center">
                 <img src="/asset/image/kisspng-hard-hat-cap-yellow-safety-hat-5a6cd84b853be6.3053923015170826995457.png"
                     alt="construction helmet" class="w-75 me-3">
                 <div>
@@ -149,6 +151,38 @@
                 </div>
                 <i class='bx bx-building'></i>
             </div>
+        </section>
+
+        <section class="visionmission" id="visionmission">
+            <div class="d-flex justify-content-evenly">
+                <h2 class="text-end">Vision</h2>
+                <h2>&</h2>
+                <h2 class="text-start">Mission</h2>
+            </div>
+            <ol>
+                <li class="animate">
+                    <h5>CUSTOMER SATISFICATION</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, ea.</p>
+                </li>
+                <li class="animate">
+                    <h5>INTEGRITY</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis ratione optio consequuntur
+                        tempore similique?</p>
+                </li>
+                <li class="animate">
+                    <h5>DISCIPLINE & COMMITMENT</h5>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic.</p>
+                </li>
+                <li class="animate">
+                    <h5>OWNERSHIP</h5>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li class="animate">
+                    <h5>TEAMWORK</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, fugiat ipsa repellat sequi sunt maiores
+                        harum laboriosam quaerat voluptate magni.</p>
+                </li>
+            </ol>
         </section>
     </div>
 @endsection

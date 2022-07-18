@@ -83,6 +83,10 @@ body {
     padding-top: 60px;
 }
 
+.navbar {
+    z-index: 3;
+}
+
 .navbar-header > .container {
     height: 6vh;
     display: flex;
@@ -151,23 +155,32 @@ body {
     font-weight: 700;
 }
 
+.carousel-control-prev {
+    justify-content: start;
+    padding: 30px;
+}
+
+.carousel-control-next {
+    justify-content: end;
+    padding: 30px;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    width: 35px;
-    height: 40px;
-    border-radius: 10px;
+    width: 25px;
+    height: 25px;
 }
 
 section {
     margin-top: 69px;
     margin-bottom: 165px;
-}
+} 
 
 section h2 {
     color: #333396;
     font-size: 50px;
     font-weight: 700;
-    text-align: center;
+    text-align: start;
 }
 
 section h2 > span {
@@ -325,12 +338,115 @@ section h2 > span {
     border-radius: 6px;
 }
 
-@media screen and (max-width:576px) {
+.visionmission > div > h2:nth-of-type(2) {
+    color: #f93154;
+}
+
+.visionmission > ol {
+    list-style: none;
+    counter-reset: line;
+}
+
+.visionmission > ol > li {
+    position: relative;
+    background-color: #333396;
+    color: #fbfbfb;
+    padding: 30px;
+    margin: 50px 0;
+    margin-right: 25px;
+    border-radius: 20px;
+    width: auto;
+} 
+
+.visionmission > ol > li:before {
+	position: absolute;
+    top: -15px;
+	left: -20px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+	height: 50px;
+    background-color: #f93154;
+	border-radius: 50%;
+	color: #fbfbfb;
+	text-align:center;
+    font-size: 25px;
+	counter-increment: line;
+	content: counter(line);
+    z-index: 2;
+}
+
+.visionmission > ol > li > h5 {
+    font-weight: 600;
+    background-color: #f93154;
+    position: absolute;
+    top: -6px;
+    left: -10px;
+    padding: 5px 45px;;
+    border-radius: 0 30px 30px 0;
+    z-index: 1;
+}
+
+.visionmission > ol > li > p {
+    font-size: 18px;
+    margin: 20px 0;
+}  
+
+/* M */
+@media screen and (max-width:992px) {
     .carousel-item > img {
         height: auto;
     }
 
     .about {
         min-height: 0;
+    }
+
+    .about > div > div > img {
+        transform: scaleY(0.9);
+    }
+
+    .service-detail > div > img {
+        width: 50% !important;
+    }
+}
+
+/* S */
+@media screen and (max-width:768px) {
+    .about > div > div > img {
+        transform: scaleY(1);
+        margin-bottom: 30px;
+    }
+
+    .service-detail > div > img {
+        width: 100% !important;
+    }
+
+    .visionmission > ol > li > h5 {    
+        font-size: 18px;
+    }
+}
+
+/* XS */
+@media screen and (max-width:576px) {
+    .carousel-control-prev {
+        padding: 0;
+    }
+    
+    .carousel-control-next {
+        padding: 0;
+    }    
+
+    .about {
+        min-height: 0;
+    }
+
+    .about > div > div > div > div > button {
+        width: 100%;
+    }
+
+    .service-detail > div > i {
+        transform: scale(0.9);
     }
 }
