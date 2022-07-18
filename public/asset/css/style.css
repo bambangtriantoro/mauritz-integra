@@ -14,6 +14,8 @@ body {
 
 .container-xxl {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .preloader {
@@ -548,6 +550,11 @@ footer > div > div > ul > li {
 }
 
 @media screen and (min-width:1400px){
+    .container-xxl {
+        margin: auto;
+        padding: auto;
+    }
+
     .carousel-item > img {
         width: auto;
         height: auto;
