@@ -91,15 +91,14 @@
             </div>
             <div class="col">
                 <div class="d-flex flex-column justify-content-center m-auto">
-                    <h2>About Us</h2>
+                    <h2>Tentang Perusahaan dan Founder</h2>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <p>Dicta ratione quae tenetur deleniti quas quod natus iusto molestias quibusdam, numquam
-                            delectus, fugiat ipsam consectetur reprehenderit cupiditate modi architecto eveniet labore optio
-                            animi odio commodi itaque mollitia quo? Maiores, dolorem! Illum aliquam libero nemo corporis eum
-                            cumque obcaecati odio facilis porro. Sapiente provident cupiditate iure aperiam dolor cumque
-                            dicta perferendis numquam rem nobis quia consequuntur impedit, expedita minima. Reiciendis dicta
-                            inventore tempore optio.</p>
+                        <p>Mauceng Martinus Simanjuntak (PT Maurindo Teknik Solusi)</p>
+                        <p>adalah seorang profesional bidang Penjualan dan Pemasaran yang telah meraup segudang pengalaman dalam bidang Farmasi dan Obat Obatan, Telekomunikasi dan IT serta di bidang peralatan Teknologi Digital selama lebih dari 20 tahun. Sebelum menjabat sebagai Founder dan CEO di PT. Maurindo Teknik Solusi, beliau sudah mempunya relasi yang kuat di bidang Farmasi, Telkomunikasi dan IT pada perusahaan Nasional dan Multinasional terkemuka di Indonesia. Dengan bekal tersebut lah, beliau mendirikan MAURINDO GROUP di tahun 2015 sebagai landasan usaha.</p>
+                        <p>Pria yang lahir di kota Laguboti, Kotak kecil di kabupaten Sumatera utara, berjuang dan memberikan kontribusi terbaik baik negara dengan dedikasi dan pengalaman yang sudah di dapatkan selama 20 tahun lebih berkarya.</p>
+                        <p>Dengan Spesialisasi yang beliau miliki dibidang bisnis dan services, trampil dipenjualan, dinamis, Karya karya dan hasil yang inovatif serta berorientasi pada hasil yang secara konsisten melampaui tujuan bisnis dengan memanfaatkan keterampilan membangun tim untuk kepeuasan pelanggan adalah dasar di dirikannya MAURINDO GROUP.</p>
+                        <p>Masalah dan komplen yang muncul adalah senjata dan acuan kami utk lebih kuat dan lebih baik. komunikasi yang kuat dengan semua pihak dan kalangan akan memberikan solusi pada masalah yang di hadapai serta kemampuan untuk berkreasi dan memimpin utk bisa menjadi acuan di kompetisi usaha alat kesehatan. Beilau sebagai Individu yang termotivasi dengan latar belakang yang kuat dalam manajemen penjualan dan pengalaman manajemen memberikan hubungan relasi yang panjang dengan berbagai pihak pendukung dan dengan tekat serta pengalaman maka terbangun lah PT. Maurindo teknik solusi.</p>
+                        <p>Dengan lebih dari 30 orang tenaga professional (Sales Marketing Dept, Operation dept, Keuangan dan Finance Dept dan Purchasing Dept) dan dengan pengalaman lebih dari 6 tahun, MAURINDO GROUP memberikan solusi dan produk produk terbaik bagi pelanggan. Dengan penghasilan lebih dari 60 Milliar rupiah pertahun mengukuhkan diri sebagai salah satu perusahaan penyedia Alat Kesehatan terbaik.</p>
                         <button>Read More</button>
                     </div>
                 </div>
