@@ -160,29 +160,76 @@
                 <h2 class="text-start">Mission</h2>
             </div>
             <ol>
-                <li class="animate">
+                <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>CUSTOMER SATISFICATION</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, ea.</p>
                 </li>
-                <li class="animate">
+                <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>INTEGRITY</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis ratione optio consequuntur
                         tempore similique?</p>
                 </li>
-                <li class="animate">
+                <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>DISCIPLINE & COMMITMENT</h5>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic.</p>
                 </li>
-                <li class="animate">
+                <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>OWNERSHIP</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </li>
-                <li class="animate">
+                <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>TEAMWORK</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, fugiat ipsa repellat sequi sunt maiores
                         harum laboriosam quaerat voluptate magni.</p>
                 </li>
             </ol>
+        </section>
+
+        <section class="product">
+            <h2>Our <span>Products</span></h2>
+            <div class="card">
+                <div>
+                    <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
+                </div>
+                <div class="card-body">
+                    <h3>Medical Kit Products</h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis iste incidunt numquam.
+                    Reprehenderit
+                    rem velit totam eos sequi numquam maxime nulla eum consectetur, voluptate incidunt temporibus odio
+                    corporis asperiores aut.
+                </div>
+            </div>
+
+            <h3>Our <span>Products</span> Brand</h3>
+            <div class="product-brand d-flex justify-content-center align-items-center">
+                <div>
+                    <img src="/asset/image/brand/brand1.jpeg" alt="brand1">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand2.jpeg" alt="brand2">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand3.jpeg" alt="brand3">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand4.jpeg" alt="brand4">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand5.jpeg" alt="brand5">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand6.jpeg" alt="brand6">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand7.jpeg" alt="brand7">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand8.jpeg" alt="brand8">
+                </div>
+                <div>
+                    <img src="/asset/image/brand/brand9.jpeg" alt="brand9">
+                </div>
+            </div>
         </section>
     </div>
 @endsection
