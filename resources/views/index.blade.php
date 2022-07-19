@@ -3,42 +3,44 @@
 @section('content')
     {{-- Carousel --}}
     <div class="container-xxl">
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="d-block" alt="mauritz carousel 1">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>First slide label</h2>
-                        <p>Some representative placeholder content for the first slide.</p>
-                        <button class="btn btn-danger">Learn More</button>
+        <div class="header" id="header">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="d-block" alt="mauritz carousel 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>First slide label</h2>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <button class="btn btn-danger">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/asset/image/leo-roza-P_z_xlMGuEk-unsplash.jpg" class="d-block" alt="mauritz carousel 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Second slide label</h2>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <button class="btn btn-danger">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/asset/image/etienne-girardet-sgYamIzhAhg-unsplash.jpg" class="d-block"
+                            alt="mauritz carousel 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Third slide label</h2>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <button class="btn btn-danger">Learn More</button>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="/asset/image/leo-roza-P_z_xlMGuEk-unsplash.jpg" class="d-block" alt="mauritz carousel 2">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Second slide label</h2>
-                        <p>Some representative placeholder content for the first slide.</p>
-                        <button class="btn btn-danger">Learn More</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="/asset/image/etienne-girardet-sgYamIzhAhg-unsplash.jpg" class="d-block"
-                        alt="mauritz carousel 3">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h2>Third slide label</h2>
-                        <p>Some representative placeholder content for the first slide.</p>
-                        <button class="btn btn-danger">Learn More</button>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-custom" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-custom" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-custom" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-custom" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
     </div>
 
@@ -54,7 +56,7 @@
                         <div class="card-body">
                             <i class='bx bx-first-aid'></i>
                             <h3 class="card-title">Alat Kesehatan</h3>
-                            <h5 class="card-subtitle mb-2 text-muted">HEALT CARE PRODUCT DIVISION</h5>
+                            <h5 class="card-subtitle mb-2 text-muted">HEALTH CARE PRODUCT DIVISION</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt
                                 ut labore et dolore magna aliqua.</p>
@@ -143,9 +145,9 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
                         beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
                         repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
-                    <button class="hvr-sweep-to-right-type2">Read More</button>
+                    <button class="hvr-sweep-to-right-type1">Read More</button>
                 </div>
-                <i class='bx bx-first-aid'></i>
+                <i class='bx bx-restaurant'></i>
             </div>
 
             <div class="d-flex flex-wrap flex-md-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center">
@@ -203,7 +205,10 @@
                     <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
                 </div>
                 <div class="card-body position-relative">
-                    <h3>Medical Kit Products</h3>
+                    <div class="d-flex justify-content-between mb-2">
+                        <h3>Medical Kit Products</h3>
+                        <button class="hvr-sweep-to-right-type2">See more products</button>
+                    </div>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis iste incidunt numquam.
                     Reprehenderit
                     rem velit totam eos sequi numquam maxime nulla eum consectetur, voluptate incidunt temporibus odio
@@ -296,13 +301,15 @@
         </section>
     </div>
 
+    {{-- Contact Us --}}
     <section class="contact-us">
         <div class="container">
             <h2>Contact <span>Us</span></h2>
             <div class="card mb-3 px-5 w-100">
                 <div class="card-body">
                     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 justify-content-center g-3">
-                        <div class="col">
+                        <div
+                            class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                             <div
                                 class="d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                                 <i class='bx bxs-home'></i>
@@ -320,9 +327,10 @@
                             class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-phone'></i>
                             <div class="d-flex flex-wrap">
-                                <p class="me-3">+628888888888</p>
-                                <p class="me-3">+628888888888</p>
-                                <p class="me-3">+628888888888</p>
+                                <p class="me-3">+62811858977</p>
+                                <p class="me-3">+62817858977</p>
+                                <p class="me-3">+62816858977</p>
+                                <p class="me-3">+6281281686057</p>
                             </div>
                         </div>
                     </div>
