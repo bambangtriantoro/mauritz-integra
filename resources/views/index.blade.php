@@ -200,7 +200,7 @@
                     <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
                 </div>
                 <div class="card-body position-relative">
-                    <div class="d-flex justify-content-between mb-2">
+                    <div class="d-flex flex-wrap-reverse justify-content-between ms-2 mb-2 gap-3">
                         <h3>Medical Kit Products</h3>
                         <a href="/service"><button class="hvr-sweep-to-right-type2">See more products</button></a>
                     </div>
@@ -318,13 +318,13 @@
                         <div
                             class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-envelope'></i>
-                            <p><a target="_blank"
+                            <p class="overflow-auto"><a target="_blank"
                                     href="mailto: maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></p>
                         </div>
                         <div
                             class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-phone'></i>
-                            <div class="d-flex flex-wrap">
+                            <div class="d-flex flex-wrap overflow-auto">
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62811858977">+62811858977</a>
                                 </p>
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62817858977">+62817858977</a>
