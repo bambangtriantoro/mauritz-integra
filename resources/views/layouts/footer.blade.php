@@ -65,16 +65,23 @@
             <div class="col-12 col-sm-12 col-md-4 col-lg-2">
                 <h5>Contact</h5>
                 <ul>
-                    <li><i class='bx bxs-home'></i> <a target='_blank' href="#">Lorem, ipsum dolor.</a></li>
-                    <li><i class='bx bxs-envelope'></i> <a target='_blank' href="#">email@email.com</a></li>
-                    <li><i class='bx bxs-phone'></i> <a target='_blank' href="#">+62811858977</a></li>
-                    <li><i class='bx bxs-phone'></i> <a target='_blank' href="#">+62817858977</a></li>
-                    <li><i class='bx bxs-phone'></i> <a target='_blank' href="#">+62816858977</a></li>
-                    <li><i class='bx bxs-phone'></i> <a target='_blank' href="#">+6281281686057</a></li>
+                    <li class="d-flex flex-column"><i class='bx bxs-home'></i> <a target='_blank'
+                            href="https://goo.gl/maps/c3voP2ucqSJ1PpAs5">Perumahan Walikota Blok E9 No 1A
+                            Meruya Selatan Jakarta Barat, 10150</a></li>
+                    <li class="d-flex flex-column"><i class='bx bxs-envelope'></i> <a target='_blank'
+                            href="mailto:maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></li>
+                    <li class="d-flex flex-column">
+                        <i class='bx bxs-phone'></i>
+                        <a target='_blank' href=" https://wa.me/+62811858977">+62811858977</a>
+                        <a target='_blank' href="https://wa.me/+62817858977">+62817858977</a>
+                        <a target='_blank' href="https://wa.me/+62816858977">+62816858977</a>
+                        <a target='_blank' href="https://wa.me/+6281281686057">+6281281686057</a>
+                    </li>
                 </ul>
             </div>
         </div>
-        <p class="text-center opacity-50 me-3 my-3"><small>Copyright &copy; {{ date('Y') }} Company Name</small></p>
+        <p class="text-center opacity-50 my-3"><small>Copyright &copy; {{ date('Y') }} Company Name</small>
+        </p>
     </div>
 </footer>
 

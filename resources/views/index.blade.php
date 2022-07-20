@@ -48,10 +48,10 @@
 
         {{-- Services --}}
         <section class="service">
-            <h2 class="mb-5">Our <span> Services </span></h2>
+            <h2 class="mb-5 animate" data-animate="animate__fadeInUp">Our <span> Services </span></h2>
 
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
+                <div class="col animate" data-animate="animate__slideInUp">
                     <div class="card h-100">
                         <div class="card-body">
                             <i class='bx bx-first-aid'></i>
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col animate" data-animate="animate__slideInUp">
                     <div class="card h-100">
                         <div class="card-body">
                             <i class='bx bx-restaurant'></i>
@@ -73,7 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col animate" data-animate="animate__slideInUp">
                     <div class="card h-100">
                         <div class="card-body">
                             <i class='bx bx-building'></i>
@@ -93,11 +93,11 @@
     {{-- About --}}
     <div class="container-xxl">
         <section class="about">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 align-items-center">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-lg-2 align-items-center">
+                <div class="col animate" data-animate="animate__slideInLeft">
                     <img src="/asset/image/clayton-cardinalli-mMnU-UMmXok-unsplash.jpg" alt="mauritz team">
                 </div>
-                <div class="col">
+                <div class="col animate" data-animate="animate__slideInRight">
                     <div class="d-flex flex-column justify-content-center m-auto">
                         <h2>About Us</h2>
                         <div>
@@ -122,8 +122,8 @@
     {{-- Service Detail --}}
     <div class="container">
         <section class="service-detail">
-            <div
-                class="d-flex flex-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap justify-content-center align-items-center gap-3">
+            <div class="animate d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-3"
+                data-animate="animate__bounceInLeft">
                 <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
                     alt="medical kit" class="w-75 me-3">
                 <div>
@@ -136,8 +136,8 @@
                 <i class='bx bx-first-aid'></i>
             </div>
 
-            <div
-                class="d-flex flex-wrap flex-sm-wrap flex-md-wrap flex-lg-nowrap justify-content-center align-items-center gap-3">
+            <div class="animate d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-3"
+                data-animate="animate__bounceInRight">
                 <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
                     alt="chicken" class="w-75 me-3">
                 <div>
@@ -150,7 +150,8 @@
                 <i class='bx bx-restaurant'></i>
             </div>
 
-            <div class="d-flex flex-wrap flex-md-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center">
+            <div class="animate d-flex flex-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center"
+                data-animate="animate__bounceInLeft">
                 <img src="/asset/image/kisspng-hard-hat-cap-yellow-safety-hat-5a6cd84b853be6.3053923015170826995457.png"
                     alt="construction helmet" class="w-75 me-3">
                 <div>
@@ -166,7 +167,7 @@
 
         {{-- Vision & Mission --}}
         <section class="visionmission" id="visionmission">
-            <div class="d-flex justify-content-evenly">
+            <div class="d-flex justify-content-evenly animate" data-animate="animate__fadeInUp">
                 <h2 class="text-end">Vision</h2>
                 <h2>&</h2>
                 <h2 class="text-start">Mission</h2>
@@ -176,7 +177,7 @@
                     <h5>CUSTOMER SATISFICATION</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, ea.</p>
                 </li>
-                <li class="animate" data-animate="animate__bounceInLeft">
+                <li class="animate" data-animate="animate__bounceInRight">
                     <h5>INTEGRITY</h5>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis ratione optio consequuntur
                         tempore similique?</p>
@@ -185,7 +186,7 @@
                     <h5>DISCIPLINE & COMMITMENT</h5>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic.</p>
                 </li>
-                <li class="animate" data-animate="animate__bounceInLeft">
+                <li class="animate" data-animate="animate__bounceInRight">
                     <h5>OWNERSHIP</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </li>
@@ -199,8 +200,8 @@
 
         {{-- Product --}}
         <section class="product">
-            <h2>Our <span>Products</span></h2>
-            <div class="card">
+            <h2 class="animate" data-animate="animate__fadeInUp">Our <span>Products</span></h2>
+            <div class="card animate" data-animate="animate__slideInUp">
                 <div>
                     <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
                 </div>
@@ -259,8 +260,9 @@
                 </div>
             </div>
 
-            <h3>Our <span>Products</span> Brand</h3>
-            <div class="product-brand d-flex justify-content-center align-items-center">
+            <h3 class="animate" data-animate="animate__fadeInUp">Our <span>Products</span> Brand</h3>
+            <div class="product-brand d-flex justify-content-center align-items-center animate"
+                data-animate="animate__zoomIn">
                 <div>
                     <img src="/asset/image/brand/brand1.jpeg" alt="brand1">
                 </div>
@@ -313,24 +315,31 @@
                             <div
                                 class="d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                                 <i class='bx bxs-home'></i>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Nulla,
-                                    maiores!</p>
+                                <p><a target="_blank" href="https://goo.gl/maps/c3voP2ucqSJ1PpAs5">Perumahan Walikota Blok
+                                        E9 No 1A Meruya
+                                        Selatan Jakarta Barat,
+                                        10150</a></p>
                             </div>
                         </div>
                         <div
                             class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-envelope'></i>
-                            <p>email@email.com</p>
+                            <p><a target="_blank"
+                                    href="mailto: maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></p>
                         </div>
                         <div
                             class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-phone'></i>
                             <div class="d-flex flex-wrap">
-                                <p class="me-3">+62811858977</p>
-                                <p class="me-3">+62817858977</p>
-                                <p class="me-3">+62816858977</p>
-                                <p class="me-3">+6281281686057</p>
+                                <p class="me-3"><a target='_blank' href=" https://wa.me/+62811858977">+62811858977</a>
+                                </p>
+                                <p class="me-3"><a target='_blank' href=" https://wa.me/+62817858977">+62817858977</a>
+                                </p>
+                                <p class="me-3"><a target='_blank' href=" https://wa.me/+62816858977">+62816858977</a>
+                                </p>
+                                <p class="me-3"><a target='_blank'
+                                        href=" https://wa.me/+6281281686057">+6281281686057</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -362,7 +371,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126754.21663738543!2d107.52250835654745!3d-6.882305507007598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e73745a3daf5%3A0xf6fd5ac9115ff3a3!2sOSHA%20Technology!5e0!3m2!1sen!2sid!4v1658156807567!5m2!1sen!2sid"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.382616312338!2d106.72184381423685!3d-6.213164962586354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f93a56c0330f%3A0x10b27ba260ca597a!2sMauritz%20Integra!5e0!3m2!1sen!2sid!4v1658303236342!5m2!1sen!2sid"
                         allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>

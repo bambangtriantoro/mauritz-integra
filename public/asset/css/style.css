@@ -555,6 +555,17 @@ section h2 > span {
     font-weight: 600;
 }
 
+.contact-us > div > div:first-of-type .card-body > div > div p > a {
+    text-decoration: none;
+    color: #fbfbfb;
+    transition: 0.3s;
+}
+
+.contact-us > div > div:first-of-type .card-body > div > div p > a:hover {
+    color: #b9b9b9;
+    transition: 0.3s;
+}
+
 .contact-us > div > div:last-of-type .card {
     background-color: #333396;
     color: #fbfbfb;
@@ -654,7 +665,7 @@ footer ul {
 footer ul > li {
     list-style: none;
     margin-left: -31px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 15px;
 }
 
@@ -669,6 +680,10 @@ footer ul > li a:hover > img {
     background-color: #fbfbfb;
     border-radius: 10px;
     transition: 0.3s;
+}
+
+footer ul > li i {
+    font-size: 30px;
 }
 
 /* About Us */
@@ -775,6 +790,7 @@ footer ul > li a:hover > img {
 
 .service-desc.desc2 {
     margin-top: 0;
+    margin-bottom: 0;
     background-color: #333396;
 }
 
@@ -788,11 +804,27 @@ footer ul > li a:hover > img {
     font-weight: 600;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) {
+.service-desc.desc2 > div > div:nth-of-type(2) {
     background-color: #f93154;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div > h2 {
+.service-desc.desc2 > div > div:first-of-type > div > div > h2 {
+    position: relative;
+    padding-left: 75px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.service-desc.desc2 > div > div:first-of-type > div > div > h2 > i {
+    position: absolute;
+    top: -3px;
+    left: -10px;
+    background-color: #f93154;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.service-desc.desc2 > div > div:nth-of-type(2) > div > h2 {
     background-color: #f93154;
     color: #fbfbfb;
     display: inline-block;
@@ -803,29 +835,34 @@ footer ul > li a:hover > img {
     font-weight: 700;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div > p {
+.service-desc.desc2 > div > div:nth-of-type(2) > div > p {
     padding-top: 50px;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div {
+.service-desc.desc2 > div > div:nth-of-type(2) > div {
     margin-bottom: 100px;
     padding-bottom: 200px;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div > div {
+.service-desc.desc2 > div > div:nth-of-type(2) > div > div {
     width: 83%;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div > div .slick-slide{
-    border-radius: 30px;
-    overflow: hidden;
+.service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-list{
+    padding-bottom: 30px;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div > div .slick-slide .card-title{
+.service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide{
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.3);
+}
+
+.service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide .card-title{
     font-weight: 700;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div > div .slick-slide button{
+.service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide button{
     background-color: #f93154;
     color: #fbfbfb;
     border: none;
@@ -836,10 +873,122 @@ footer ul > li a:hover > img {
     transition: 0.3s;
 }
 
-.service-desc.desc2 > div:nth-of-type(2) > div > div .slick-slide button:hover{
+.service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide button:hover{
     background-color: #fbfbfb;
     color: #f93154;
     transition: 0.3s;
+}
+
+.service-desc.desc2 > div > div:nth-of-type(3) {
+    background-color: #fbfbfb;
+}
+
+.service-desc.desc2 > div > div:nth-of-type(3) > div > h2 {
+    color: #333396;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+.service-desc.desc2 > div > div:last-of-type {
+    background-color: #fbfbfb;
+    padding-bottom: 130px;
+}
+
+.service-desc.desc2 > div > div:last-of-type > div > h2 {
+    color: #333396;
+    padding-top: 150px;
+    margin-bottom: 10px;
+}
+
+.service-desc.desc2 > div > div:last-of-type > div > div > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.service-desc.desc2 > div > div:last-of-type > div > div > a:hover {
+    background-color: #ebebeb;
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.service-desc.desc2 > div > div:last-of-type > div > div > a > *{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.service-desc.desc2 > div > div:last-of-type > div > div > a i {
+    font-size: 60px;
+    text-decoration: none;
+    color: #fbfbfb;
+    background-color: #333396;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.service-desc.desc2 > div:last-of-type > div:last-of-type {
+    padding-bottom: 100px;
+}
+
+/* Shop */
+
+.shop-header {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),url(https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=931&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shop-header h2 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #333396;
+}
+
+.shop-header h2 > span {
+    color: #f93154;
+}
+
+.shop-desc.desc1 .card {
+    background-color: #333396;
+    color: #fbfbfb;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.shop-desc.desc1 .card {
+    background-color: #333396;
+    color: #fbfbfb;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 1px 3px 1px rgba(0,0,0,0.3);
+}
+
+.shop-desc.desc1 .card .card-body {
+    padding: 30px;
+}
+
+.shop-desc.desc1 .card h3.card-title {
+    font-weight: 700;
+}
+
+.shop-desc.desc1 .card .card-body a {
+    background-color: #f93154;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
 }
 
 @media screen and (min-width:1400px){
@@ -896,11 +1045,23 @@ footer ul > li a:hover > img {
     }
 
     .product > div:first-of-type > div:last-of-type > div {
-        margin-left: -3px;
+        transform: translateX(-6px)
     } 
 
     footer > div:last-of-type > div:last-of-type > div:first-of-type  p { 
         margin-bottom: 50px;
+    }
+
+    .shop-header {
+        height: 30vh;
+    }
+
+    .about-us-header {
+        height: 30vh;
+    }
+
+    .service-header {
+        height: 30vh;
     }
 }
 
@@ -934,7 +1095,7 @@ footer ul > li a:hover > img {
     }
 
     .product > div:first-of-type > div:last-of-type > div {
-        margin-left: -9px;
+        transform: translateX(-11px)
     } 
 
     .product > h3:last-of-type {
@@ -989,7 +1150,7 @@ footer ul > li a:hover > img {
         font-size: 15px;
     }
     
-    .service-desc.desc2 > div:nth-of-type(2) > div > h2 {
+    .service-desc.desc2 > div > div:nth-of-type(2) > div > h2 {
         background-color: #f93154;
         color: #fbfbfb;
         display: inline-block;
@@ -1004,12 +1165,26 @@ footer ul > li a:hover > img {
         font-weight: 700;
     }
 
-    .service-desc.desc2 > div:nth-of-type(2) > div > p {
+    .service-desc.desc2 > div > div:nth-of-type(2) > div > p {
         padding-top: 40px;
     }
 
-    .service-desc.desc2 > div:nth-of-type(2) > div > div{
+    .service-desc.desc2 > div > div:nth-of-type(2) > div > div{
         margin-left: 20px;
+    }
+
+    .service-desc.desc2 > div > div:last-of-type > div > div > a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .shop-header {
+        height: auto;
+    }
+
+    .shop-header h2 {
+        font-size: 50px;
+        margin: 100px 0;
     }
 }
 

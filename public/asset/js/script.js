@@ -2,9 +2,7 @@
 window.onload = function(){
     showTime()
     hideLoading() 
-    var animate = document.querySelectorAll('.animate')
-    animate.forEach(anm => anm.style.visibility = 'hidden')
-    visionmissionAnimate()
+    animateOnload()
 }
 
 function hideLoading(){
@@ -30,29 +28,37 @@ function stickyNavbar() {
     }
 } 
 
-// Vision Mission Animate
-var visionmission = document.getElementById('visionmission')
-var visionmissionOffset = visionmission.offsetTop
+// Animate
+function animate() {
+    var animate = document.getElementsByClassName('animate')
 
-function visionmissionAnimate() {
-    var visionmissionItem = document.querySelectorAll('#visionmission .animate')
-
-    for(i=0;i<visionmissionItem.length;i++){
+    for(i=0;i<animate.length;i++){
         var windowHeight = window.innerHeight
-        var visionmissionItemTop = visionmissionItem[i].getBoundingClientRect().top;
-        if (visionmissionItemTop < windowHeight - 150) {
-            visionmissionItem[i].style.visibility = 'visible'
-
-            if(i%2 == 0){
-                visionmissionItem[i].classList.add('animate__animated', 'animate__bounceInLeft',)
-            } else {
-                visionmissionItem[i].classList.add('animate__animated', 'animate__bounceInRight')
-            }
+        var animateTop = animate[i].getBoundingClientRect().top
+        var animateType = animate[i].getAttribute('data-animate')
+        if (animateTop < windowHeight - 150) {
+            animate[i].style.visibility = 'visible'
+            animate[i].classList.add('animate__animated', animateType,)
         }
     }
 }
 
-window.addEventListener('scroll', visionmissionAnimate)
+function animateOnload() {
+    var animate = document.getElementsByClassName('animate')
+
+    for(i=0;i<animate.length;i++){
+        var windowHeight = window.innerHeight
+        var animateTop = animate[i].getBoundingClientRect().top
+        var animateType = animate[i].getAttribute('data-animate')
+        animate[i].style.visibility = 'hidden'
+        if (animateTop < windowHeight - 150) {
+            animate[i].style.visibility = 'visible'
+            animate[i].classList.add('animate__animated', animateType,)
+        }
+    }
+}
+
+window.addEventListener('scroll', animate)
 
 // Date and Time
 function showTime(){

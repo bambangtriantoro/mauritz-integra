@@ -28,3 +28,8 @@ Route::get('/service', function () {
     $page = 'service';
     return view('service', ['page' => $page]);
 });
+
+Route::get('/shop', function () {
+    $page = 'shop';
+    return view('shop', ['page' => $page]);
+});
