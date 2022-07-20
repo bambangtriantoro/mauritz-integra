@@ -98,7 +98,7 @@ body {
     transition: 1s;
 }
 
-.sticky + .carousel {
+.sticky + .header {
     padding-top: 60px;
 }
 
@@ -164,14 +164,25 @@ body {
     top: 30%;
     color: #333396;
     text-shadow: 1px 1px 1px #fbfbfb;
-    text-align: start;
+    text-align: center;
     font-weight: 700;
     background-position: 100px;
 }
 
 .carousel-caption > h2 {
+    position: relative;
     font-size: 69px;
     font-weight: 700;
+}
+
+.carousel-caption > h2 > i {
+    background-color: #f93154;
+    color: #fbfbfb;
+    border-radius: 50%;
+    padding: 10px;
+    text-shadow: none;
+    box-shadow: 1px 1px 1px #fbfbfb;
+    transform: translateY(6px);
 }
 
 .carousel-control-prev {
@@ -270,7 +281,7 @@ section h2 > span {
     text-align: justify;
 }
 
-.about > div > div > div > div > button{
+.about > div > div > div > div > a > button{
     background-color: #333396;
     color: #fbfbfb;
     border: 1px solid #f93154;
@@ -281,7 +292,7 @@ section h2 > span {
     transition: 0.5s;
 }
 
-.about > div > div > div > div > button:hover{
+.about > div > div > div > div > a > button:hover{
     background-color: #f93154;
     border: 1px solid #333396;
     border-radius: 20px;
@@ -347,7 +358,7 @@ section h2 > span {
     font-weight: 600;
 }
 
-.service-detail > div:nth-child(2) > div > button {
+.service-detail > div:nth-child(2) > div button {
     background-color: #333396;
     color: #fbfbfb;
     font-weight: 600;

@@ -72,7 +72,7 @@
                             href="mailto:maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></li>
                     <li class="d-flex flex-column">
                         <i class='bx bxs-phone'></i>
-                        <a target='_blank' href=" https://wa.me/+62811858977">+62811858977</a>
+                        <a target='_blank' href="https://wa.me/+62811858977">+62811858977</a>
                         <a target='_blank' href="https://wa.me/+62817858977">+62817858977</a>
                         <a target='_blank' href="https://wa.me/+62816858977">+62816858977</a>
                         <a target='_blank' href="https://wa.me/+6281281686057">+6281281686057</a>
