@@ -101,16 +101,8 @@
                     <div class="d-flex flex-column justify-content-center m-auto">
                         <h2>About Us</h2>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                            <p>Dicta ratione quae tenetur deleniti quas quod natus iusto molestias quibusdam, numquam
-                                delectus, fugiat ipsam consectetur reprehenderit cupiditate modi architecto eveniet labore
-                                optio
-                                animi odio commodi itaque mollitia quo? Maiores, dolorem! Illum aliquam libero nemo corporis
-                                eum
-                                cumque obcaecati odio facilis porro. Sapiente provident cupiditate iure aperiam dolor cumque
-                                dicta perferendis numquam rem nobis quia consequuntur impedit, expedita minima. Reiciendis
-                                dicta
-                                inventore tempore optio.</p>
+                            <p>PT Maurindo Teknik Solusi</p>
+                            <p>adalah perusahaan profesional bidang Penjualan dan Pemasaran yang telah meraup segudang pengalaman dalam bidang Farmasi dan Obat Obatan, Telekomunikasi dan IT serta di bidang peralatan Teknologi Digital yang telah berdiri sejak tahun 2015.</p>
                             <button>Read More</button>
                         </div>
                     </div>
