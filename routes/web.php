@@ -15,6 +15,16 @@ use Illuminate\Support\Carbon;
 */
 
 Route::get('/', function () {
-    $currentTime = Carbon::now();
-    return view('index', ['currentTime' => $currentTime]);
+    $page = 'home';
+    return view('index', ['page' => $page]);
+});
+
+Route::get('/about', function () {
+    $page = 'about';
+    return view('about', ['page' => $page]);
+});
+
+Route::get('/service', function () {
+    $page = 'service';
+    return view('service', ['page' => $page]);
 });

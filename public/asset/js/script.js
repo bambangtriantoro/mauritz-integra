@@ -1,5 +1,6 @@
 // Loading
 window.onload = function(){
+    showTime()
     hideLoading() 
     var animate = document.querySelectorAll('.animate')
     animate.forEach(anm => anm.style.visibility = 'hidden')
@@ -19,7 +20,7 @@ window.onscroll = function(){stickyNavbar()}
 
 var navbar = document.getElementById('navbar')
 var navbarOffset = navbar.offsetTop
-var carouselCaptionOffset = document.getElementById('carousel').offsetTop + 150
+var carouselCaptionOffset = document.getElementById('header').offsetTop + 150
 
 function stickyNavbar() {
     if (window.pageYOffset >= carouselCaptionOffset) {
@@ -86,4 +87,3 @@ function showTime(){
 
     setTimeout(showTime, 1000)
 }
-showTime()
