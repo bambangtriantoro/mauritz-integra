@@ -295,8 +295,9 @@
                 </div>
             </div>
 
-            <h3><span>Shop</span> Now!</h3>
-            <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+            <h3 class="animate" data-animate="animate__fadeInUp"><span>Shop</span> Now!</h3>
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 animate"
+                data-animate="animate__zoomIn">
                 <a target="_blank" href="https://shopee.co.id/maurindotekniksolusi">
                     <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" class="img-fluid"
                         alt="">
@@ -342,11 +343,10 @@
             <h2>Contact <span>Us</span></h2>
             <div class="card mb-3 px-5 w-100">
                 <div class="card-body">
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 justify-content-center g-3">
+                    <div class="row row-cols-auto row-cols-lg-3 justify-content-start justify-content-lg-center g-3">
                         <div
-                            class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
-                            <div
-                                class="d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
+                            class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
+                            <div class="d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
                                 <i class='bx bxs-home'></i>
                                 <p><a target="_blank" href="https://goo.gl/maps/c3voP2ucqSJ1PpAs5">Perumahan Walikota Blok
                                         E9 No 1A Meruya
@@ -355,15 +355,15 @@
                             </div>
                         </div>
                         <div
-                            class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
+                            class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-envelope'></i>
-                            <p class="overflow-auto"><a target="_blank"
+                            <p><a target="_blank"
                                     href="mailto: maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></p>
                         </div>
                         <div
-                            class="col d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center gap-3">
+                            class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-phone'></i>
-                            <div class="d-flex flex-wrap overflow-auto">
+                            <div class="d-flex flex-wrap">
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62811858977">+62811858977</a>
                                 </p>
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62817858977">+62817858977</a>
@@ -386,11 +386,13 @@
                                 @csrf
                                 <div class="mb-3">
                                     <label for="email" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Your Email" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="nama" class="form-label">Name</label>
-                                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Your Name" required>
+                                    <input type="text" class="form-control" id="nama" name="nama"
+                                        placeholder="Your Name" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="pesan" class="form-label">Message</label>
@@ -409,7 +411,7 @@
             </div>
         </div>
     </section>
-    @section('script')
-        <script type="text/javascript" src="{{ asset('eksternal_js/contact_form.js') }}"></script>
-    @endsection
+@section('script')
+    <script type="text/javascript" src="{{ asset('eksternal_js/contact_form.js') }}"></script>
+@endsection
 @endsection
