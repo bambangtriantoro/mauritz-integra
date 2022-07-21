@@ -157,13 +157,12 @@ body {
 .carousel-item > img {
     width: 100vw;
     height: 90vh;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .carousel-caption {
     top: 30%;
     color: #333396;
-    text-shadow: 1px 1px 1px #fbfbfb;
     text-align: center;
     font-weight: 700;
     background-position: 100px;
@@ -181,7 +180,6 @@ body {
     border-radius: 50%;
     padding: 10px;
     text-shadow: none;
-    box-shadow: 1px 1px 1px #fbfbfb;
     transform: translateY(6px);
 }
 
@@ -520,14 +518,41 @@ section h2 > span {
     font-weight: 600;
 } 
 
+.product > h3:first-of-type {
+    margin-top: 50px;
+}
+
 .product > h3:last-of-type {
     margin-top: 50px;
 }
 
-.product-brand .slick-slide > img {
+.product .product-brand .slick-slide > img {
     width: 250px;
     height: 150px;
     margin: auto;
+}
+
+.product > div:last-of-type > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.product > div:last-of-type > a:hover {
+    background-color: #ebebeb;
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.product > div:last-of-type > a > *{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .contact-us {
@@ -760,7 +785,7 @@ footer ul > li i {
 }
 
 .service-desc.desc1 .carousel .carousel-inner {
-    overflow: visible;
+    padding: 30px;
 }
 
 .service-desc.desc1 .carousel .carousel-item {
@@ -835,6 +860,12 @@ footer ul > li i {
     padding: 10px;
 }
 
+.service-desc.desc2 > div:first-of-type .product-brand img {
+    width: 250px;
+    height: 150px;
+    margin: auto;
+}
+
 .service-desc.desc2 > div > div:nth-of-type(2) > div > h2 {
     background-color: #f93154;
     color: #fbfbfb;
@@ -896,7 +927,7 @@ footer ul > li i {
 
 .service-desc.desc2 > div > div:nth-of-type(3) > div > h2 {
     color: #333396;
-    padding-top: 150px;
+    padding-top: 160px;
     margin-bottom: 50px;
 }
 
@@ -905,10 +936,10 @@ footer ul > li i {
     padding-bottom: 130px;
 }
 
-.service-desc.desc2 > div > div:last-of-type > div > h2 {
+.service-desc.desc2 > div:first-of-type > div:last-of-type > div > h2 {
     color: #333396;
-    padding-top: 150px;
     margin-bottom: 10px;
+    padding-top: 90px;
 }
 
 .service-desc.desc2 > div > div:last-of-type > div > div > a {
@@ -1063,15 +1094,20 @@ footer ul > li i {
         margin-bottom: 50px;
     }
 
-    .shop-header {
-        height: 30vh;
-    }
-
     .about-us-header {
         height: 30vh;
     }
 
     .service-header {
+        height: 30vh;
+    }
+
+    .service-desc.desc2 > div > div:last-of-type > div > div > a {
+        width: 160px;
+        height: 160px;
+    }
+
+    .shop-header {
         height: 30vh;
     }
 }
@@ -1109,8 +1145,13 @@ footer ul > li i {
         transform: translateX(-11px)
     } 
 
-    .product > h3:last-of-type {
+    .product > h3:first-of-type {
         margin-top: 390px;
+    }
+
+    .product > div:last-of-type > a {
+        width: 100px;
+        height: 100px;
     }
 
     .contact-us {
@@ -1149,6 +1190,10 @@ footer ul > li i {
         margin: 100px 0;
     }
 
+    .service-desc.desc1 .carousel .carousel-item {
+        padding: 0 10px;
+    }
+
     .service-desc.desc1 .carousel .carousel-item h3 {
         font-size: 18px;
     }
@@ -1182,6 +1227,10 @@ footer ul > li i {
 
     .service-desc.desc2 > div > div:nth-of-type(2) > div > div{
         margin-left: 20px;
+    }
+
+    .service-desc.desc2 > div > div:nth-of-type(3) > div > h2 { 
+        padding-top: 250px;
     }
 
     .service-desc.desc2 > div > div:last-of-type > div > div > a {
@@ -1221,7 +1270,7 @@ footer ul > li i {
         transform: scale(0.9);
     }
 
-    .product > h3:last-of-type {
+    .product > h3:first-of-type {
         margin-top: 440px;
     }
 }

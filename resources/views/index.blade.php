@@ -294,6 +294,45 @@
                     <img src="/asset/image/brand/brand12.jpeg" alt="brand12">
                 </div>
             </div>
+
+            <h3><span>Shop</span> Now!</h3>
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+                <a target="_blank" href="https://shopee.co.id/maurindotekniksolusi">
+                    <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" class="img-fluid"
+                        alt="">
+                </a>
+                {{-- <a target="_blank" href="https://shopee.co.id/maureenintegrastore">
+                    <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" class="img-fluid"
+                        alt="">
+                </a> --}}
+                <a target="_blank" href="https://www.tokopedia.com/mauin?source=universe&st=product">
+                    <img src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/arael/kratos/36c1015e.png"
+                        class="img-fluid" alt="">
+                </a>
+                {{-- <a target="_blank" href="https://www.tokopedia.com/maureenintegrast?source=universe&st=product">
+                    <img src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/arael/kratos/36c1015e.png"
+                        class="img-fluid" alt="">
+                </a> --}}
+                <a target="_blank" href="https://www.blibli.com/merchant/mauritz-integra/MAI-60046">
+                    <img src="https://d2k52l910ymyzx.cloudfront.net/home/wp-content/uploads/2022/01/24112756/1_Mn1__te_k3ALl0qySqLy1A.png"
+                        class="img-fluid" alt="">
+                </a>
+                {{-- <a target="_blank" href="https://www.blibli.com/merchant/maureen-integra-official-store/MAI-60126">
+                    <img src="https://d2k52l910ymyzx.cloudfront.net/home/wp-content/uploads/2022/01/24112756/1_Mn1__te_k3ALl0qySqLy1A.png"
+                        class="img-fluid" alt="">
+                </a> --}}
+                <a target="_blank"
+                    href="https://www.lazada.co.id/shop/mauritz-integra-store/?spm=a2o4j.pdp_revamp.seller.1.69b95d25fIgTle&itemId=6705648581&channelSource=pdp">
+                    <img src="https://www.alfaizcapital.com/wp-content/uploads/2020/06/App-icon-500x500-o9l0q6jktlpu5pobvp3w90cnhrmsi8mvvw6931f91k.png"
+                        class="img-fluid" alt="">
+                </a>
+                <a target="_blank"
+                    href="https://www.bukalapak.com/u/maucengmartinus?from=omnisearch&from_keyword_history=false&search_source=omnisearch_user&source=navbar">
+                    <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wgwdrf8fsk9fnc2wngdf"
+                        class="img-fluid" alt="">
+                </a>
+                </a>
+            </div>
         </section>
     </div>
 
