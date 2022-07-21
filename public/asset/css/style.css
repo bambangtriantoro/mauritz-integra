@@ -30,10 +30,6 @@ body {
     transform: translateY(1px);
 }
 
-.animate {
-    overflow: hidden;
-}
-
 .preloader {
     position: fixed;
     width: 100vw;
