@@ -199,7 +199,7 @@
                 <div>
                     <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
                 </div>
-                <div class="card-body position-relative">
+                <div class="card-body">
                     <div class="d-flex flex-wrap-reverse justify-content-between mx-2 mx-lg-0 mb-2 gap-3">
                         <h3>Medical Kit Products</h3>
                         <a href="/service"><button class="hvr-sweep-to-right-type2">See more products</button></a>
@@ -209,45 +209,47 @@
                     rem velit totam eos sequi numquam maxime nulla eum consectetur, voluptate incidunt temporibus odio
                     corporis asperiores aut.
 
-                    <div class="position-absolute product-item">
-                        <div class="card mx-3">
-                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                class="card-img-top shadow" alt="product1">
-                            <div class="card-body bg-custom">
-                                <h5 class="card-title">Product 1</h5>
-                                <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                    <div class="position-relative">
+                        <div class="product-item position-absolute" data-animate="animate__zoomIn">
+                            <div class="card mx-3">
+                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card mx-3">
-                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                class="card-img-top shadow" alt="product1">
-                            <div class="card-body bg-custom">
-                                <h5 class="card-title">Product 1</h5>
-                                <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                            <div class="card mx-3">
+                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card mx-3">
-                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                class="card-img-top shadow" alt="product1">
-                            <div class="card-body bg-custom">
-                                <h5 class="card-title">Product 1</h5>
-                                <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                            <div class="card mx-3">
+                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card mx-3">
-                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                class="card-img-top shadow" alt="product1">
-                            <div class="card-body bg-custom">
-                                <h5 class="card-title">Product 1</h5>
-                                <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                            <div class="card mx-3">
+                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card mx-3">
-                            <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                class="card-img-top shadow" alt="product1">
-                            <div class="card-body bg-custom">
-                                <h5 class="card-title">Product 1</h5>
-                                <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                            <div class="card mx-3">
+                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Product 1</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -255,43 +257,45 @@
             </div>
 
             <h3 class="animate" data-animate="animate__fadeInUp">Our <span>Products</span> Brand</h3>
-            <div class="product-brand d-flex justify-content-center align-items-center animate"
-                data-animate="animate__zoomIn">
-                <div>
-                    <img src="/asset/image/brand/brand1.jpeg" alt="brand1">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand2.jpeg" alt="brand2">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand3.jpeg" alt="brand3">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand4.jpeg" alt="brand4">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand5.jpeg" alt="brand5">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand6.jpeg" alt="brand6">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand7.jpeg" alt="brand7">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand8.jpeg" alt="brand8">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand9.jpeg" alt="brand9">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand10.jpeg" alt="brand10">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand11.jpeg" alt="brand11">
-                </div>
-                <div>
-                    <img src="/asset/image/brand/brand12.jpeg" alt="brand12">
+            <div class="position-relative">
+                <div class="product-brand d-flex justify-content-center align-items-center animate"
+                    data-animate="animate__zoomIn">
+                    <div>
+                        <img src="/asset/image/brand/brand1.jpeg" alt="brand1">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand2.jpeg" alt="brand2">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand3.jpeg" alt="brand3">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand4.jpeg" alt="brand4">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand5.jpeg" alt="brand5">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand6.jpeg" alt="brand6">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand7.jpeg" alt="brand7">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand8.jpeg" alt="brand8">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand9.jpeg" alt="brand9">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand10.jpeg" alt="brand10">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand11.jpeg" alt="brand11">
+                    </div>
+                    <div>
+                        <img src="/asset/image/brand/brand12.jpeg" alt="brand12">
+                    </div>
                 </div>
             </div>
 
