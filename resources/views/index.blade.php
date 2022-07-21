@@ -341,7 +341,7 @@
     <section class="contact-us">
         <div class="container">
             <h2>Contact <span>Us</span></h2>
-            <div class="card mb-3 px-5 w-100">
+            <div class="card mb-3 px-5 w-100 overflow-auto">
                 <div class="card-body">
                     <div class="row row-cols-auto row-cols-lg-3 justify-content-start justify-content-lg-center g-3">
                         <div
