@@ -86,7 +86,7 @@
 </footer>
 
 {{-- JQuery --}}
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
 {{-- Bootstrap --}}
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
@@ -97,3 +97,8 @@
 {{-- My --}}
 <script src="/asset/js/jquery_script.js"></script>
 <script src="/asset/js/script.js"></script>
+
+{{-- izitoast --}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.js" integrity="sha256-siqh9650JHbYFKyZeTEAhq+3jvkFCG8Iz+MHdr9eKrw=" crossorigin="anonymous"></script>
+
+@yield('script')
