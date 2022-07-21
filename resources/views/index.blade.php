@@ -343,22 +343,21 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7">
                     <div class="card">
                         <div class="card-body">
-                            <form>
+                            <form method="POST" class="php-email-form">
+                                @csrf
                                 <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="Your Email">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Name</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1"
-                                        placeholder="Your Name">
+                                    <label for="nama" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="nama" name="nama" placeholder="Your Name" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                                    <label for="pesan" class="form-label">Message</label>
+                                    <textarea class="form-control" id="pesan" name="pesan" rows="3" placeholder="Your Message" required></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary">SUBMIT</button>
+                                <button type="button" id="kirimpesan" class="btn btn-primary">SUBMIT</button>
                             </form>
                         </div>
                     </div>
@@ -371,4 +370,7 @@
             </div>
         </div>
     </section>
+    @section('script')
+        <script type="text/javascript" src="{{ asset('eksternal_js/contact_form.js') }}"></script>
+    @endsection
 @endsection

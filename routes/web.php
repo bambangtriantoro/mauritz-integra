@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\SendMailController;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Carbon;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,8 @@ Route::get('/', function () {
     return view('index', ['page' => $page]);
 });
 
+Route::post('/send', [SendMailController::class,'send']);
+
 Route::get('/about', function () {
     $page = 'about';
     return view('about', ['page' => $page]);
@@ -33,3 +36,5 @@ Route::get('/shop', function () {
     $page = 'shop';
     return view('shop', ['page' => $page]);
 });
+
+
