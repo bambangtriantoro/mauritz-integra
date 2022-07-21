@@ -200,7 +200,7 @@
                     <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
                 </div>
                 <div class="card-body position-relative">
-                    <div class="d-flex flex-wrap-reverse justify-content-between ms-2 mb-2 gap-3">
+                    <div class="d-flex flex-wrap-reverse justify-content-between mx-2 mb-2 gap-3">
                         <h3>Medical Kit Products</h3>
                         <a href="/service"><button class="hvr-sweep-to-right-type2">See more products</button></a>
                     </div>
