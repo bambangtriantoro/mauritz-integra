@@ -4,6 +4,8 @@ $(document).ready(function(){
         slidesToScroll: 1,
         dots: false,
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 992,
@@ -44,6 +46,8 @@ $(document).ready(function(){
               slidesToShow: 3,
               slidesToScroll: 3,
               infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           },
           {
@@ -52,6 +56,8 @@ $(document).ready(function(){
               slidesToShow: 2,
               slidesToScroll: 2,
               infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           },
           {
@@ -60,6 +66,8 @@ $(document).ready(function(){
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           }
         ]
@@ -79,6 +87,8 @@ $(document).ready(function(){
               slidesToShow: 3,
               slidesToScroll: 3,
               infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           },
           {
@@ -87,6 +97,8 @@ $(document).ready(function(){
               slidesToShow: 2,
               slidesToScroll: 2,
               infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           },
           {
@@ -95,6 +107,8 @@ $(document).ready(function(){
               slidesToShow: 1,
               slidesToScroll: 1,
               infinite: true,
+              autoplay: true,
+              autoplaySpeed: 2000,
             }
           }
         ]

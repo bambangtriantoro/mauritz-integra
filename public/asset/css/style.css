@@ -1027,12 +1027,25 @@ footer ul > li i {
     font-weight: 700;
 }
 
+.shop-desc.desc1 .card h3.card-title > img {
+    background-color: #fbfbfb;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 .shop-desc.desc1 .card .card-body a {
     background-color: #f93154;
     color: #fbfbfb;
     border: none;
     border-radius: 20px;
     font-weight: 600;
+    transition: 0.3s;
+}
+
+.shop-desc.desc1 .card .card-body a:hover {
+    background-color: #fbfbfb;
+    color: #f93154;
+    transition: 0.3s;
 }
 
 @media screen and (min-width:1400px){
