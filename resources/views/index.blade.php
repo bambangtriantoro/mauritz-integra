@@ -342,7 +342,7 @@
     </div>
 
     {{-- Contact Us --}}
-    <section class="contact-us">
+    <section class="contact-us" id="contact">
         <div class="container">
             <h2>Contact <span>Us</span></h2>
             <div class="card mb-3 px-5 w-100 overflow-auto">

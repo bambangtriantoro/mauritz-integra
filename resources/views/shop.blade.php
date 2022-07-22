@@ -9,7 +9,7 @@
     <div class="container my-5">
         <section class="shop-desc desc1">
             <div class="d-flex flex-column justify-content-center align-items-center gap-5">
-                <div class="card">
+                <div class="card bg-orange">
                     <img src="/asset/image/shop/mauritz-shopee1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">
@@ -23,7 +23,7 @@
                             Now!</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-orange">
                     <img src="/asset/image/shop/mauritz-shopee2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">
@@ -37,7 +37,7 @@
                             Now!</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-green">
                     <img src="/asset/image/shop/mauritz-tokped1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">
@@ -51,7 +51,7 @@
                             class="btn btn-primary">Shop Now!</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-green">
                     <img src="/asset/image/shop/mauritz-tokped2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">
@@ -65,7 +65,7 @@
                             class="btn btn-primary">Shop Now!</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-light-blue">
                     <img src="/asset/image/shop/mauritz-blibli1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">
@@ -79,7 +79,7 @@
                             class="btn btn-primary">Shop Now!</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-light-blue">
                     <img src="/asset/image/shop/mauritz-blibli2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">
@@ -93,7 +93,7 @@
                             class="btn btn-primary">Shop Now!</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-dark-blue">
                     <img src="/asset/image/shop/mauritz-lazada.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">
@@ -108,7 +108,7 @@
                             class="btn btn-primary">Shop Now!</a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card bg-red">
                     <img src="/asset/image/shop/mauritz-bukalapak.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3 class="card-title">

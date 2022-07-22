@@ -36,3 +36,8 @@ Route::get('/shop', function () {
     $page = 'shop';
     return view('shop', ['page' => $page]);
 });
+
+Route::get('/contact', function () {
+    $page = 'contact';
+    return view('contact', ['page' => $page]);
+});
