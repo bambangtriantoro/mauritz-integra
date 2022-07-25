@@ -39,9 +39,20 @@ body {
     color: #fbfbfb;
 }
 
-.ms-custom{
+.ms-custom {
     margin-left: -10px;
 }
+
+.text-title {
+    color: #333396;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+} 
+
+.text-title > span {
+    color: #f93154;
+} 
 
 .container-xxl {
     width: 100%;

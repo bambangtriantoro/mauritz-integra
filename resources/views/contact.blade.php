@@ -7,6 +7,10 @@
         </header>
     </div>
 
+    <div class="container">
+        <h2 class="text-title mt-5 pt-3"><span>OUR</span> CONTACT</h2>
+    </div>
+
     <section class="contact-us" id="contact">
         <div class="container">
             <div class="card mb-3 px-5 w-100 overflow-auto">
