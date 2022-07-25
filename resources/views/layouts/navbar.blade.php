@@ -31,7 +31,10 @@
                 <li class="nav-item">
                     <a class="nav-link {{ $page == 'service' ? 'active' : '' }}" href="/service">Services</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link {{ $page == 'shop' ? 'active' : '' }}" href="/shop">Shop</a>
+                </li>
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {{ $page == 'shop' ? 'active' : '' }}" href="#"
                         id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Shop
@@ -41,7 +44,7 @@
                         <li><a class="dropdown-item" href="#">Service 2</a></li>
                         <li><a class="dropdown-item" href="#">Service 3</a></li>
                     </ul>
-                </li>
+                </li> --}}
                 <li class="nav-item {{ $page == 'contact' ? 'active' : '' }}">
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>

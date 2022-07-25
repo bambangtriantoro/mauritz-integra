@@ -18,9 +18,11 @@
             <div class="col-12 col-sm-12 col-md-4 col-lg-2">
                 <h5>Useful Links</h5>
                 <ul>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum.</a></li>
-                    <li><a href="#">Lorem.</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/service">Service</a></li>
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-2">
