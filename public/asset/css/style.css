@@ -1121,6 +1121,14 @@ footer ul > li i {
     .service-header {
         height: auto;
     }
+
+    .shop-header {
+        height: auto;
+    }
+
+    .contact-header {
+        height: auto;
+    }
 }
 
 /* M */
@@ -1173,6 +1181,10 @@ footer ul > li i {
     }
 
     .shop-header {
+        height: 30vh;
+    }
+
+    .contact-header {
         height: 30vh;
     }
 }
@@ -1308,6 +1320,15 @@ footer ul > li i {
     }
 
     .shop-header h2 {
+        font-size: 50px;
+        margin: 100px 0;
+    }
+
+    .contact-header {
+        height: auto;
+    }
+
+    .contact-header h2 {
         font-size: 50px;
         margin: 100px 0;
     }
