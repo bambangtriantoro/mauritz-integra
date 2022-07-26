@@ -14,7 +14,10 @@
 </div>
 <nav class="navbar navbar-expand-lg bg-light" id="navbar">
     <div class="container">
-        <a class="navbar-brand" href="#">Company <span>Name</span></a>
+        <a class="navbar-brand" href="/">
+            <img src="/asset/image/logo/logo2.jpeg" width="40" alt="mauritz integra logo">
+            Maurindo <span>Teknik</span> Solusi
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,16 +26,16 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link {{ $page == 'home' ? 'active' : '' }}" aria-current="page"
-                        href="/">Home</a>
+                        href="/">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ $page == 'about' ? 'active' : '' }}" href="/about">About</a>
+                    <a class="nav-link {{ $page == 'about' ? 'active' : '' }}" href="/about">Tentang</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ $page == 'service' ? 'active' : '' }}" href="/service">Services</a>
+                    <a class="nav-link {{ $page == 'service' ? 'active' : '' }}" href="/service">Layanan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ $page == 'shop' ? 'active' : '' }}" href="/shop">Shop</a>
+                    <a class="nav-link {{ $page == 'shop' ? 'active' : '' }}" href="/shop">Toko</a>
                 </li>
                 {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle {{ $page == 'shop' ? 'active' : '' }}" href="#"
@@ -46,7 +49,7 @@
                     </ul>
                 </li> --}}
                 <li class="nav-item {{ $page == 'contact' ? 'active' : '' }}">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link" href="/contact">Kontak</a>
                 </li>
             </ul>
         </div>

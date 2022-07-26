@@ -1,7 +1,7 @@
 <footer>
     <div class="container-xxl">
         <div class="d-flex justify-content-between align-items-center py-2">
-            <p class="ms-3">Follow Our Social Media :</p>
+            <p class="ms-3">Ikuti Social Media Kami :</p>
             <div class="social">
                 <a href="https://www.facebook.com/maurindotekniksolusi" target="_blank"><i
                         class='bx bxl-facebook-circle'></i></a>
@@ -11,22 +11,23 @@
         </div>
         <div class="row justify-content-evenly g-3 mt-3">
             <div class="col-12 col-sm-12 col-md-12 col-lg-5">
-                <h2>Company Name</h2>
+                <img src="/asset/image/logo/logo2-1.jpeg" class="mb-3 rounded border border-danger border-5 w-75"
+                    alt="">
                 <p>One big Family of Maurindo Group, we provide and deliver the best services HEALTH CARE Products to
                     you!</p>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <h5>Useful Links</h5>
+                <h5>Tautan</h5>
                 <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/service">Service</a></li>
-                    <li><a href="/shop">Shop</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/home">Beranda</a></li>
+                    <li><a href="/about">Tentang</a></li>
+                    <li><a href="/service">Layanan</a></li>
+                    <li><a href="/shop">Toko</a></li>
+                    <li><a href="/contact">Kontak</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <h5>Marketplace</h5>
+                <h5>Marketplaces</h5>
                 <div>
                     <ul class="row align-items-center">
                         <li class="col-auto me-3"><a target='_blank'
@@ -65,7 +66,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-2">
-                <h5>Contact</h5>
+                <h5>Kontak</h5>
                 <ul>
                     <li class="d-flex flex-column"><i class='bx bxs-home'></i> <a target='_blank'
                             href="https://goo.gl/maps/c3voP2ucqSJ1PpAs5">Perumahan Walikota Blok E9 No 1A
@@ -82,7 +83,8 @@
                 </ul>
             </div>
         </div>
-        <p class="text-center opacity-50 my-3"><small>Copyright &copy; {{ date('Y') }} Company Name</small>
+        <p class="text-center opacity-50 my-3"><small>Copyright &copy; {{ date('Y') }} PT.Maurindo Teknik
+                Solusi</small>
         </p>
     </div>
 </footer>

@@ -2,65 +2,43 @@
 @section('content')
     <div class="container-xxl">
         <header class="service-header" id="header">
-            <h2>OUR <span>SERVICES</span></h2>
+            <h2><span>LAYANAN</span> KAMI</h2>
         </header>
     </div>
 
     <div class="container-xxl">
         <section class="service-desc desc1">
-            <h2>What <span>We</span> Provide</h2>
+            <h2>Apa yang <span>Kami</span> Sediakan?</h2>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row justify-content-center align-items-center gy-5">
-                            <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="col-12 col-md-6" alt="">
+                            <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="col-12 col-md-6 rounded"
+                                alt="maurindo service carousel-1">
                             <div class="col-12 col-md-6">
-                                <h3 class="text-start"><i class="bx bx-first-aid"></i> SERVICE 1</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis deserunt quisquam
-                                    fuga
-                                    facere dolorum placeat aliquid impedit, distinctio asperiores blanditiis. Ut culpa
-                                    explicabo
-                                    magni dolore, beatae blanditiis eum unde necessitatibus ipsam, quia, iure neque magnam
-                                    non
-                                    suscipit ipsum laborum corrupti optio tempora molestias aspernatur facilis
-                                    exercitationem
-                                    deleniti dicta? Voluptatum?</p>
+                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT KESEHATAN</h3>
+                                <p>Berbagai alat kesehatan dengan kualitas yang terbaik dan
+                                    juga brand yang ternama.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row justify-content-center align-items-center gy-5">
-                            <img src="/asset/image/leo-roza-P_z_xlMGuEk-unsplash.jpg" class="col-12 col-md-6"
-                                alt="">
+                            <img src="/asset/image/leo-roza-P_z_xlMGuEk-unsplash.jpg" class="col-12 col-md-6 rounded"
+                                alt="maurindo service carousel-2">
                             <div class="col-12 col-md-6">
-                                <h3 class="text-start"><i class="bx bx-restaurant"></i>SERVICE 2</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis deserunt quisquam
-                                    fuga
-                                    facere dolorum placeat aliquid impedit, distinctio asperiores blanditiis. Ut culpa
-                                    explicabo
-                                    magni dolore, beatae blanditiis eum unde necessitatibus ipsam, quia, iure neque magnam
-                                    non
-                                    suscipit ipsum laborum corrupti optio tempora molestias aspernatur facilis
-                                    exercitationem
-                                    deleniti dicta? Voluptatum?</p>
+                                <h3 class="text-start"><i class="bx bx-restaurant"></i>FOOD/MAKANAN</h3>
+                                <p>Gerai penjualan online dan offline untuk produk makanan jadi.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="row justify-content-center align-items-center gy-5">
-                            <img src="/asset/image/etienne-girardet-sgYamIzhAhg-unsplash.jpg" class="col-12 col-md-6"
-                                alt="">
+                            <img src="/asset/image/etienne-girardet-sgYamIzhAhg-unsplash.jpg"
+                                class="col-12 col-md-6 rounded" alt="maurindo service carousel-3">
                             <div class="col-12 col-md-6">
-                                <h3 class="text-start"><i class="bx bx-building"></i>SERVICE 3</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis deserunt quisquam
-                                    fuga
-                                    facere dolorum placeat aliquid impedit, distinctio asperiores blanditiis. Ut culpa
-                                    explicabo
-                                    magni dolore, beatae blanditiis eum unde necessitatibus ipsam, quia, iure neque magnam
-                                    non
-                                    suscipit ipsum laborum corrupti optio tempora molestias aspernatur facilis
-                                    exercitationem
-                                    deleniti dicta? Voluptatum?</p>
+                                <h3 class="text-start"><i class="bx bx-building"></i>KONSTRUKSI</h3>
+                                <p>Jasa konstruksi terbaik dengan harga terjangkau untuk anda.</p>
                             </div>
                         </div>
                     </div>
@@ -82,14 +60,12 @@
                 <div class="container">
                     <div class="row align-items-center py-5">
                         <div class="col-12 col-md-7">
-                            <h2 class="text-start"><i class="bx bx-first-aid"></i> Service 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi libero debitis
-                                excepturi
-                                laudantium in. Rerum aliquid ea placeat sint. Doloribus laboriosam nesciunt eum natus
-                                voluptates
-                                libero! Et repellendus esse incidunt animi repudiandae nulla eaque, cum necessitatibus
-                                architecto
-                                quos, illum aliquam ducimus eius. Similique omnis nihil temporibus tempore, cupiditate quis!
+                            <h2 class="text-start"><i class="bx bx-first-aid"></i> Alat Kesehatan</h2>
+                            <p>Kami menyediakan berbagai alat kesehatan dengan kualitas yang terbaik dan juga brand yang
+                                ternama. Dengan lebih dari 600 jenis produk yang tersedia. Dijual di marketplace dan sudah
+                                menjadi
+                                toko dengan standar diamond yang menjamin bahwa kami adalah penyedia alat kesehatan yang
+                                terpercaya.
                             </p>
                         </div>
                         <div class="col-12 col-md-5">
@@ -100,10 +76,8 @@
                 </div>
                 <div class="position-relative">
                     <div class="container mb-0">
-                        <h2>Service 1 Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus provident facilis consectetur
-                            possimus quos doloremque illum deserunt hic in quaerat reiciendis, distinctio, mollitia rerum
-                            corporis. Quis labore similique iure?</p>
+                        <h2>Produk Alat Kesehatan</h2>
+                        <p>Berikut produk-produk unggulan kami dengan brand yang terpercaya dan kualitas yang terbaik,</p>
                         <div class="position-absolute service-product-item">
                             <div class="card mx-3">
                                 <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
@@ -174,7 +148,7 @@
                 </div>
                 <div>
                     <div class="container">
-                        <h2>Service 1 <span>Products</span> Brand</h2>
+                        <h2>Partner <span>Produk</span></h2>
                         <div class="product-brand d-flex justify-content-center align-items-center">
                             <div>
                                 <img src="/asset/image/brand/brand1.jpeg" alt="brand1">
@@ -218,7 +192,7 @@
 
                 <div>
                     <div class="container">
-                        <h2><span>Shop</span> Now!</h2>
+                        <h2><span>Belanja</span> Sekarang!</h2>
                         <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
                             <a target="_blank" href="https://shopee.co.id/maurindotekniksolusi">
                                 <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" class="img-fluid"
@@ -263,14 +237,12 @@
                 <div class="container">
                     <div class="row align-items-center py-5">
                         <div class="col-12 col-md-7">
-                            <h2 class="text-start"><i class="bx bx-restaurant"></i> Service 2</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi libero debitis
-                                excepturi
-                                laudantium in. Rerum aliquid ea placeat sint. Doloribus laboriosam nesciunt eum natus
-                                voluptates
-                                libero! Et repellendus esse incidunt animi repudiandae nulla eaque, cum necessitatibus
-                                architecto
-                                quos, illum aliquam ducimus eius. Similique omnis nihil temporibus tempore, cupiditate quis!
+                            <h2 class="text-start"><i class="bx bx-restaurant"></i> Food / Makanan</h2>
+                            <p>Kami memiliki gerai penjualan offline dan online untuk produk makanan jadi yaitu AYAM TABOK
+                                M2
+                                Dengan pengolahan ayam yang higienis lalu dicampur berbagai rempah yang menambah cipta rasa,
+                                kami
+                                mampu memberikan makanan yang higienis dengan rasa yang kaya.
                             </p>
                         </div>
                         <div class="col-12 col-md-5">
@@ -281,10 +253,8 @@
                 </div>
                 <div class="position-relative">
                     <div class="container mb-0">
-                        <h2>Service 2 Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus provident facilis consectetur
-                            possimus quos doloremque illum deserunt hic in quaerat reiciendis, distinctio, mollitia rerum
-                            corporis. Quis labore similique iure?</p>
+                        <h2>Produk Makanan</h2>
+                        <p>Berikut menu unggulan kami dari AYAM TABOK M2,</p>
                         <div class="position-absolute service-product-item">
                             <div class="card mx-3">
                                 <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
@@ -355,7 +325,7 @@
                 </div>
                 <div>
                     <div class="container">
-                        <h2><span>Shop</span> Now!</h2>
+                        <h2><span>Beli</span> Sekarang!</h2>
                         <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
                             <a target="_blank" href="https://www.gojek.com/gofood/">
                                 <img src="https://seeklogo.com/images/G/gofood-logo-0581DE183D-seeklogo.com.png"
@@ -378,14 +348,10 @@
                 <div class="container">
                     <div class="row align-items-center py-5">
                         <div class="col-12 col-md-7">
-                            <h2 class="text-start"><i class="bx bx-building"></i> Service 3</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi libero debitis
-                                excepturi
-                                laudantium in. Rerum aliquid ea placeat sint. Doloribus laboriosam nesciunt eum natus
-                                voluptates
-                                libero! Et repellendus esse incidunt animi repudiandae nulla eaque, cum necessitatibus
-                                architecto
-                                quos, illum aliquam ducimus eius. Similique omnis nihil temporibus tempore, cupiditate quis!
+                            <h2 class="text-start"><i class="bx bx-building"></i> Konstruksi</h2>
+                            <p>Kami juga menawarkan jasa konstruksi telekomunikasi dan property. Dengan harga yang sangat
+                                cocok kami
+                                dapat memenuhi ekspektasi anda. Kami bersedia untuk memberikan yang terbaik untuk anda.
                             </p>
                         </div>
                         <div class="col-12 col-md-5">
@@ -396,10 +362,8 @@
                 </div>
                 <div class="position-relative">
                     <div class="container mb-0">
-                        <h2>Service 3 Products</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed minus provident facilis consectetur
-                            possimus quos doloremque illum deserunt hic in quaerat reiciendis, distinctio, mollitia rerum
-                            corporis. Quis labore similique iure?</p>
+                        <h2>Portfolio Konstruksi</h2>
+                        <p>Kami berperan penting dalam pembangunan bangunan berikut,</p>
                         <div class="position-absolute service-product-item">
                             <div class="card mx-3">
                                 <img src="/asset/image/kisspng-building-building-5a6a4fde7aedd5.0993594815169167025035.png"
@@ -462,7 +426,7 @@
                 </div>
                 <div>
                     <div class="container">
-                        <h2>Contact <span>Us</span> Now!</h2>
+                        <h2>Hubungi <span>Kami</span> Sekarang!</h2>
                         <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
                             <a target="_blank" href="https://goo.gl/maps/c3voP2ucqSJ1PpAs5">
                                 <i class="bx bx-map"></i>

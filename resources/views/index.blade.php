@@ -9,26 +9,27 @@
                     <div class="carousel-item active">
                         <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="d-block" alt="mauritz carousel 1">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2><i class="bx bx-first-aid"></i> First slide label</h2>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-danger">Learn More</button>
+                            <h2><i class="bx bx-first-aid"></i> Penyedia Alat Kesehatan</h2>
+                            <p>Kami menyediakan berbagai alat kesehatan dengan kualitas yang terbaik dan juga brand yang
+                                ternama.</p>
+                            <button class="btn btn-danger">Pelajari lebih lanjut</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="/asset/image/leo-roza-P_z_xlMGuEk-unsplash.jpg" class="d-block" alt="mauritz carousel 2">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2><i class="bx bx-restaurant"></i> Second slide label</h2>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-danger">Learn More</button>
+                            <h2><i class="bx bx-restaurant"></i> Ayam Tabok M2</h2>
+                            <p>Kami juga memiliki gerai penjualan untuk produk makanan jadi, ayam tabok m2.</p>
+                            <button class="btn btn-danger">Pelajari lebih lanjut</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="/asset/image/etienne-girardet-sgYamIzhAhg-unsplash.jpg" class="d-block"
                             alt="mauritz carousel 3">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2><i class="bx bx-building"></i> Third slide label</h2>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <button class="btn btn-danger">Learn More</button>
+                            <h2><i class="bx bx-building"></i> Konstruksi</h2>
+                            <p>Kami juga menawarkan jasa konstruksi telekomunikasi dan property.</p>
+                            <button class="btn btn-danger">Pelajari lebih lanjut</button>
                         </div>
                     </div>
                 </div>
@@ -48,7 +49,7 @@
 
         {{-- Services --}}
         <section class="service">
-            <h2 class="mb-5 animate" data-animate="animate__fadeInUp">Our <span> Services </span></h2>
+            <h2 class="mb-5 animate" data-animate="animate__fadeInUp"><span>Layanan</span> Kami</h2>
 
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center g-3">
                 <div class="col animate" data-animate="animate__slideInUp">
@@ -57,9 +58,8 @@
                             <i class='bx bx-first-aid'></i>
                             <h3 class="card-title">Alat Kesehatan</h3>
                             <h5 class="card-subtitle mb-2 text-muted">HEALTH CARE PRODUCT DIVISION</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Berbagai alat kesehatan dengan kualitas yang terbaik dan
+                                juga brand yang ternama.</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                             <i class='bx bx-restaurant'></i>
                             <h3 class="card-title">Food/Makanan</h3>
                             <h5 class="card-subtitle mb-2 text-muted">AYAM TABOK M2</h5>
-                            <p class="card-text">gerai penjualan online dan offline untuk produk makanan jadi.</p>
+                            <p class="card-text">Gerai penjualan online dan offline untuk produk makanan jadi.</p>
                         </div>
                     </div>
                 </div>
@@ -79,9 +79,7 @@
                             <i class='bx bx-building'></i>
                             <h3 class="card-title">Konstruksi</h3>
                             <h5 class="card-subtitle mb-2 text-muted">JASA KONSTRUKSI TELEKOMUNIKASI DAN PROPERTY</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt
-                                ut labore et dolore magna aliqua.</p>
+                            <p class="card-text">Jasa konstruksi terbaik dengan harga terjangkau untuk anda.</p>
                         </div>
                     </div>
                 </div>
@@ -99,13 +97,13 @@
                 </div>
                 <div class="col animate" data-animate="animate__slideInRight">
                     <div class="d-flex flex-column justify-content-center m-auto">
-                        <h2>About Us</h2>
+                        <h2>Tentang Kami</h2>
                         <div>
                             <p>PT Maurindo Teknik Solusi</p>
                             <p>adalah perusahaan profesional bidang Penjualan dan Pemasaran yang telah meraup segudang
                                 pengalaman dalam bidang Farmasi dan Obat Obatan, Telekomunikasi dan IT serta di bidang
                                 peralatan Teknologi Digital yang telah berdiri sejak tahun 2015.</p>
-                            <a href="/about"><button>Read More</button></a>
+                            <a href="/about"><button>Selengkapnya</button></a>
                         </div>
                     </div>
                 </div>
@@ -119,13 +117,14 @@
             <div class="animate d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-3"
                 data-animate="animate__bounceInLeft">
                 <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                    alt="medical kit" class="w-75 me-3">
-                <div>
+                    alt="medical kit" class="w-50 me-3">
+                <div class="w-100">
                     <h2>Alat Kesehatan</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
-                        beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
-                        repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
-                    <a href="/service"><button class="hvr-sweep-to-right-type2">Read More</button></a>
+                    <p>Kami menyediakan berbagai alat kesehatan dengan kualitas yang terbaik dan juga brand yang
+                        ternama. Dengan lebih dari 600 jenis produk yang tersedia. Dijual di marketplace dan sudah menjadi
+                        toko dengan standar diamond yang menjamin bahwa kami adalah penyedia alat kesehatan yang terpercaya.
+                    </p>
+                    <a href="/service"><button class="hvr-sweep-to-right-type2">Selengkapnya</button></a>
                 </div>
                 <i class='bx bx-first-aid'></i>
             </div>
@@ -133,27 +132,26 @@
             <div class="animate d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-3"
                 data-animate="animate__bounceInRight">
                 <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                    alt="chicken" class="w-75 me-3">
-                <div>
+                    alt="chicken" class="w-50 me-3">
+                <div class="w-100">
                     <h2>Food / Makanan</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
-                        beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
-                        repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
-                    <a href="/service"><button class="hvr-sweep-to-right-type1">Read More</button></a>
+                    <p>Kami memiliki gerai penjualan offline dan online untuk produk makanan jadi yaitu ayam tabok m2.
+                        Dengan pengolahan ayam yang higienis lalu dicampur berbagai rempah yang menambah cipta rasa, kami
+                        mampu memberikan makanan yang higienis dengan rasa yang kaya. </p>
+                    <a href="/service"><button class="hvr-sweep-to-right-type1">Selengkapnya</button></a>
                 </div>
                 <i class='bx bx-restaurant'></i>
             </div>
 
-            <div class="animate d-flex flex-wrap flex-lg-nowrap gap-3 justify-content-center align-items-center"
+            <div class="animate d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-3"
                 data-animate="animate__bounceInLeft">
                 <img src="/asset/image/kisspng-hard-hat-cap-yellow-safety-hat-5a6cd84b853be6.3053923015170826995457.png"
-                    alt="construction helmet" class="w-75 me-3">
-                <div>
+                    alt="construction helmet" class="w-50 me-3">
+                <div class="w-100">
                     <h2>Konstruksi</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, assumenda obcaecati, provident
-                        beatae, consectetur ipsam doloremque architecto aperiam et velit eveniet exercitationem nostrum
-                        repudiandae rerum consequatur fuga quibusdam recusandae possimus.</p>
-                    <a href="/service"><button class="hvr-sweep-to-right-type2">Read More</button></a>
+                    <p>Kami juga menawarkan jasa konstruksi telekomunikasi dan property. Dengan harga yang sangat cocok kami
+                        dapat memenuhi ekspektasi anda. Kami bersedia untuk memberikan yang terbaik.</p>
+                    <a href="/service"><button class="hvr-sweep-to-right-type2">Selengkapnya</button></a>
                 </div>
                 <i class='bx bx-building'></i>
             </div>
@@ -162,53 +160,47 @@
         {{-- Vision & Mission --}}
         <section class="visionmission" id="visionmission">
             <div class="d-flex justify-content-evenly animate" data-animate="animate__fadeInUp">
-                <h2 class="text-end">Vision</h2>
+                <h2 class="text-end">Visi</h2>
                 <h2>&</h2>
-                <h2 class="text-start">Mission</h2>
+                <h2 class="text-start">Misi</h2>
             </div>
             <ol>
                 <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>CUSTOMER SATISFICATION</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, ea.</p>
+                    <p>Kami sangat mengutamakan kepuasan customer dalam menjalankan bisnis kami.</p>
                 </li>
                 <li class="animate" data-animate="animate__bounceInRight">
                     <h5>INTEGRITY</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis ratione optio consequuntur
-                        tempore similique?</p>
+                    <p>Kami sangat menjunjung tinggi kejujuran.</p>
                 </li>
                 <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>DISCIPLINE & COMMITMENT</h5>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic.</p>
+                    <p>Kami selalu berusaha yang terbaik untuk menjaga kedisiplinan dan terus berkomitmen.</p>
                 </li>
                 <li class="animate" data-animate="animate__bounceInRight">
                     <h5>OWNERSHIP</h5>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Rasa memiliki yang kuat membuahkan rasa peduli yang kuat juga.</p>
                 </li>
                 <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>TEAMWORK</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, fugiat ipsa repellat sequi sunt maiores
-                        harum laboriosam quaerat voluptate magni.</p>
+                    <p>Kami harus selalu bekerja sama demi mendapatkan yang terbaik.</p>
                 </li>
             </ol>
         </section>
 
         {{-- Product --}}
         <section class="product">
-            <h2 class="animate" data-animate="animate__fadeInUp">Our <span>Products</span></h2>
+            <h2 class="animate" data-animate="animate__fadeInUp"><span>Produk</span> Kami</h2>
             <div class="card animate" data-animate="animate__slideInUp">
                 <div>
-                    <h3><i class='bx bx-first-aid'></i>Best Sales Products</h3>
+                    <h3><i class='bx bx-first-aid'></i>Penjualan Terbaik</h3>
                 </div>
                 <div class="card-body">
                     <div class="d-flex flex-wrap-reverse justify-content-between mx-2 mx-lg-0 mb-2 gap-3">
-                        <h3>Medical Kit Products</h3>
-                        <a href="/service"><button class="hvr-sweep-to-right-type2">See more products</button></a>
+                        <h3>Produk Alat Kesehatan Unggulan</h3>
+                        <a href="/service"><button class="hvr-sweep-to-right-type2">Produk Lainnya</button></a>
                     </div>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis iste incidunt numquam.
-                    Reprehenderit
-                    rem velit totam eos sequi numquam maxime nulla eum consectetur, voluptate incidunt temporibus odio
-                    corporis asperiores aut.
-
+                    Berikut produk-produk unggulan kami dengan brand terpercaya dan kualitas terbaik,
                     <div class="position-relative">
                         <div class="product-item position-absolute" data-animate="animate__zoomIn">
                             <div class="card mx-3">
@@ -256,7 +248,7 @@
                 </div>
             </div>
 
-            <h3 class="animate" data-animate="animate__fadeInUp">Our <span>Products</span> Brand</h3>
+            <h3 class="animate" data-animate="animate__fadeInUp">Partner <span>Produk</span></h3>
             <div class="position-relative">
                 <div class="product-brand d-flex justify-content-center align-items-center animate"
                     data-animate="animate__zoomIn">
@@ -299,7 +291,7 @@
                 </div>
             </div>
 
-            <h3 class="animate" data-animate="animate__fadeInUp"><span>Shop</span> Now!</h3>
+            <h3 class="animate" data-animate="animate__fadeInUp"><span>Belanja</span> Sekarang!</h3>
             <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 animate"
                 data-animate="animate__zoomIn">
                 <a target="_blank" href="https://shopee.co.id/maurindotekniksolusi">
@@ -344,7 +336,7 @@
     {{-- Contact Us --}}
     <section class="contact-us" id="contact">
         <div class="container">
-            <h2>Contact <span>Us</span></h2>
+            <h2>Hubungi <span>Kami</span></h2>
             <div class="card mb-3 px-5 w-100 overflow-auto">
                 <div class="card-body">
                     <div class="row row-cols-auto row-cols-lg-3 justify-content-start justify-content-lg-center g-3">
@@ -389,20 +381,20 @@
                             <form method="POST" class="php-email-form">
                                 @csrf
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">Email address</label>
+                                    <label for="email" class="form-label">Email</label>
                                     <input type="email" class="form-control" id="email" name="email"
-                                        placeholder="Your Email" required>
+                                        placeholder="Email Anda" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="nama" class="form-label">Name</label>
+                                    <label for="nama" class="form-label">Nama</label>
                                     <input type="text" class="form-control" id="nama" name="nama"
-                                        placeholder="Your Name" required>
+                                        placeholder="Nama Anda" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="pesan" class="form-label">Message</label>
-                                    <textarea class="form-control" id="pesan" name="pesan" rows="3" placeholder="Your Message" required></textarea>
+                                    <label for="pesan" class="form-label">Pesan</label>
+                                    <textarea class="form-control" id="pesan" name="pesan" rows="3" placeholder="Pesan Anda" required></textarea>
                                 </div>
-                                <button type="button" id="kirimpesan" class="btn btn-primary">SUBMIT</button>
+                                <button type="button" id="kirimpesan" class="btn btn-primary">KIRIM</button>
                             </form>
                         </div>
                     </div>

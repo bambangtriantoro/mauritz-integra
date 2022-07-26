@@ -3,12 +3,12 @@
 @section('content')
     <div class="container-xxl">
         <header class="contact-header" id="header">
-            <h2 class="text-center">CONTACT <span>US</span></h2>
+            <h2 class="text-center">HUBUNGI <span>KAMI</span></h2>
         </header>
     </div>
 
     <div class="container">
-        <h2 class="text-title mt-5 pt-3"><span>OUR</span> CONTACT</h2>
+        <h2 class="text-title mt-5 pt-3">KONTAK <span>KAMI</span></h2>
     </div>
 
     <section class="contact-us" id="contact">
@@ -56,20 +56,20 @@
                             <form method="POST" class="php-email-form">
                                 @csrf
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">Email address</label>
+                                    <label for="email" class="form-label">Email</label>
                                     <input type="email" class="form-control" id="email" name="email"
-                                        placeholder="Your Email" required>
+                                        placeholder="Email Anda" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="nama" class="form-label">Name</label>
+                                    <label for="nama" class="form-label">Nama</label>
                                     <input type="text" class="form-control" id="nama" name="nama"
-                                        placeholder="Your Name" required>
+                                        placeholder="Nama Anda" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="pesan" class="form-label">Message</label>
-                                    <textarea class="form-control" id="pesan" name="pesan" rows="3" placeholder="Your Message" required></textarea>
+                                    <label for="pesan" class="form-label">Pesan</label>
+                                    <textarea class="form-control" id="pesan" name="pesan" rows="3" placeholder="Pesan Anda" required></textarea>
                                 </div>
-                                <button type="button" id="kirimpesan" class="btn btn-primary">SUBMIT</button>
+                                <button type="button" id="kirimpesan" class="btn btn-primary">KIRIM</button>
                             </form>
                         </div>
                     </div>
