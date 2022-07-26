@@ -245,7 +245,7 @@
                                 Dengan pengolahan ayam yang higienis lalu dicampur dengan berbagai rempah yang menambah
                                 cipta rasa,
                                 kami
-                                mampu memberikan makanan yang higienis dan kaya rasa.
+                                mampu menyajikan makanan yang higienis dan kaya rasa.
                             </p>
                         </div>
                         <div class="col-12 col-md-5">
