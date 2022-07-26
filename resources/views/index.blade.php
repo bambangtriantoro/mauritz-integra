@@ -136,8 +136,9 @@
                 <div class="w-100">
                     <h2>Food / Makanan</h2>
                     <p>Kami memiliki gerai penjualan offline dan online untuk produk makanan jadi yaitu AYAM TABOK M2.
-                        Dengan pengolahan ayam yang higienis lalu dicampur berbagai rempah yang menambah cipta rasa, kami
-                        mampu memberikan makanan yang higienis dengan rasa yang kaya. </p>
+                        Dengan pengolahan ayam yang higienis lalu dicampur dengan berbagai rempah yang menambah cipta rasa,
+                        kami
+                        mampu menyajikan makanan yang higienis dan kaya rasa. </p>
                     <a href="/service"><button class="hvr-sweep-to-right-type1">Selengkapnya</button></a>
                 </div>
                 <i class='bx bx-restaurant'></i>
@@ -183,7 +184,7 @@
                 </li>
                 <li class="animate" data-animate="animate__bounceInLeft">
                     <h5>TEAMWORK</h5>
-                    <p>Kami harus selalu bekerja sama demi mendapatkan yang terbaik.</p>
+                    <p>Bekerja sama sangatlah penting bagi kami untuk menjadi yang terbaik.</p>
                 </li>
             </ol>
         </section>
@@ -200,7 +201,7 @@
                         <h3>Produk Alat Kesehatan Unggulan</h3>
                         <a href="/service"><button class="hvr-sweep-to-right-type2">Produk Lainnya</button></a>
                     </div>
-                    Berikut produk-produk unggulan kami dengan brand terpercaya dan kualitas terbaik,
+                    Berikut produk-produk unggulan kami dengan brand terpercaya dengan kualitas terbaik,
                     <div class="position-relative">
                         <div class="product-item position-absolute" data-animate="animate__zoomIn">
                             <div class="card mx-3">

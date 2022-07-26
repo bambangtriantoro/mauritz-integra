@@ -73,7 +73,7 @@
                             <img src="https://d2k52l910ymyzx.cloudfront.net/home/wp-content/uploads/2022/01/24112756/1_Mn1__te_k3ALl0qySqLy1A.png"
                                 width="50" class="img-fluid" alt=""> Mauritz Integra
                         </h3>
-                        <p class="card-text">Toko kami di blibli dengan rating 94% (2022)</p>
+                        <p class="card-text">Toko kami di blibli dengan rating 94% dan sudah top rated (2022)</p>
                         </p>
                         <a target="_blank" href="https://www.blibli.com/merchant/mauritz-integra/MAI-60046"
                             class="btn btn-primary">Belanja Sekarang!</a>
@@ -86,7 +86,7 @@
                             <img src="https://d2k52l910ymyzx.cloudfront.net/home/wp-content/uploads/2022/01/24112756/1_Mn1__te_k3ALl0qySqLy1A.png"
                                 width="50" class="img-fluid" alt=""> Maureen Integra Official Store
                         </h3>
-                        <p class="card-text">Toko kedua kami di blibli dengan rating 93% (2022)</p>
+                        <p class="card-text">Toko kedua kami di blibli dengan rating 93% dan sudah top rated (2022)</p>
                         <a target="_blank" href="https://www.blibli.com/merchant/maureen-integra-official-store/MAI-60126"
                             class="btn btn-primary">Belanja Sekarang!</a>
                     </div>
@@ -113,7 +113,7 @@
                                 width="50" class="img-fluid" alt=""> Mauritz Integra
                         </h3>
                         <p class="card-text">Toko kami di bukalapak dengan 90% pembeli puas dan sudah menjadi super seller
-                            juga recommended seller (2022)</p>
+                            sekaligus recommended seller (2022)</p>
                         <a target="_blank"
                             href="https://www.bukalapak.com/u/maucengmartinus?from=omnisearch&from_keyword_history=false&search_source=omnisearch_user&source=navbar"
                             class="btn btn-primary">Belanja Sekarang!</a>

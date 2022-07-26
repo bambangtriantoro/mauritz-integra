@@ -28,7 +28,7 @@
                                 alt="maurindo service carousel-2">
                             <div class="col-12 col-md-6">
                                 <h3 class="text-start"><i class="bx bx-restaurant"></i>FOOD/MAKANAN</h3>
-                                <p>Gerai penjualan online dan offline untuk produk makanan jadi.</p>
+                                <p>Gerai penjualan online dan offline untuk produk makanan jadi yaitu AYAM TABOK M2.</p>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,8 @@
                                 class="col-12 col-md-6 rounded" alt="maurindo service carousel-3">
                             <div class="col-12 col-md-6">
                                 <h3 class="text-start"><i class="bx bx-building"></i>KONSTRUKSI</h3>
-                                <p>Jasa konstruksi terbaik dengan harga terjangkau untuk anda.</p>
+                                <p>Jasa konstruksi terbaik dengan harga yang sangat cocok untuk memenuhi ekspektasi anda.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +78,8 @@
                 <div class="position-relative">
                     <div class="container mb-0">
                         <h2>Produk Alat Kesehatan</h2>
-                        <p>Berikut produk-produk unggulan kami dengan brand yang terpercaya dan kualitas yang terbaik,</p>
+                        <p>Berikut produk-produk unggulan kami dengan brand yang terpercaya dengan kualitas yang terbaik,
+                        </p>
                         <div class="position-absolute service-product-item">
                             <div class="card mx-3">
                                 <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
@@ -240,9 +242,10 @@
                             <h2 class="text-start"><i class="bx bx-restaurant"></i> Food / Makanan</h2>
                             <p>Kami memiliki gerai penjualan offline dan online untuk produk makanan jadi yaitu AYAM TABOK
                                 M2
-                                Dengan pengolahan ayam yang higienis lalu dicampur berbagai rempah yang menambah cipta rasa,
+                                Dengan pengolahan ayam yang higienis lalu dicampur dengan berbagai rempah yang menambah
+                                cipta rasa,
                                 kami
-                                mampu memberikan makanan yang higienis dengan rasa yang kaya.
+                                mampu memberikan makanan yang higienis dan kaya rasa.
                             </p>
                         </div>
                         <div class="col-12 col-md-5">

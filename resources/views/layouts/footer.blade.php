@@ -13,7 +13,8 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                 <img src="/asset/image/logo/logo2-1.jpeg" class="mb-3 rounded border border-danger border-5 w-75"
                     alt="">
-                <p>One big Family of Maurindo Group, we provide and deliver the best services HEALTH CARE Products to
+                <p>One big Family of Maurindo Group, we provide and deliver the best services and HEALTH CARE Products
+                    to
                     you!</p>
             </div>
             <div class="col-12 col-sm-12 col-md-4 col-lg-2">
