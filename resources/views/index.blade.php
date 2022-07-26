@@ -135,7 +135,7 @@
                     alt="chicken" class="w-50 me-3">
                 <div class="w-100">
                     <h2>Food / Makanan</h2>
-                    <p>Kami memiliki gerai penjualan offline dan online untuk produk makanan jadi yaitu ayam tabok m2.
+                    <p>Kami memiliki gerai penjualan offline dan online untuk produk makanan jadi yaitu AYAM TABOK M2.
                         Dengan pengolahan ayam yang higienis lalu dicampur berbagai rempah yang menambah cipta rasa, kami
                         mampu memberikan makanan yang higienis dengan rasa yang kaya. </p>
                     <a href="/service"><button class="hvr-sweep-to-right-type1">Selengkapnya</button></a>
