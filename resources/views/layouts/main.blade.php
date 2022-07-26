@@ -6,7 +6,9 @@
 <body>
     <div class="preloader" id="preloader">
         <div class="loader"></div>
-        <h3>Company <span>Name</span></h3>
+        <h3><img src="/asset/image/logo/logo2.jpeg" width="40" alt="logo maurindo"> Maurindo
+            <span>Teknik</span> Solusi
+        </h3>
     </div>
 
     @include('layouts.navbar')
