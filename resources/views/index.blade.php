@@ -1,5 +1,4 @@
 @extends('layouts.main')
-
 @section('content')
     {{-- Carousel --}}
     <div class="container-xxl">
