@@ -17,7 +17,7 @@
                     to
                     you!</p>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-2">
                 <h5>Tautan</h5>
                 <ul>
                     <li><a href="/home">Beranda</a></li>
@@ -66,7 +66,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-2 mx-auto">
                 <h5>Kontak</h5>
                 <ul>
                     <li class="d-flex flex-column"><i class='bx bxs-home'></i> <a target='_blank'
