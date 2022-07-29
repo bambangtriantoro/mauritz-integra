@@ -204,7 +204,7 @@
                     <div class="position-relative">
                         <div class="product-item position-absolute" data-animate="animate__zoomIn">
                             <div class="card mx-3">
-                                <img src="/asset/image/product/tabung 1m3 Rp. 434.899" class="card-img-top shadow"
+                                <img src="/asset/image/product/tabung 1m3 Rp. 434.899.jpg" class="card-img-top shadow"
                                     alt="tabung oksigen img">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Tabung Oksigen 1m³</h5>

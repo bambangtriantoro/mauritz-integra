@@ -23,8 +23,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #f93154;
-    border: 2px solid #333396;
+    background: #D51113;
+    border: 2px solid #0505A1;
     border-radius: 6px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -51,7 +51,7 @@
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    background: #f93154;
+    background: #D51113;
     color: #fbfbfb;
     padding: 6px 10px;
     font-size: 15px;
@@ -71,8 +71,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #333396;
-    border: 2px solid #f93154;
+    background: #0505A1;
+    border: 2px solid #D51113;
     border-radius: 6px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);

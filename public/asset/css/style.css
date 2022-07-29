@@ -32,7 +32,7 @@ border: 1px solid #ffffff;
 }
 
 .bg-custom {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
 }
 
@@ -57,7 +57,7 @@ border: 1px solid #ffffff;
 }
 
 .button-custom {
-    background-color: #f93154;
+    background-color: #D31012;
     color: #fbfbfb;
 }
 
@@ -66,20 +66,32 @@ border: 1px solid #ffffff;
 }
 
 .text-title {
-    color: #333396;
+    color: #0505A1;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
 } 
 
 .text-title > span {
-    color: #f93154;
+    color: #D31012;
 } 
 
 .container-xxl {
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+.btn-danger {
+    background-color: #D31012 !important;
+    border: none;   
+    transition:  0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #e72b2e !important;
+    border: none;
+    transition:  0.3s;
 }
 
 .bx {
@@ -106,8 +118,8 @@ border: 1px solid #ffffff;
 .loader {
     border: 3px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 3px solid #333396;
-    border-bottom: 3px solid #f93154;
+    border-top: 3px solid #0505A1;
+    border-bottom: 3px solid #D31012;
     width: 69px;
     height: 69px;
     animation: spin 1s linear infinite;
@@ -120,32 +132,32 @@ border: 1px solid #ffffff;
 
 .preloader > h3 {
     margin-top: 33px;
-    color: #333396;
+    color: #0505A1;
     font-weight: 600;
     animation: color-change1 5s linear infinite;
 }
 
 @keyframes color-change1 {
-    0% { color:#333396; }
-    20% { color: #333396; }
-    40% { color: #f93154; } 
-    60% { color: #f93154;}
-    80% { color: #333396; }
-    100% { color: #333396; }
+    0% { color:#0505A1; }
+    20% { color: #0505A1; }
+    40% { color: #D31012; } 
+    60% { color: #D31012;}
+    80% { color: #0505A1; }
+    100% { color: #0505A1; }
 }
 
 .preloader > h3 > span {
-    color: #f93154;
+    color: #D31012;
     animation: color-change2 5s linear infinite;
 }
 
 @keyframes color-change2 {
-    0% { color:#f93154; }
-    20% { color: #f93154; }
-    40% { color: #333396; } 
-    60% { color: #333396;}
-    80% { color: #f93154; }
-    100% { color: #f93154; }
+    0% { color:#D31012; }
+    20% { color: #D31012; }
+    40% { color: #0505A1; } 
+    60% { color: #0505A1;}
+    80% { color: #D31012; }
+    100% { color: #D31012; }
 }
 
 .sticky {
@@ -183,7 +195,7 @@ border: 1px solid #ffffff;
 
 .social > *:hover {
     background-color: #ffffff;
-    color: #f93154;
+    color: #D31012;
     border-radius: 30%;
     transition: 0.3s;
 }
@@ -193,23 +205,23 @@ border: 1px solid #ffffff;
 }
 
 .navbar-brand {
-    color: #333396;
+    color: #0505A1;
     font-weight: 700;
     transition: 0.5s;
 }
 
 .navbar-brand > span {
-    color: #f93154;
+    color: #D31012;
     transition: 0.5s;
 }
 
 .navbar-brand:hover {
-    color: #f93154;
+    color: #D31012;
     transition: 0.5s;
 }
 
 .navbar-brand:hover > span {
-    color: #333396;
+    color: #0505A1;
     transition: 0.5s;
 }
 
@@ -221,7 +233,7 @@ border: 1px solid #ffffff;
 
 .carousel-caption {
     top: 30%;
-    color: #333396;
+    color: #0505A1;
     text-align: center;
     font-weight: 700;
     background-position: 100px;
@@ -234,7 +246,7 @@ border: 1px solid #ffffff;
 }
 
 .carousel-caption > h2 > i {
-    background-color: #f93154;
+    background-color: #D31012;
     color: #fbfbfb;
     border-radius: 50%;
     padding: 10px;
@@ -264,14 +276,14 @@ section {
 } 
 
 section h2 {
-    color: #333396;
+    color: #0505A1;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
 }
 
 section h2 > span {
-    color: #f93154;
+    color: #D31012;
 }
 
 .service .card {
@@ -280,7 +292,7 @@ section h2 > span {
 }
 
 .service .card:hover {
-    border: 1px solid #333396;
+    border: 1px solid #0505A1;
     transform: scale(1.05);
     transition: 0.5s;
     z-index: 1;
@@ -295,18 +307,18 @@ section h2 > span {
 }
 
 .service .card-body > i {
-    color: #333396;
+    color: #0505A1;
     font-size: 69px;
     margin: 13px;
 }
 
 .service .card-body > h3 {
-    color: #f93154;
+    color: #D31012;
     font-weight: 600;
 }
 
 .about {
-    background: linear-gradient(70deg, #333396  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #f93154 60%, #333396 60%);
+    background: linear-gradient(70deg, #0505A1  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #D31012 60%, #0505A1 60%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -339,9 +351,9 @@ section h2 > span {
 }
 
 .about > div > div > div > div > a > button{
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
-    border: 1px solid #f93154;
+    border: 1px solid #D31012;
     border-radius: 10px;
     font-size: 20px;
     margin-top: 15px;
@@ -350,8 +362,8 @@ section h2 > span {
 }
 
 .about > div > div > div > div > a > button:hover{
-    background-color: #f93154;
-    border: 1px solid #333396;
+    background-color: #D31012;
+    border: 1px solid #0505A1;
     border-radius: 20px;
     transition: background-color 0.5s,border-radius 0.5s;
 }
@@ -365,17 +377,17 @@ section h2 > span {
 }
 
 .service-detail > div:first-of-type {
-    background: #333396;
+    background: #0505A1;
     color: #fbfbfb;
 }
 
 .service-detail > div:nth-of-type(2) {
-    background-color: #f93154;
+    background-color: #D31012;
     color: #fbfbfb;
 }
 
 .service-detail > div:last-of-type {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
 }
 
@@ -386,7 +398,7 @@ section h2 > span {
     font-size: 69px;
     padding: 15px;
     border-radius: 50%;
-    background-color: #f93154;
+    background-color: #D31012;
     z-index: 1;
 }
 
@@ -397,7 +409,7 @@ section h2 > span {
     font-size: 69px;
     padding: 15px;
     border-radius: 50%;
-    background-color: #333396;
+    background-color: #0505A1;
     z-index: 1;
 }
 
@@ -416,7 +428,7 @@ section h2 > span {
 }
 
 .service-detail > div:nth-child(2) > div button {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
     font-weight: 600;
     padding: 6px 10px;
@@ -426,7 +438,7 @@ section h2 > span {
 }
 
 .visionmission > div > h2:nth-of-type(2) {
-    color: #f93154;
+    color: #D31012;
 }
 
 .visionmission > ol {
@@ -436,7 +448,7 @@ section h2 > span {
 
 .visionmission > ol > li {
     position: relative;
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
     padding: 30px;
     margin: 50px 0;
@@ -454,7 +466,7 @@ section h2 > span {
     align-items: center;
     width: 50px;
 	height: 50px;
-    background-color: #f93154;
+    background-color: #D31012;
 	border-radius: 50%;
 	color: #fbfbfb;
 	text-align:center;
@@ -467,7 +479,7 @@ section h2 > span {
 
 .visionmission > ol > li > h5 {
     font-weight: 700;
-    background-color: #f93154;
+    background-color: #D31012;
     position: absolute;
     top: -9px;
     left: -10px;
@@ -482,14 +494,14 @@ section h2 > span {
 }  
 
 .product > h3 {
-    color: #333396;
+    color: #0505A1;
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .product > h3 > span {
-    color: #f93154;
+    color: #D31012;
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
@@ -501,7 +513,7 @@ section h2 > span {
     padding: 15px 0;
     padding-bottom: 100px;
     position: relative;
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
     border-radius: 0 20px 20px 20px;
 }
@@ -511,7 +523,7 @@ section h2 > span {
     top: -43px;
     padding: 5px 10px;
     padding-left: 25px;
-    background-color: #f93154;
+    background-color: #D31012;
     border-radius: 0 30px 0 0;
     color: #fbfbfb;
 }
@@ -528,7 +540,7 @@ section h2 > span {
     position: absolute;
     top: -19px;
     left: -60px;
-    background-color: #f93154;
+    background-color: #D31012;
     border-radius: 10px;
     padding: 5px;
     font-size: 60px;
@@ -564,7 +576,7 @@ section h2 > span {
 
 .product > div:first-of-type > div:last-of-type .slick-slide div.card-body .card-text {
     font-weight: 700;
-    background-color: #f93154;
+    background-color: #D31012;
     color: #fbfbfb;
     margin-top: 15px;
     padding: 5px 10px;
@@ -578,7 +590,7 @@ section h2 > span {
 
 .product > div:first-of-type > div:last-of-type .slick-slide div.card-body .card-text:hover {
     background-color: #fbfbfb;
-    color: #f93154;
+    color: #D31012;
     transition: 0.3s;
 }
 
@@ -638,7 +650,7 @@ section h2 > span {
 }
 
 .contact-us > div > div:first-of-type {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
 }
 
@@ -648,7 +660,7 @@ section h2 > span {
 
 .contact-us > div > div:first-of-type .card-body > div > div i {
     font-size: 50px;
-    background-color: #f93154;
+    background-color: #D31012;
     padding: 10px;
     border-radius: 50%;
     height: auto;
@@ -671,7 +683,7 @@ section h2 > span {
 }
 
 .contact-us > div > div:last-of-type .card {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
 }
 
@@ -684,7 +696,7 @@ section h2 > span {
 }
 
 .contact-us > div > div:last-of-type form .form-control {
-    border: 3px solid #f93154;
+    border: 3px solid #D31012;
     border-radius: 3px 15px 3px  15px;
     outline: none;
 }
@@ -694,7 +706,7 @@ section h2 > span {
 }
 
 .contact-us > div > div:last-of-type form button {
-    background-color: #f93154;
+    background-color: #D31012;
     color: #fbfbfb;
     border: none;
     border-radius: 15px;
@@ -708,7 +720,7 @@ section h2 > span {
 
 .contact-us > div > div:last-of-type form button:hover {
     background-color: #fbfbfb;
-    color: #f93154;
+    color: #D31012;
     transition: 0.3s;
 }
 
@@ -720,14 +732,14 @@ section h2 > span {
 }
 
 footer {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
     margin: 0;
     overflow: hidden;
 }
 
 footer > div > div:first-of-type {
-    background-color: #f93154;
+    background-color: #D31012;
 }
 
 footer > div > div:last-of-type {
@@ -740,7 +752,7 @@ footer > div > div:last-of-type > div:first-of-type  p {
 
 footer h2, footer h5 {
     display: inline-block;
-    background-color: #f93154;
+    background-color: #D31012;
     margin-left: -10px;
     padding: 3px 10px;
     font-weight: 600;
@@ -804,11 +816,11 @@ footer ul > li i {
 .about-us-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #333396;
+    color: #0505A1;
 }
 
 .about-us-header h2 > span {
-    color: #f93154;
+    color: #D31012;
 }
 
 .about-us-desc p {
@@ -830,11 +842,11 @@ footer ul > li i {
 .service-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #333396;
+    color: #0505A1;
 }
 
 .service-header h2 > span {
-    color: #f93154;
+    color: #D31012;
 }
 
 .service-desc.desc1 {
@@ -846,7 +858,7 @@ footer ul > li i {
 }
 
 .service-desc.desc1 .carousel {
-    background: linear-gradient(90deg, #333396, #f93154);
+    background: linear-gradient(90deg, #0505A1, #D31012);
     padding: 100px 30px;
     width: 100%;
     box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.3);
@@ -865,7 +877,7 @@ footer ul > li i {
 }
 
 .service-desc.desc1 .carousel .carousel-item h3 {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
     position: relative;
     display: inline-block;
@@ -880,9 +892,9 @@ footer ul > li i {
     position: absolute;
     top: -13px;
     left: -5px;
-    background-color: #f93154;
+    background-color: #D31012;
     padding: 5px;
-    border: 3px solid #333396;
+    border: 3px solid #0505A1;
     border-radius: 50%;
     font-size: 50px;
 }
@@ -895,7 +907,7 @@ footer ul > li i {
 .service-desc.desc2 {
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #333396;
+    background-color: #0505A1;
 }
 
 .service-desc.desc2 h2 {
@@ -909,7 +921,7 @@ footer ul > li i {
 }
 
 .service-desc.desc2 > div > div:nth-of-type(2) {
-    background-color: #f93154;
+    background-color: #D31012;
 }
 
 .service-desc.desc2 > div > div:first-of-type > div > div > h2 {
@@ -923,7 +935,7 @@ footer ul > li i {
     position: absolute;
     top: -3px;
     left: -10px;
-    background-color: #f93154;
+    background-color: #D31012;
     border-radius: 50%;
     padding: 10px;
 }
@@ -935,7 +947,7 @@ footer ul > li i {
 }
 
 .service-desc.desc2 > div > div:nth-of-type(2) > div > h2 {
-    background-color: #f93154;
+    background-color: #D31012;
     color: #fbfbfb;
     display: inline-block;
     position: absolute;
@@ -982,7 +994,7 @@ footer ul > li i {
 }
 
 .service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide button{
-    background-color: #f93154;
+    background-color: #D31012;
     color: #fbfbfb;
     border: none;
     border-radius: 30px;
@@ -994,7 +1006,7 @@ footer ul > li i {
 
 .service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide button:hover{
     background-color: #fbfbfb;
-    color: #f93154;
+    color: #D31012;
     transition: 0.3s;
 }
 
@@ -1003,7 +1015,7 @@ footer ul > li i {
 }
 
 .service-desc.desc2 > div > div:nth-of-type(3) > div > h2 {
-    color: #333396;
+    color: #0505A1;
     padding-top: 230px;
     margin-bottom: 50px;
 }
@@ -1014,7 +1026,7 @@ footer ul > li i {
 }
 
 .service-desc.desc2 > div:first-of-type > div:last-of-type > div > h2 {
-    color: #333396;
+    color: #0505A1;
     margin-bottom: 10px;
     padding-top: 90px;
 }
@@ -1047,7 +1059,7 @@ footer ul > li i {
     font-size: 60px;
     text-decoration: none;
     color: #fbfbfb;
-    background-color: #333396;
+    background-color: #0505A1;
     padding: 10px;
     border-radius: 30px;
 }
@@ -1072,22 +1084,22 @@ footer ul > li i {
 .shop-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #333396;
+    color: #0505A1;
 }
 
 .shop-header h2 > span {
-    color: #f93154;
+    color: #D31012;
 }
 
 .shop-desc.desc1 .card {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
     border-radius: 30px;
     overflow: hidden;
 }
 
 .shop-desc.desc1 .card {
-    background-color: #333396;
+    background-color: #0505A1;
     color: #fbfbfb;
     border-radius: 30px;
     overflow: hidden;
@@ -1137,11 +1149,11 @@ footer ul > li i {
 .contact-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #333396;
+    color: #0505A1;
 }
 
 .contact-header h2 > span {
-    color: #f93154;
+    color: #D31012;
 }
 
 @media screen and (min-width:1400px){
@@ -1328,7 +1340,7 @@ footer ul > li i {
     }
     
     .service-desc.desc2 > div > div:nth-of-type(2) > div > h2 {
-        background-color: #f93154;
+        background-color: #D31012;
         color: #fbfbfb;
         display: inline-block;
         position: absolute;
