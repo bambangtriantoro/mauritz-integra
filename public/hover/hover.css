@@ -96,12 +96,18 @@
 .navbar-nav .nav-item {
     border-radius: 6px ;
     transition: 0.5s;
-    margin: auto 3px
+    margin: auto 3px;
+    
 }
+
+.navbar-nav .nav-item:first-of-type .nav-link {
+    margin-top: 10px;
+} 
 
 .navbar-nav .nav-item .nav-link {
     border-radius: 6px;
     transition: 0.5s;
+    padding: 10px;
 }
 
 .nav-item :hover {
