@@ -51,6 +51,9 @@
                 <li class="nav-item {{ $page == 'contact' ? 'active' : '' }}">
                     <a class="nav-link" href="/contact">Kontak</a>
                 </li>
+                <li class="nav-item {{ $page == 'contact' ? 'active' : '' }}">
+                    <a class="nav-link" href="/contact">Partner Kami</a>
+                </li>
             </ul>
         </div>
     </div>

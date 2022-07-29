@@ -92,3 +92,14 @@
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+.nav-item :hover {
+    background-color: #D51113;
+    color: #fff;
+    border-radius: 6px;
+}
+.navbar-nav .nav-item .active {    
+    background-color: #D51113;
+    color: #fff;
+    border-radius: 6px;
+}
