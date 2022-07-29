@@ -204,11 +204,13 @@
                     <div class="position-relative">
                         <div class="product-item position-absolute" data-animate="animate__zoomIn">
                             <div class="card mx-3">
-                                <img src="/asset/image/product/Tabung oksigen 6m3 Rp. 1.494.999.jpg"
-                                    class="card-img-top shadow" alt="tabung oksigen img">
+                                <img src="/asset/image/product/tabung 1m3 Rp. 434.899" class="card-img-top shadow"
+                                    alt="tabung oksigen img">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Tabung Oksigen 6m³</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 1.494.999</button></a>
+                                    <h5 class="card-title">Tabung Oksigen 1m³</h5>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/tabung-oksigen-1m3-tabung-o2-1-m3-isi-full-tabung-only-tabung-1m3"><button
+                                            class="card-text">Rp. 434.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
@@ -216,7 +218,9 @@
                                     class="card-img-top shadow" alt="first aid kit pouch img">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Dompet First Aid Kit</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 13.899</button></a>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/onemed-p3k-warna-merah-model-pouch-dompet-kotak-outdoor-first-aid-kit"><button
+                                            class="card-text">Rp. 13.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
@@ -224,7 +228,19 @@
                                     class="card-img-top shadow" alt="tongkat bantu jalan img">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Tongkat Bantu Jalan kaki 4</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 96.499</button></a>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/tongkat-kaki-4-tongkat-bantu-jalan-tongkat-orang-tua-tongkat"><button
+                                            class="card-text">Rp. 96.499</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/Handscoon Gloves Nitrile.jpg" class="card-img-top shadow"
+                                    alt="tongkat bantu jalan img">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Hansdscoon Gloves Nitrile</h5>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/handscoon-gloves-nitrile-sarung-tangan-tanpa-powder-safegloves-reguler-blue-xs"><button
+                                            class="card-text">Rp. 51.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
@@ -232,7 +248,9 @@
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Stetoskop Deluxe</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 45.899</button></a>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/onemed-stetoskop-deluxe-non-transparan"><button
+                                            class="card-text">Rp. 45.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
@@ -240,7 +258,9 @@
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Nesco Cotton Sterile Swabstick</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 10.899</button></a>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/nesco-transport-swab-1-pcs-nesco-cotton-swab-sterile-lidi-steril"><button
+                                            class="card-text">Rp. 1.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
@@ -248,7 +268,9 @@
                                     alt="product1">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Nurse Kit</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 183.899</button></a>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/onemed-nurse-kit-set-standard-lengkap-paket-alat-pemeriksaan-suster"><button
+                                            class="card-text">Rp. 183.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
@@ -256,15 +278,9 @@
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Tensi Aneroid Onemed Tensimeter Kompas</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 79.999</button></a>
-                                </div>
-                            </div>
-                            <div class="card mx-3">
-                                <img src="/asset/image/product/Tensimeter pergelangan tangan tensione Rp. 299.899.jpg"
-                                    class="card-img-top shadow" alt="product1">
-                                <div class="card-body bg-custom">
-                                    <h5 class="card-title">Tensimeter Pergelangan Tangan Tensione</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 299.899</button></a>
+                                    <a target="_blank"
+                                        href="https://www.tokopedia.com/mauin/tensi-aneroid-onemed-tensimeter-kompas-one-med-abu-abu"><button
+                                            class="card-text">Rp. 79.999</button></a>
                                 </div>
                             </div>
                         </div>
