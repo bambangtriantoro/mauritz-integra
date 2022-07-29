@@ -41,3 +41,8 @@ Route::get('/contact', function () {
     $page = 'contact';
     return view('contact', ['page' => $page]);
 });
+
+Route::get('/partner', function () {
+    $page = 'partner';
+    return view('partner', ['page' => $page]);
+});

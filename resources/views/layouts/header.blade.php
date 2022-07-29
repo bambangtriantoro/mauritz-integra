@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mauritz Integra</title>
-    <link rel="icon" href="/asset/image/favicon.jpg">
+    <link rel="icon" href="/asset/image/favicon.png ">
 
     {{-- Google --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">

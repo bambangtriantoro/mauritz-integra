@@ -15,7 +15,7 @@
 <nav class="navbar navbar-expand-lg bg-light" id="navbar">
     <div class="container">
         <a class="navbar-brand" href="/">
-            <img src="/asset/image/logo/logo2.jpeg" width="40" alt="mauritz integra logo">
+            <img src="/asset/image/logo/logo2.png" width="40" alt="mauritz integra logo">
             Maurindo <span>Teknik</span> Solusi
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

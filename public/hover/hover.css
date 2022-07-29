@@ -93,13 +93,26 @@
     transform: scaleX(1);
 }
 
+.navbar-nav .nav-item {
+    border-radius: 6px ;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link {
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
 .nav-item :hover {
     background-color: #D51113;
     color: #fff;
     border-radius: 6px;
+    transition: 0.5s;
 }
+
 .navbar-nav .nav-item .active {    
     background-color: #D51113;
     color: #fff;
     border-radius: 6px;
+    transition: 0.5s;
 }
