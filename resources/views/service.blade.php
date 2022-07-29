@@ -82,67 +82,131 @@
                         </p>
                         <div class="position-absolute service-product-item">
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/Tabung oksigen 6m3 Rp. 1.494.999.jpg"
+                                    class="card-img-top shadow" alt="tabung oksigen img">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Tabung Oksigen 6m³</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 1.494.999</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/pouch dompet kotak outdoor first aid kit Rp. 13.899.jpg"
+                                    class="card-img-top shadow" alt="first aid kit pouch img">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Dompet First Aid Kit</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 13.899</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/tongkat bantu jalan Rp. 96.499.jpg"
+                                    class="card-img-top shadow" alt="tongkat bantu jalan img">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Tongkat Bantu Jalan kaki 4</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 96.499</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/Stetoskop deluxe Rp. 45.899.jpg" class="card-img-top shadow"
+                                    alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Stetoskop Deluxe</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 45.899</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/softies duckshape masker 3ply isi 30 Rp. 52.499.jpg"
+                                    class="card-img-top shadow" alt="softies duckshape masker img">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Softies Duckshape Masker 3ply isi 30</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 52.499</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/3 in 1 easytouch alat test gula kolesterol asam urat Rp. 206.999.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
+                                    <h5 class="card-title">3 in 1 Easytouch Alat Test Gula Kolesterol Asam Urat</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 206.999</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/Alat Cek Tes Gula Darah Auto AGM 4000 dan 25 strip gluco dr Rp. 199.899.jpg"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Alat Cek Tes Gula Darah Auto AGM 4000 + 25 strip Gluco Dr</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 199.899</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/Ekaplast soft jumbo box isi 30 strip Rp. 8.199.jpg"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Ekaplast Soft Jumbo Box isi 30 strip</h5>
                                     <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/Jarum lancet Easytouch nesco 28G Rp. 10.899.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Jarum lancet Easytouch Nesco 28G</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 10.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/Kasa Steril 10x10cm 8ply 1pouch isi 2 lembar 108225 Rp. 2.499.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Kasa Steril 10x10cm 8ply 1pouch isi 2 lembar</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 10.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/nesco transport swab 1pcs nesco cotton swab sterile lidi steril Rp. 1.999.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Nesco Cotton Sterile Swabstick</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 10.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/Nurse Kit Rp.183.899.jpg" class="card-img-top shadow"
+                                    alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Nurse Kit</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 183.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/softies surgical 3d mask 4ply kf94 1 box 20pcs Rp. 52.499.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Softies Surgical 3D Mask 4ply kf94 1 box 20pcs</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 199.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/Tensi aneroid onemed tensimeter kompas Rp. 79.999.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Tensi Aneroid Onemed Tensimeter Kompas</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 79.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/Tensimeter pergelangan tangan tensione Rp. 299.899.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Tensimeter Pergelangan Tangan Tensione</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 299.899</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3 opacity-75">
+                                <img src="https://www.iconninja.com/files/591/301/131/more-icon.svg"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Lihat Lebih Banyak di Marketplace</h5>
+                                    <a href="/shop"><button class="card-text">Ke Marketplace</button></a>
                                 </div>
                             </div>
                         </div>
@@ -260,67 +324,38 @@
                         <p>Berikut menu unggulan kami dari AYAM TABOK M2,</p>
                         <div class="position-absolute service-product-item">
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/tabok.jpg" class="card-img-top shadow" alt="tabok1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
+                                    <h5 class="card-title">Nasi Ayam TABOK1</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 21.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/tabok.jpg" class="card-img-top shadow" alt="tabok2">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
+                                    <h5 class="card-title">Nasi Ayam TABOK2</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 23.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/tabok.jpg" class="card-img-top shadow" alt="tabok3">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
+                                    <h5 class="card-title">Nasi Ayam TABOK3</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 23.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/tabok.jpg" class="card-img-top shadow" alt="tabok3">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
+                                    <h5 class="card-title">Nasi Ayam TABOK4</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 23.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/tabok.jpg" class="card-img-top shadow" alt="tabok3">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
-                                </div>
-                            </div>
-                            <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
-                                <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
-                                </div>
-                            </div>
-                            <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
-                                <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
-                                </div>
-                            </div>
-                            <div class="card mx-3">
-                                <img src="/asset/image/kisspng-chilli-chicken-chicken-nugget-chili-pepper-free-spicy-shredded-chicken-pull-png-image-5a694f269b66d3.9032029715168509826365.png"
-                                    class="card-img-top shadow" alt="product1">
-                                <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 25.000</button></a>
+                                    <h5 class="card-title">Nasi Ayam TABOK5</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 23.999</button></a>
                                 </div>
                             </div>
                         </div>

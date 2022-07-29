@@ -40,8 +40,7 @@
                     solusi dan produk-produk terbaik bagi pelanggan. Dengan penghasilan lebih dari 60 Milliar rupiah
                     pertahun mengukuhkan diri sebagai salah satu perusahaan penyedia Alat Kesehatan terbaik.
                 </p>
-                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="" class="col-12 col-lg-5">
+                <img src="asset/image/logo/logo2-1.jpeg" alt="" class="col-12 col-lg-5">
             </div>
         </section>
     </div>

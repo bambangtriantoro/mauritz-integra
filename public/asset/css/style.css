@@ -9,6 +9,28 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+scrollbar-width: thin;
+scrollbar-color: #c0c0c0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #c0c0c0;
+border-radius: 35px;
+border: 1px solid #ffffff;
+}
+
 .bg-custom {
     background-color: #333396;
     color: #fbfbfb;
@@ -62,6 +84,10 @@ body {
 
 .bx {
     transform: translateY(1px);
+}
+
+.slick-slide .card-img-top {
+    height: 250px;
 }
 
 .preloader {
@@ -523,8 +549,17 @@ section h2 > span {
     overflow: hidden;
 } 
 
+.product > div:first-of-type > div:last-of-type .slick-slide div.card-body {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
 .product > div:first-of-type > div:last-of-type .slick-slide div.card-body .card-title {
     font-weight: 700;
+    height: 130px;
+    overflow: auto;
 } 
 
 .product > div:first-of-type > div:last-of-type .slick-slide div.card-body .card-text {
@@ -552,7 +587,7 @@ section h2 > span {
 } 
 
 .product > h3:first-of-type {
-    margin-top: 50px;
+    margin-top: 350px;
 }
 
 .product > h3:last-of-type {
@@ -933,8 +968,17 @@ footer ul > li i {
     box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.3);
 }
 
+.service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+}
+
 .service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide .card-title{
     font-weight: 700;
+    height: 100px;
+    overflow: auto;
 }
 
 .service-desc.desc2 > div > div:nth-of-type(2) > div > div .slick-slide button{
@@ -960,7 +1004,7 @@ footer ul > li i {
 
 .service-desc.desc2 > div > div:nth-of-type(3) > div > h2 {
     color: #333396;
-    padding-top: 160px;
+    padding-top: 230px;
     margin-bottom: 50px;
 }
 

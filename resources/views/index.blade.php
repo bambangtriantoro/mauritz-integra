@@ -92,7 +92,7 @@
         <section class="about">
             <div class="row row-cols-1 row-cols-lg-2 align-items-center">
                 <div class="col animate" data-animate="animate__slideInLeft">
-                    <img src="/asset/image/clayton-cardinalli-mMnU-UMmXok-unsplash.jpg" alt="mauritz team">
+                    <img src="/asset/image/logo/logo2-1.jpeg" alt="mauritz team">
                 </div>
                 <div class="col animate" data-animate="animate__slideInRight">
                     <div class="d-flex flex-column justify-content-center m-auto">
@@ -204,43 +204,67 @@
                     <div class="position-relative">
                         <div class="product-item position-absolute" data-animate="animate__zoomIn">
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/Tabung oksigen 6m3 Rp. 1.494.999.jpg"
+                                    class="card-img-top shadow" alt="tabung oksigen img">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Tabung Oksigen 6m³</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 1.494.999</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/pouch dompet kotak outdoor first aid kit Rp. 13.899.jpg"
+                                    class="card-img-top shadow" alt="first aid kit pouch img">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Dompet First Aid Kit</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 13.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
-                                    class="card-img-top shadow" alt="product1">
+                                <img src="/asset/image/product/tongkat bantu jalan Rp. 96.499.jpg"
+                                    class="card-img-top shadow" alt="tongkat bantu jalan img">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Tongkat Bantu Jalan kaki 4</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 96.499</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/Stetoskop deluxe Rp. 45.899.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Stetoskop Deluxe</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 45.899</button></a>
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/kisspng-drug-first-aid-kits-first-aid-supplies-snakebite-c-medical-supplies-5b34a570ed4209.2108325015301768809718.png"
+                                <img src="/asset/image/product/nesco transport swab 1pcs nesco cotton swab sterile lidi steril Rp. 1.999.jpg"
                                     class="card-img-top shadow" alt="product1">
                                 <div class="card-body bg-custom">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <a href="/shop"><button class="card-text">Rp. 250.000</button></a>
+                                    <h5 class="card-title">Nesco Cotton Sterile Swabstick</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 10.899</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/Nurse Kit Rp.183.899.jpg" class="card-img-top shadow"
+                                    alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Nurse Kit</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 183.899</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/Tensi aneroid onemed tensimeter kompas Rp. 79.999.jpg"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Tensi Aneroid Onemed Tensimeter Kompas</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 79.999</button></a>
+                                </div>
+                            </div>
+                            <div class="card mx-3">
+                                <img src="/asset/image/product/Tensimeter pergelangan tangan tensione Rp. 299.899.jpg"
+                                    class="card-img-top shadow" alt="product1">
+                                <div class="card-body bg-custom">
+                                    <h5 class="card-title">Tensimeter Pergelangan Tangan Tensione</h5>
+                                    <a href="/shop"><button class="card-text">Rp. 299.899</button></a>
                                 </div>
                             </div>
                         </div>
