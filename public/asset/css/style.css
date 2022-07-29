@@ -56,6 +56,11 @@ border: 1px solid #ffffff;
     background-color: #e31e52 !important;
 }
 
+.blank-red {
+    background-color: #D31012;
+    height: 50px;
+}
+
 .button-custom {
     background-color: #D31012;
     color: #fbfbfb;

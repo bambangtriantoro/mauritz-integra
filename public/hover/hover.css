@@ -96,6 +96,7 @@
 .navbar-nav .nav-item {
     border-radius: 6px ;
     transition: 0.5s;
+    margin: auto 3px
 }
 
 .navbar-nav .nav-item .nav-link {

@@ -48,11 +48,11 @@
                         <li><a class="dropdown-item" href="#">Service 3</a></li>
                     </ul>
                 </li> --}}
-                <li class="nav-item {{ $page == 'contact' ? 'active' : '' }}">
-                    <a class="nav-link" href="/contact">Kontak</a>
+                <li class="nav-item">
+                    <a class="nav-link {{ $page == 'contact' ? 'active' : '' }}" href="/contact">Kontak</a>
                 </li>
-                <li class="nav-item {{ $page == 'contact' ? 'active' : '' }}">
-                    <a class="nav-link" href="/contact">Partner Kami</a>
+                <li class="nav-item">
+                    <a class="nav-link {{ $page == 'partner' ? 'active' : '' }}" href="/partner">Partner Kami</a>
                 </li>
             </ul>
         </div>
