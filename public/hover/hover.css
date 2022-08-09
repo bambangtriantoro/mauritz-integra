@@ -23,8 +23,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #D51113;
-    border: 2px solid #0505A1;
+    background: #db2c2f;
+    border: 2px solid #2929a3;
     border-radius: 6px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -51,7 +51,7 @@
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    background: #D51113;
+    background: #db2c2f;
     color: #fbfbfb;
     padding: 6px 10px;
     font-size: 15px;
@@ -71,8 +71,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0505A1;
-    border: 2px solid #D51113;
+    background: #2929a3;
+    border: 2px solid #db2c2f;
     border-radius: 6px;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -107,14 +107,14 @@
 }
 
 .nav-item :hover {
-    background-color: #D51113;
+    background-color: #db2c2f;
     color: #fff;
     border-radius: 6px;
     transition: 0.5s;
 }
 
 .navbar-nav .nav-item .active {    
-    background-color: #0505A1;
+    background-color: #2929a3;
     color: #fff;
     border-radius: 6px;
     transition: 0.5s;

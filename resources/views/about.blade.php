@@ -2,7 +2,7 @@
 @section('content')
     <div class="container-xxl">
         <header class="about-us-header" id="header">
-            <h2>TENTANG <span>KAMI</span></h2>
+            <h1>TENTANG <span>KAMI</span></h1>
         </header>
     </div>
 

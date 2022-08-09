@@ -2,7 +2,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mauritz Integra</title>
+    <meta name="description" content="{{ $description }}" />
+    <meta property="og:title" content="{{ $title }}" />
+    <meta property="og:url" content="https://www.maurindo.co.id/" />
+    <title>{{ $title }}</title>
     <link rel="icon" href="/asset/image/favicon.png ">
 
     {{-- Google --}}

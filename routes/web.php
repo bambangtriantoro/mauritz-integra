@@ -17,32 +17,44 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $page = 'home';
-    return view('index', ['page' => $page]);
+    $title = 'Penyedia Alat Kesehatan yang Berkualitas dan Terpercaya - Maurindo';
+    $description = 'One big Family of Maurindo Group, we provide and deliver the best services and HEALTH CARE Products to you!';
+    return view('index', ['page' => $page, 'title' => $title, 'description' => $description]);
 });
 
 Route::post('/send', [SendMailController::class, 'send']);
 
 Route::get('/about', function () {
     $page = 'about';
-    return view('about', ['page' => $page]);
+    $title = 'Tentang Perusahaan - Maurindo Teknik Solusi';
+    $description = 'Tentang Perusahaan Maurindo Teknik Solusi';
+    return view('about', ['page' => $page, 'title' => $title, 'title' => $title, 'description' => $description]);
 });
 
 Route::get('/service', function () {
     $page = 'service';
-    return view('service', ['page' => $page]);
+    $title = 'Layanan Penyedia Alat Kesehatan dan lainnya - Maurindo ';
+    $description = 'Berbagai Layanan yang Maurindo Sediakan';
+    return view('service', ['page' => $page, 'title' => $title, 'description' => $description]);
 });
 
 Route::get('/shop', function () {
     $page = 'shop';
-    return view('shop', ['page' => $page]);
+    $title = 'Toko Alat Kesehatan Kami di Marketplace - Maurindo';
+    $description = 'Toko Maurindo Teknik Solusi di berbagai marketplace';
+    return view('shop', ['page' => $page, 'title' => $title, 'description' => $description]);
 });
 
 Route::get('/contact', function () {
     $page = 'contact';
-    return view('contact', ['page' => $page]);
+    $title = 'Hubungi Kami - Maurindo Teknik Solusi';
+    $description = 'Kontak dan Lokasi Kantor Pusat dari PT.Maurindo Teknik Solusi';
+    return view('contact', ['page' => $page, 'title' => $title, 'description' => $description]);
 });
 
 Route::get('/partner', function () {
     $page = 'partner';
-    return view('partner', ['page' => $page]);
+    $title = 'Partner Produk Kami - Maurindo Teknik Solusi';
+    $description = 'Berbagai Partner Produk dari Produk yang Kami Jual';
+    return view('partner', ['page' => $page, 'title' => $title, 'description' => $description]);
 });

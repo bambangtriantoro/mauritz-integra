@@ -8,7 +8,7 @@
                     <div class="carousel-item active">
                         <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="d-block" alt="mauritz carousel 1">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2><i class="bx bx-first-aid"></i> Alat Kesehatan</h2>
+                            <h1><i class="bx bx-first-aid"></i> Penyedia Alat Kesehatan Terbaik</h1>
                             <p>Kami menyediakan berbagai alat kesehatan dengan kualitas yang terbaik dan juga brand yang
                                 ternama.</p>
                             <button class="btn btn-danger">Pelajari lebih lanjut</button>
