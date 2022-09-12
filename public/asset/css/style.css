@@ -32,7 +32,7 @@ border: 1px solid #ffffff;
 }
 
 .bg-custom {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
 }
 
@@ -56,6 +56,10 @@ border: 1px solid #ffffff;
     background-color: #e31e52 !important;
 }
 
+.bg-black {
+    background-color: #111111 !important;
+}
+
 .blank-red {
     background-color: #db2c2f;
     height: 50px;
@@ -71,13 +75,25 @@ border: 1px solid #ffffff;
 }
 
 .text-title {
-    color: #2929a3;
+    color: #222299;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
 } 
 
 .text-title > span {
+    color: #db2c2f;
+} 
+
+.text-title-lite {
+    color: #222299;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.text-title-lite > span {
     color: #db2c2f;
 } 
 
@@ -94,7 +110,7 @@ border: 1px solid #ffffff;
 }
 
 .btn-danger:hover {
-    background-color: #e72b2e !important;
+    background-color: #ec4b4e !important;
     border: none;
     transition:  0.3s;
 }
@@ -123,7 +139,7 @@ border: 1px solid #ffffff;
 .loader {
     border: 3px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 3px solid #2929a3;
+    border-top: 3px solid #222299 ;
     border-bottom: 3px solid #db2c2f;
     width: 69px;
     height: 69px;
@@ -137,18 +153,18 @@ border: 1px solid #ffffff;
 
 .preloader > h3 {
     margin-top: 33px;
-    color: #2929a3;
+    color: #222299;
     font-weight: 600;
     animation: color-change1 5s linear infinite;
 }
 
 @keyframes color-change1 {
-    0% { color:#2929a3; }
-    20% { color: #2929a3; }
+    0% { color:#222299; }
+    20% { color: #222299  ; }
     40% { color: #db2c2f; } 
     60% { color: #db2c2f;}
-    80% { color: #2929a3; }
-    100% { color: #2929a3; }
+    80% { color: #222299  ; }
+    100% { color: #222299 ; }
 }
 
 .preloader > h3 > span {
@@ -159,8 +175,8 @@ border: 1px solid #ffffff;
 @keyframes color-change2 {
     0% { color:#db2c2f; }
     20% { color: #db2c2f; }
-    40% { color: #2929a3; } 
-    60% { color: #2929a3;}
+    40% { color: #222299  ; } 
+    60% { color: #222299  ;}
     80% { color: #db2c2f; }
     100% { color: #db2c2f; }
 }
@@ -183,7 +199,7 @@ border: 1px solid #ffffff;
 }
 
 .navbar-header > .container {
-    height: 6vh;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,7 +226,7 @@ border: 1px solid #ffffff;
 }
 
 .navbar-brand {
-    color: #2929a3;
+    color: #222299;
     font-weight: 700;
     transition: 0.5s;
 }
@@ -226,52 +242,59 @@ border: 1px solid #ffffff;
 }
 
 .navbar-brand:hover > span {
-    color: #2929a3;
+    color: #222299;
     transition: 0.5s;
 }
 
 .carousel-item > img {
     width: 100%;
     height: 90vh;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 .carousel-caption {
-    top: 30%;
-    color: #2929a3;
+    top: 0;
+    right: 5%;
+    left: 5%;
+    color: #222299;
     text-align: center;
     font-weight: 700;
     background-position: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.carousel-item:first-of-type .carousel-caption > h1 {
+.carousel-caption > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     font-size: 60px;
     font-weight: 700;
+    transform: translateX(-15px);
+    margin-top: 15px;
 }
 
-.carousel-item:first-of-type .carousel-caption > h1 > i {
+.carousel-caption > h1 > i {
     background-color: #db2c2f;
     color: #fbfbfb;
-    border-radius: 50%;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 3px;
     text-shadow: none;
-    transform: translateY(6px);
+    transform: translateY(3px);
 }
 
 .carousel-caption > h2 {
-    position: relative;
-    font-size: 60px;
-    font-weight: 700;
+    font-weight: 800;
+    color: #db2c2f;
 }
 
-.carousel-caption > h2 > i {
-    background-color: #db2c2f;
-    color: #fbfbfb;
-    border-radius: 50%;
-    padding: 10px;
-    text-shadow: none;
-    transform: translateY(6px);
+.carousel-caption > p {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .carousel-control-prev {
@@ -296,7 +319,7 @@ section {
 } 
 
 section h2 {
-    color: #2929a3;
+    color: #222299;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -306,13 +329,17 @@ section h2 > span {
     color: #db2c2f;
 }
 
+#service {
+    scroll-margin-top:200px;
+}
+
 .service .card {
     transition: 0.5s;
     border-radius: 33px;
 }
 
 .service .card:hover {
-    border: 1px solid #2929a3;
+    border: 1px solid #222299 ;
     transform: scale(1.05);
     transition: 0.5s;
     z-index: 1;
@@ -327,7 +354,7 @@ section h2 > span {
 }
 
 .service .card-body > i {
-    color: #2929a3;
+    color: #222299;
     font-size: 69px;
     margin: 13px;
 }
@@ -338,7 +365,7 @@ section h2 > span {
 }
 
 .about {
-    background: linear-gradient(70deg, #2929a3  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #db2c2f 60%, #2929a3 60%);
+    background: #222299;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -371,9 +398,9 @@ section h2 > span {
 }
 
 .about > div > div > div > div > a > button{
-    background-color: #2929a3;
+    background-color: #db2c2f;
     color: #fbfbfb;
-    border: 1px solid #db2c2f;
+    border: 3px solid #222299 ;
     border-radius: 10px;
     font-size: 20px;
     margin-top: 15px;
@@ -382,8 +409,9 @@ section h2 > span {
 }
 
 .about > div > div > div > div > a > button:hover{
-    background-color: #db2c2f;
-    border: 1px solid #2929a3;
+    background-color: #fbfbfb;
+    border: 3px solid #db2c2f ;
+    color: #db2c2f;
     border-radius: 20px;
     transition: background-color 0.5s,border-radius 0.5s;
 }
@@ -397,7 +425,7 @@ section h2 > span {
 }
 
 .service-detail > div:first-of-type {
-    background: #2929a3;
+    background: #222299;
     color: #fbfbfb;
 }
 
@@ -407,7 +435,7 @@ section h2 > span {
 }
 
 .service-detail > div:last-of-type {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
 }
 
@@ -429,7 +457,7 @@ section h2 > span {
     font-size: 69px;
     padding: 15px;
     border-radius: 50%;
-    background-color: #2929a3;
+    background-color: #222299 ;
     z-index: 1;
 }
 
@@ -448,7 +476,7 @@ section h2 > span {
 }
 
 .service-detail > div:nth-child(2) > div button {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
     font-weight: 600;
     padding: 6px 10px;
@@ -468,7 +496,7 @@ section h2 > span {
 
 .visionmission > ol > li {
     position: relative;
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
     padding: 30px;
     margin: 50px 0;
@@ -514,7 +542,7 @@ section h2 > span {
 }  
 
 .product > h3 {
-    color: #2929a3;
+    color: #222299;
     font-weight: 600;
     text-align: center;
     margin-bottom: 30px;
@@ -533,7 +561,7 @@ section h2 > span {
     padding: 15px 0;
     padding-bottom: 100px;
     position: relative;
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
     border-radius: 0 20px 20px 20px;
 }
@@ -626,9 +654,15 @@ section h2 > span {
     margin-top: 50px;
 }
 
+.product .product-brand .slick-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .product .product-brand .slick-slide > img {
-    width: 250px;
-    height: 150px;
+    width: 75%;
+    height: auto;
     margin: auto;
 }
 
@@ -670,7 +704,7 @@ section h2 > span {
 }
 
 .contact-us > div > div:first-of-type {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
 }
 
@@ -703,7 +737,7 @@ section h2 > span {
 }
 
 .contact-us > div > div:last-of-type .card {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
 }
 
@@ -752,7 +786,7 @@ section h2 > span {
 }
 
 footer {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
     margin: 0;
     overflow: hidden;
@@ -819,7 +853,7 @@ footer ul > li a:hover > img {
 }
 
 footer ul > li i {
-    font-size: 30px;
+    font-size: 25px;
 }   
 
 /* About Us */
@@ -836,7 +870,7 @@ footer ul > li i {
 .about-us-header h1, .about-us-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #2929a3;
+    color: #222299;
 }
 
 .about-us-header h1 > span, .about-us-header h2 > span {
@@ -862,7 +896,7 @@ footer ul > li i {
 .service-header h1, .service-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #2929a3;
+    color: #222299;
 }
 
 .service-header h1 > span, .service-header h2 > span {
@@ -878,26 +912,33 @@ footer ul > li i {
 }
 
 .service-desc.desc1 .carousel {
-    background: linear-gradient(90deg, #2929a3, #db2c2f);
-    padding: 100px 30px;
+    background: linear-gradient(90deg, #222299, #db2c2f);
+    padding: 100px 0;
     width: 100%;
+    height: 100%;
     box-shadow: 0px 3px 10px 1px rgba(0,0,0,0.3);
 }
 
 .service-desc.desc1 .carousel .carousel-inner {
-    padding: 30px;
+    padding: 0 30px;
 }
 
 .service-desc.desc1 .carousel .carousel-item {
     padding: 0 50px;
 }
 
+.service-desc.desc1 .carousel .carousel-item .row {
+    height: 500px;
+    align-items: center;
+}
+
 .service-desc.desc1 .carousel .carousel-item .row > .col {
-    margin: 0 auto;;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .service-desc.desc1 .carousel .carousel-item h3 {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
     position: relative;
     display: inline-block;
@@ -914,7 +955,7 @@ footer ul > li i {
     left: -5px;
     background-color: #db2c2f;
     padding: 5px;
-    border: 3px solid #2929a3;
+    border: 3px solid #222299 ;
     border-radius: 50%;
     font-size: 50px;
 }
@@ -927,7 +968,7 @@ footer ul > li i {
 .service-desc.desc2 {
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #2929a3;
+    background-color: #222299 ;
 }
 
 .service-desc.desc2 h2 {
@@ -960,9 +1001,15 @@ footer ul > li i {
     padding: 10px;
 }
 
+.service-desc.desc2 > div:first-of-type .product-brand .slick-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .service-desc.desc2 > div:first-of-type .product-brand img {
-    width: 250px;
-    height: 150px;
+    width: 75%;
+    height: auto;
     margin: auto;
 }
 
@@ -1035,7 +1082,7 @@ footer ul > li i {
 }
 
 .service-desc.desc2 > div > div:nth-of-type(3) > div > h2 {
-    color: #2929a3;
+    color: #222299;
     padding-top: 230px;
     margin-bottom: 50px;
 }
@@ -1046,7 +1093,7 @@ footer ul > li i {
 }
 
 .service-desc.desc2 > div:first-of-type > div:last-of-type > div > h2 {
-    color: #2929a3;
+    color: #222299;
     margin-bottom: 10px;
     padding-top: 90px;
 }
@@ -1079,7 +1126,7 @@ footer ul > li i {
     font-size: 60px;
     text-decoration: none;
     color: #fbfbfb;
-    background-color: #2929a3;
+    background-color: #222299 ;
     padding: 10px;
     border-radius: 30px;
 }
@@ -1104,7 +1151,7 @@ footer ul > li i {
 .shop-header h1, .shop-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #2929a3;
+    color: #222299;
 }
 
 .shop-header h1 > span, .shop-header h2 > span {
@@ -1112,14 +1159,14 @@ footer ul > li i {
 }
 
 .shop-desc.desc1 .card {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
     border-radius: 30px;
     overflow: hidden;
 }
 
 .shop-desc.desc1 .card {
-    background-color: #2929a3;
+    background-color: #222299 ;
     color: #fbfbfb;
     border-radius: 30px;
     overflow: hidden;
@@ -1169,7 +1216,7 @@ footer ul > li i {
 .contact-header h1, .contact-header h2 {
     font-size: 100px;
     font-weight: 700;
-    color: #2929a3;
+    color: #222299;
 }
 
 .contact-header h1 > span, .contact-header h2 > span {
@@ -1191,22 +1238,42 @@ footer ul > li i {
 .partner-header h1 {
     font-size: 100px;
     font-weight: 700;
-    color: #2929a3;
+    color: #222299;
 }
 
 .partner-header h1 > span {
     color: #db2c2f;
 }
 
+.partner .text-title-lite-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    transform: translateX(-15px);
+    margin-top: 60px;
+}
+
+.partner .text-title-lite-container > i {
+    background-color: #db2c2f;
+    color: #fbfbfb;
+    border-radius: 10px;
+    padding: 3px;
+    text-shadow: none;
+    transform: translateY(3px);
+}
+
 .partner-desc.desc-1 .col {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .partner-desc.desc-1 img {
-    width: 300px;
-    height: 200px;
+    width: 100%;   
 }
 
 @media screen and (min-width:1400px){
@@ -1308,6 +1375,29 @@ footer ul > li i {
 
 /* S */
 @media screen and (max-width:768px) {
+    .carousel-caption h1 {
+        font-size: 35px !important;
+        flex-direction: column;
+    }
+
+    .carousel-caption h1 {
+        transform: translateX(0);
+        margin-bottom: 5px;
+    }
+
+    .carousel-caption h1 i {
+        transform: translateY(0);
+    }
+    
+    .carousel-caption h2 {
+        font-size: 20px !important;
+        margin-bottom: 9px;
+    }
+
+    .carousel-caption p {
+        font-size: 11px;
+    }
+
     .about > div > div > img {
         transform: scaleY(1);
         margin-bottom: 30px;
@@ -1370,7 +1460,7 @@ footer ul > li i {
         height: auto;
     }
 
-    .about-us-header h2 {
+    .about-us-header h1 {
         font-size: 50px;
         margin: 100px 0;
     }
@@ -1379,13 +1469,18 @@ footer ul > li i {
         height: auto;
     }
 
-    .service-header h2 {
+    .service-header h1 {
         font-size: 50px;
         margin: 100px 0;
     }
 
     .service-desc.desc1 .carousel .carousel-item {
         padding: 0 10px;
+    }
+
+    .service-desc.desc1 .carousel .carousel-item .row {
+        height: 70vh;
+        align-items: inherit;
     }
 
     .service-desc.desc1 .carousel .carousel-item h3 {
@@ -1436,7 +1531,7 @@ footer ul > li i {
         height: auto;
     }
 
-    .shop-header h2 {
+    .shop-header h1 {
         font-size: 50px;
         margin: 100px 0;
     }
@@ -1445,7 +1540,7 @@ footer ul > li i {
         height: auto;
     }
 
-    .contact-header h2 {
+    .contact-header h1 {
         font-size: 50px;
         margin: 100px 0;
     }
@@ -1454,7 +1549,7 @@ footer ul > li i {
         height: auto;
     }
 
-    .partner-header h2 {
+    .partner-header h1 {
         font-size: 50px;
         margin: 100px 0;
     }
@@ -1462,6 +1557,25 @@ footer ul > li i {
 
 /* XS */
 @media screen and (max-width:576px) {
+    .navbar-header > .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 20px !important;
+    }
+
+    .carousel-caption h1 > i {
+        transform: translateY(-10px);
+    }
+
+    .carousel-caption p {
+        font-size: 13px;
+    }
+
     .carousel-control-prev {
         padding: 0;
     }

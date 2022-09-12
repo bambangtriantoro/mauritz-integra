@@ -6,8 +6,7 @@
 <body>
     <div class="preloader" id="preloader">
         <div class="loader"></div>
-        <h3><img src="/asset/image/logo/logo2.png" width="40" alt="logo maurindo"> Maurindo
-            <span>Teknik</span> Solusi
+        <h3><img src="/asset/image/logo/logo2.png" width="40" alt="logo maurindo">PT <span>MAURINDO</span> GROUP
         </h3>
     </div>
 

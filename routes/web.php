@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $page = 'home';
-    $title = 'Penyedia Alat Kesehatan yang Berkualitas dan Terpercaya - Maurindo';
+    $title = 'PT. Maurindo Group - Alat Kesehatan yang Berkualitas dan Terpercaya';
     $description = 'One big Family of Maurindo Group, we provide and deliver the best services and HEALTH CARE Products to you!';
     return view('index', ['page' => $page, 'title' => $title, 'description' => $description]);
 });
@@ -26,7 +26,7 @@ Route::post('/send', [SendMailController::class, 'send']);
 
 Route::get('/about', function () {
     $page = 'about';
-    $title = 'Tentang Perusahaan - Maurindo Teknik Solusi';
+    $title = 'Tentang Perusahaan PT Maurindo Group';
     $description = 'Tentang Perusahaan Maurindo Teknik Solusi';
     return view('about', ['page' => $page, 'title' => $title, 'title' => $title, 'description' => $description]);
 });

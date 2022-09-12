@@ -12,7 +12,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row justify-content-center align-items-center gy-5">
+                        <div class="row justify-content-center gy-5">
                             <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="col-12 col-md-6 rounded"
                                 alt="maurindo service carousel-1">
                             <div class="col-12 col-md-6">
@@ -23,6 +23,40 @@
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <div class="row justify-content-center gy-5">
+                            <img src="/asset/image/mockup-graphics-i1iqQRLULlg-unsplash.jpg" class="col-12 col-md-6 rounded"
+                                alt="maurindo service carousel-1">
+                            <div class="col-12 col-md-6">
+                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT MONITOR KESEHATAN</h3>
+                                <p>Berbagai alat yang memiliki fungsi untuk memberikan informasi mengenai kesehatan
+                                    seseorang.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center gy-5">
+                            <img src="/asset/image/chair-89156_1920.jpg" class="col-12 col-md-6 rounded"
+                                alt="maurindo service carousel-1">
+                            <div class="col-12 col-md-6">
+                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT BANTU</h3>
+                                <p>Berbagai alat bantu yang digunakan untuk mencegah, mendiagnosis, menyembuhkan, dan
+                                    meringankan penyakit, merawat orang sakit, memulihkan kesehatan, dan/atau
+                                    membentuk struktur dan memperbaiki fungsi tubuh.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center gy-5">
+                            <img src="/asset/image/mat-napo-MaKsx8JNbiI-unsplash.jpg" class="col-12 col-md-6 rounded"
+                                alt="maurindo service carousel-1">
+                            <div class="col-12 col-md-6">
+                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT PERTOLONGAN PERTAMA</h3>
+                                <p>Berbagai alat pertolongan pertama untuk perawatan sementara agar luka tidak menjadi
+                                    semakin parah sebelum dibawa ke dokter.</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="carousel-item">
                         <div class="row justify-content-center align-items-center gy-5">
                             <img src="/asset/image/leo-roza-P_z_xlMGuEk-unsplash.jpg" class="col-12 col-md-6 rounded"
                                 alt="maurindo service carousel-2">
@@ -42,7 +76,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
@@ -122,8 +156,8 @@
                                 </div>
                             </div>
                             <div class="card mx-3">
-                                <img src="/asset/image/product/Stetoskop deluxe Rp. 45.899.jpg" class="card-img-top shadow"
-                                    alt="product">
+                                <img src="/asset/image/product/Stetoskop deluxe Rp. 45.899.jpg"
+                                    class="card-img-top shadow" alt="product">
                                 <div class="card-body bg-custom">
                                     <h5 class="card-title">Stetoskop Deluxe</h5>
                                     <a target="_blank"
@@ -329,7 +363,7 @@
                 <div>
                     <div class="container">
                         <h2><span>Belanja</span> Sekarang!</h2>
-                        <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+                        <div class="d-flex flex-wrap justify-content-center align-items-center gap-5">
                             <a target="_blank" href="https://shopee.co.id/maurindotekniksolusi">
                                 <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" class="img-fluid"
                                     alt="shopee link">
@@ -364,12 +398,16 @@
                                 <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wgwdrf8fsk9fnc2wngdf"
                                     class="img-fluid" alt="bukalapak link">
                             </a>
+                            <a target="_blank" href="https://www.tiktok.com/@mauritzintegra">
+                                <img src="https://pngimg.com/uploads/tiktok/tiktok_PNG8.png" class="img-fluid"
+                                    alt="tiktok link">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="service-2">
+            {{-- <div class="service-2">
                 <div class="container">
                     <div class="row align-items-center py-5">
                         <div class="col-12 col-md-7">
@@ -619,7 +657,7 @@
                             </div>
                         </div>
                     </div> --}}
-                </div>
+            {{-- </div> 
                 <div>
                     <div class="container">
                         <h2>Hubungi <span>Kami</span> Sekarang!</h2>
@@ -636,7 +674,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </section>
     </div>
 @endsection

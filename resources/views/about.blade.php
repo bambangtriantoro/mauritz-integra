@@ -8,7 +8,7 @@
 
     <div class="container">
         <section class="about-us-desc desc1">
-            <h2 class="text-start">Tentang Perusahaan <span>dan</span> Founder</h2>
+            <h2 class="text-center mb-5">Tentang Perusahaan <span>dan</span> Founder</h2>
             <div class="row align-items-start">
                 <p class="col-12 col-lg-7">
                     <b>Mauceng Martinus Simanjuntak (PT Maurindo Teknik Solusi)</b> adalah seorang profesional bidang

@@ -119,6 +119,19 @@
                             class="btn btn-primary">Belanja Sekarang!</a>
                     </div>
                 </div>
+
+                <div class="card bg-black">
+                    <img src="/asset/image/shop/mauritz-tiktok.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            <img src="https://pngimg.com/uploads/tiktok/tiktok_PNG8.png" width="50" class="img-fluid"
+                                alt=""> mauritzintegra
+                        </h3>
+                        <p class="card-text">Kami juga memiliki marketplace di tiktok</p>
+                        <a target="_blank" href="https://www.tiktok.com/@mauritzintegra" class="btn btn-primary">Belanja
+                            Sekarang!</a>
+                    </div>
+                </div>
             </div>
         </section>
     </div>

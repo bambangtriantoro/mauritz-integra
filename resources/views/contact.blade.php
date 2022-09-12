@@ -19,10 +19,9 @@
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
                             <div class="d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
                                 <i class='bx bxs-home'></i>
-                                <p><a target="_blank" href="https://goo.gl/maps/c3voP2ucqSJ1PpAs5">Perumahan Walikota Blok
-                                        E9 No 1A Meruya
-                                        Selatan Jakarta Barat,
-                                        10150</a></p>
+                                <p><a target="_blank" href="https://goo.gl/maps/ZCTC9pG6NaYLXVBF9">Ruko Crown, Jl. Green
+                                        Lake City Blok H no 18, RT.001/RW.010, Petir, Kec. Cipondoh, Kota Tangerang, Banten
+                                        15147</a></p>
                             </div>
                         </div>
                         <div
@@ -33,15 +32,13 @@
                         </div>
                         <div
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
-                            <i class='bx bxs-phone'></i>
+                            <i class='bx bxl-whatsapp'></i>
                             <div class="d-flex flex-wrap">
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62811858977">+62811858977</a>
                                 </p>
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62817858977">+62817858977</a>
                                 </p>
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62816858977">+62816858977</a>
-                                </p>
-                                <p class="me-3"><a target='_blank' href=" https://wa.me/+6281281686057">+6281281686057</a>
                                 </p>
                             </div>
                         </div>
@@ -75,8 +72,9 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.382616312338!2d106.72184381423685!3d-6.213164962586354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f93a56c0330f%3A0x10b27ba260ca597a!2sMauritz%20Integra!5e0!3m2!1sen!2sid!4v1658303236342!5m2!1sen!2sid"
-                        allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5420876323033!2d106.70104681391916!3d-6.191969062386258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1fea5733acf%3A0x86832cbbd8e455d9!2sMAURITZ%20%26%20MAUREEN%20ALKES%20(maurindo%20group)!5e0!3m2!1sen!2sid!4v1662703441587!5m2!1sen!2sid"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

@@ -6,7 +6,8 @@
                 <a href="https://www.facebook.com/maurindotekniksolusi" target="_blank"><i
                         class='bx bxl-facebook-circle'></i></a>
                 <a href="https://www.instagram.com/mauritzintegra/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.tiktok.com/@mauritzintegra" target="_blank"><i class='bx bxl-tiktok'></i></i></a>
+                <a href="https://www.tiktok.com/@mauritzintegra" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
             </div>
         </div>
         <div class="row justify-content-evenly g-3 mt-3">
@@ -65,6 +66,9 @@
                                 href="https://www.bukalapak.com/u/maucengmartinus?from=omnisearch&from_keyword_history=false&search_source=omnisearch_user&source=navbar"><img
                                     src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wgwdrf8fsk9fnc2wngdf"
                                     width="30" class="me-1 mb-1" alt=""></a></li>
+                        <li class="col-auto me-3"><a target='_blank' href="https://www.tiktok.com/@mauritzintegra"><img
+                                    src="https://pngimg.com/uploads/tiktok/tiktok_PNG8.png" width="30"
+                                    class="me-1 mb-1" alt=""></a></li>
                     </ul>
                 </div>
             </div>
@@ -77,17 +81,15 @@
                     <li class="d-flex flex-column"><i class='bx bxs-envelope'></i> <a target='_blank'
                             href="mailto:maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></li>
                     <li class="d-flex flex-column">
-                        <i class='bx bxs-phone'></i>
+                        <i class='bx bxl-whatsapp'></i>
                         <a target='_blank' href="https://wa.me/+62811858977">+62811858977</a>
                         <a target='_blank' href="https://wa.me/+62817858977">+62817858977</a>
                         <a target='_blank' href="https://wa.me/+62816858977">+62816858977</a>
-                        <a target='_blank' href="https://wa.me/+6281281686057">+6281281686057</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <p class="text-center opacity-50 my-3"><small>Copyright &copy; {{ date('Y') }} PT.Maurindo Teknik
-                Solusi</small>
+        <p class="text-center opacity-50 my-3"><small>Copyright &copy; {{ date('Y') }} PT MAURINDO GROUP</small>
         </p>
     </div>
 </footer>

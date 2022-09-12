@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.product-brand').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         dots: false,
         arrows: false,
