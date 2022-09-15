@@ -16,7 +16,7 @@ class SendMailController extends Controller
             'pesan' => $request->pesan
         ];
 
-        Mail::to("maurindotekniksolusi@gmail.com")->send(new SendMail($details));
+        Mail::to("info@maurindo.co.id")->send(new SendMail($details));
         return response()->json($details);
     }
 }

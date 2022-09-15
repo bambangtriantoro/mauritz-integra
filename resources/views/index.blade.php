@@ -122,7 +122,7 @@
                     <div class="d-flex flex-column justify-content-center m-auto">
                         <h2>Tentang Kami</h2>
                         <div>
-                            <p>PT Maurindo Group</p>
+                            <p>Maurindo Group</p>
                             <p>Kami adalah perusahaan professional bidang Penjualan dan Pemasaran yang telah meraup segudang
                                 pengalaman dalam bidang Farmasi dan Obat Obatan, Telekomunikasi dan IT serta di bidang
                                 peralatan Teknologi Digital yang telah berdiri sejak tahun 2015.</p>
@@ -419,8 +419,12 @@
                         <div
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-envelope'></i>
-                            <p><a target="_blank"
-                                    href="mailto: maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></p>
+                            <div>
+                                <p><a target="_blank" href="mailto: info@maurindo.co.id">info@maurindo.co.id</a>
+                                </p>
+                                <p><a target="_blank" href="mailto: sales@maurindo.co.id">sales@maurindo.co.id</a>
+                                </p>
+                            </div>
                         </div>
                         <div
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">

@@ -9,7 +9,8 @@
                     class='bx bxl-facebook-circle'></i></a>
             <a href="https://www.instagram.com/mauritzintegra/" target="_blank"><i class='bx bxl-instagram'></i></a>
             <a href="https://www.tiktok.com/@mauritzintegra" target="_blank"><i class='bx bxl-tiktok'></i></i></a>
-            <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+            <a href="https://www.youtube.com/channel/UCBv2XPTZTinJ5lW6otJI2jQ" target="_blank"><i
+                    class='bx bxl-youtube'></i></a>
         </div>
     </div>
 </div>
@@ -17,7 +18,7 @@
     <div class="container">
         <a class="navbar-brand" href="/">
             <img src="/asset/image/logo/logo2.png" width="40" alt="mauritz integra logo">
-            PT <span>MAURINDO</span> GROUP
+            MAURINDO <span>GROUP</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

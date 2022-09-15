@@ -7,7 +7,8 @@
                         class='bx bxl-facebook-circle'></i></a>
                 <a href="https://www.instagram.com/mauritzintegra/" target="_blank"><i class='bx bxl-instagram'></i></a>
                 <a href="https://www.tiktok.com/@mauritzintegra" target="_blank"><i class='bx bxl-tiktok'></i></a>
-                <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.youtube.com/channel/UCBv2XPTZTinJ5lW6otJI2jQ" target="_blank"><i
+                        class='bx bxl-youtube'></i></a>
             </div>
         </div>
         <div class="row justify-content-evenly g-3 mt-3">
@@ -75,11 +76,14 @@
             <div class="col-12 col-sm-12 col-md-4 col-lg-2 mx-auto">
                 <h5>Kontak</h5>
                 <ul>
-                    <li class="d-flex flex-column"><i class='bx bxs-home'></i> <a target='_blank'
-                            href="https://goo.gl/maps/c3voP2ucqSJ1PpAs5">Perumahan Walikota Blok E9 No 1A
-                            Meruya Selatan Jakarta Barat, 10150</a></li>
-                    <li class="d-flex flex-column"><i class='bx bxs-envelope'></i> <a target='_blank'
-                            href="mailto:maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></li>
+                    <li class="d-flex flex-column"><i class='bx bxs-home'></i>
+                        <a target='_blank' href="https://goo.gl/maps/ZCTC9pG6NaYLXVBF9">Ruko Crown, Jl. Green
+                            Lake City Blok H no 18, RT.001/RW.010, Petir, Kec. Cipondoh, Kota Tangerang, Banten
+                            15147</a>
+                    </li>
+                    <li class="d-flex flex-column"><i class='bx bxs-envelope'></i>
+                        <a target="_blank" href="mailto: info@maurindo.co.id">info@maurindo.co.id</a>
+                        <a target="_blank" href="mailto: sales@maurindo.co.id">sales@maurindo.co.id</a>
                     <li class="d-flex flex-column">
                         <i class='bx bxl-whatsapp'></i>
                         <a target='_blank' href="https://wa.me/+62811858977">+62811858977</a>
@@ -89,7 +93,7 @@
                 </ul>
             </div>
         </div>
-        <p class="text-center opacity-50 my-3"><small>Copyright &copy; {{ date('Y') }} PT MAURINDO GROUP</small>
+        <p class="text-center opacity-50 my-3"><small>Copyright &copy; {{ date('Y') }} MAURINDO GROUP</small>
         </p>
     </div>
 </footer>

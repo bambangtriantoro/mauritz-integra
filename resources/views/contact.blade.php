@@ -27,8 +27,12 @@
                         <div
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
                             <i class='bx bxs-envelope'></i>
-                            <p><a target="_blank"
-                                    href="mailto: maurindotekniksolusi@gmail.com">maurindotekniksolusi@gmail.com</a></p>
+                            <div>
+                                <p><a target="_blank" href="mailto: info@maurindo.co.id">info@maurindo.co.id</a>
+                                </p>
+                                <p><a target="_blank" href="mailto: sales@maurindo.co.id">sales@maurindo.co.id</a>
+                                </p>
+                            </div>
                         </div>
                         <div
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
