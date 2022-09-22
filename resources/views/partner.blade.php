@@ -8,8 +8,8 @@
 
     <section class="partner">
         <div class="container">
-            <div class="text-title-lite-container gap-md-3">
-                <i class="bx bx-first-aid"></i>
+            <div class="text-title-lite-container">
+                <img src="/asset/image/logo/logo maurindo alkes only.png" class="logo-by-maurindo" />
                 <h2 class="text-title-lite">Maurindo <span>Alkes</span> Partner</h2>
             </div>
             <div class="partner-desc desc-1 row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center">

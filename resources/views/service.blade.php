@@ -16,7 +16,12 @@
                             <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="col-12 col-md-6 rounded"
                                 alt="maurindo service carousel-1">
                             <div class="col-12 col-md-6">
-                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT KESEHATAN</h3>
+                                <h3 class="text-start">
+                                    <div class="logo-by-maurindo">
+                                        <img src="/asset/image/logo/logo maurindo alkes only.png" />
+                                    </div>
+                                    ALAT KESEHATAN
+                                </h3>
                                 <p>Berbagai alat kesehatan dengan kualitas yang terbaik dan
                                     juga brand yang ternama.</p>
                             </div>
@@ -27,7 +32,12 @@
                             <img src="/asset/image/mockup-graphics-i1iqQRLULlg-unsplash.jpg" class="col-12 col-md-6 rounded"
                                 alt="maurindo service carousel-1">
                             <div class="col-12 col-md-6">
-                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT MONITOR KESEHATAN</h3>
+                                <h3 class="text-start">
+                                    <div class="logo-by-maurindo">
+                                        <img src="/asset/image/logo/logo maurindo alkes only.png" />
+                                    </div>
+                                    ALAT MONITOR KESEHATAN
+                                </h3>
                                 <p>Berbagai alat yang memiliki fungsi untuk memberikan informasi mengenai kesehatan
                                     seseorang.</p>
                             </div>
@@ -38,7 +48,12 @@
                             <img src="/asset/image/chair-89156_1920.jpg" class="col-12 col-md-6 rounded"
                                 alt="maurindo service carousel-1">
                             <div class="col-12 col-md-6">
-                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT BANTU</h3>
+                                <h3 class="text-start">
+                                    <div class="logo-by-maurindo">
+                                        <img src="/asset/image/logo/logo maurindo alkes only.png" />
+                                    </div>
+                                    ALAT BANTU
+                                </h3>
                                 <p>Berbagai alat bantu yang digunakan untuk mencegah, mendiagnosis, menyembuhkan, dan
                                     meringankan penyakit, merawat orang sakit, memulihkan kesehatan, dan/atau
                                     membentuk struktur dan memperbaiki fungsi tubuh.</p>
@@ -50,7 +65,12 @@
                             <img src="/asset/image/mat-napo-MaKsx8JNbiI-unsplash.jpg" class="col-12 col-md-6 rounded"
                                 alt="maurindo service carousel-1">
                             <div class="col-12 col-md-6">
-                                <h3 class="text-start"><i class="bx bx-first-aid"></i> ALAT PERTOLONGAN PERTAMA</h3>
+                                <h3 class="text-start">
+                                    <div class="logo-by-maurindo">
+                                        <img src="/asset/image/logo/logo maurindo alkes only.png" />
+                                    </div>
+                                    ALAT PERTOLONGAN PERTAMA
+                                </h3>
                                 <p>Berbagai alat pertolongan pertama untuk perawatan sementara agar luka tidak menjadi
                                     semakin parah sebelum dibawa ke dokter.</p>
                             </div>
@@ -95,7 +115,12 @@
                 <div class="container">
                     <div class="row align-items-center py-5">
                         <div class="col-12 col-md-7">
-                            <h2 class="text-start"><i class="bx bx-first-aid"></i> Alat Kesehatan</h2>
+                            <h2 class="text-start">
+                                <div class="logo-by-maurindo">
+                                    <img src="/asset/image/logo/logo maurindo alkes only.png" />
+                                </div>
+                                Alat Kesehatan
+                            </h2>
                             <p>Kami menyediakan berbagai alat kesehatan dengan kualitas yang terbaik dan juga brand yang
                                 ternama. Dengan lebih dari 600 jenis produk yang tersedia. Dijual di marketplace dan sudah
                                 menjadi

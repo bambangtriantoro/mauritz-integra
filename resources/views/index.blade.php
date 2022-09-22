@@ -8,7 +8,11 @@
                     <div class="carousel-item active">
                         <img src="/asset/image/pexels-tara-winstead-7722685.jpg" class="d-block" alt="mauritz carousel 1">
                         <div class="carousel-caption">
-                            <h1 class="gap-md-1 gap-lg-3"><i class="bx bx-first-aid"></i> MAURINDO ALKES <br></h1>
+                            <h1 class="gap-md-1 gap-lg-3">
+                                <img src="/asset/image/logo/logo maurindo alkes only.png" />
+                                MAURINDO
+                                ALKES <br>
+                            </h1>
                             <h2><span>Penyedia Alat Kesehatan</span></h2>
                             <p class="mt-lg-3">Kami menyediakan berbagai alat kesehatan dengan kualitas yang terbaik dan
                                 juga
@@ -149,7 +153,7 @@
                     </p>
                     <a href="/service"><button class="hvr-sweep-to-right-type2">Selengkapnya</button></a>
                 </div>
-                <i class='bx bx-first-aid'></i>
+                <div class="logo-by-maurindo"><img src="/asset/image/logo/logo maurindo alkes only.png" /></div>
             </div>
 
             {{-- <div class="animate d-flex flex-wrap flex-lg-nowrap justify-content-center align-items-center gap-3"
@@ -217,7 +221,10 @@
             <h2 class="animate" data-animate="animate__fadeInUp"><span>Produk</span> Kami</h2>
             <div class="card animate" data-animate="animate__slideInUp">
                 <div>
-                    <h3><i class='bx bx-first-aid'></i>Penjualan Terbaik</h3>
+                    <h3>
+                        <img src="/asset/image/logo/logo maurindo alkes only.png" class="logo-maurindo-alkes" />
+                        Penjualan Terbaik
+                    </h3>
                 </div>
                 <div class="card-body">
                     <div class="d-flex flex-wrap-reverse justify-content-between mx-2 mx-lg-0 mb-2 gap-3">

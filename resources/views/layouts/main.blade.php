@@ -6,7 +6,9 @@
 <body>
     <div class="preloader" id="preloader">
         <div class="loader"></div>
-        <h3><img src="/asset/image/logo/logo2.png" width="40" alt="logo maurindo">MAURINDO <span>GROUP</span> 
+        <h3>
+            <img src="/asset/image/logo/logo maurindo group only.png" width="90" alt="logo maurindo">
+            MAURINDO <span>GROUP</span>
         </h3>
     </div>
 

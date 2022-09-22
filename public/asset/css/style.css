@@ -1,4 +1,4 @@
-html, body{ 
+html, body { 
     overflow-x: hidden; max-width: 100%
 }
 
@@ -271,19 +271,15 @@ border: 1px solid #ffffff;
     justify-content: center;
     align-items: center;
     position: relative;
+    flex-direction: column;
     font-size: 60px;
     font-weight: 700;
-    transform: translateX(-15px);
     margin-top: 15px;
 }
 
-.carousel-caption > h1 > i {
-    background-color: #db2c2f;
-    color: #fbfbfb;
-    border-radius: 10px;
-    padding: 3px;
-    text-shadow: none;
+.carousel-caption > h1 > img {
     transform: translateY(3px);
+    width: 200px;
 }
 
 .carousel-caption > h2 {
@@ -439,22 +435,28 @@ section h2 > span {
     color: #fbfbfb;
 }
 
-.service-detail > div:first-of-type > i, .service-detail > div:last-of-type > i {
+.service-detail > div:first-of-type > .logo-by-maurindo, .service-detail > div:last-of-type > .logo-by-maurindo {
     position: absolute;
-    top: -20px;
-    right: -20px;
-    font-size: 69px;
-    padding: 15px;
+    top: -40px;
+    right: -40px;
+    width: 140px;
+    padding: 30px 5px;
     border-radius: 50%;
-    background-color: #db2c2f;
+    border: 10px solid #db2c2f;
+    background-color: #fbfbfb;
     z-index: 1;
 }
 
-.service-detail > div:nth-child(2) > i {
+.service-detail > div:first-of-type > .logo-by-maurindo > img, .service-detail > div:last-of-type > .logo-by-maurindo > img {
+    width: 120px;
+    transform: translateX(-5px);
+}
+
+.service-detail > div:nth-child(2) > .logo-by-maurindo {
     position: absolute;
     top: -20px;
     right: -20px;
-    font-size: 69px;
+    width: 69px;
     padding: 15px;
     border-radius: 50%;
     background-color: #222299 ;
@@ -579,19 +581,20 @@ section h2 > span {
 .product > div:first-of-type > div:first-of-type > h3 {
     position: relative;
     padding: 0 10px;
-    padding-left: 20px;
+    padding-left: 50px;
     margin-bottom: 0;
     font-weight: 700;
 }
 
-.product > div:first-of-type > div:first-of-type > h3 > i {
+.product > div:first-of-type > div:first-of-type > h3 > img {
     position: absolute;
     top: -19px;
     left: -60px;
-    background-color: #db2c2f;
+    background-color: #fbfbfb;
+    border: 3px solid #db2c2f;
     border-radius: 10px;
-    padding: 5px;
-    font-size: 60px;
+    padding: 15px 3px;
+    width: 100px;
 }
 
 .product > div:first-of-type > div:last-of-type > div > h3 {
@@ -949,15 +952,21 @@ footer ul > li i {
     font-weight: 700;
 }
 
-.service-desc.desc1 .carousel .carousel-item h3 > i {
+.service-desc.desc1 .carousel .carousel-item h3 > .logo-by-maurindo {
     position: absolute;
     top: -13px;
     left: -5px;
-    background-color: #db2c2f;
+    background-color: #fbfbfb;
     padding: 5px;
     border: 3px solid #222299 ;
     border-radius: 50%;
-    font-size: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.service-desc.desc1 .carousel .carousel-item h3 > .logo-by-maurindo > img {
+    width: 60px;
+    transform: translate(-3px, 7px);
 }
 
 .service-desc.desc1 .carousel .carousel-item p {
@@ -992,13 +1001,21 @@ footer ul > li i {
     margin-left: 10px;
 }
 
-.service-desc.desc2 > div > div:first-of-type > div > div > h2 > i {
+.service-desc.desc2 > div > div:first-of-type > div > div > h2 > .logo-by-maurindo {
     position: absolute;
     top: -3px;
     left: -10px;
-    background-color: #db2c2f;
+    background-color: #fbfbfb;
     border-radius: 50%;
+    border: 5px solid #db2c2f;
     padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.service-desc.desc2 > div > div:first-of-type > div > div > h2 > .logo-by-maurindo > img {
+    width: 60px;
+    transform: translate(-10px, -17px);
 }
 
 .service-desc.desc2 > div:first-of-type .product-brand .slick-track {
@@ -1247,22 +1264,22 @@ footer ul > li i {
 
 .partner .text-title-lite-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     font-size: 40px;
     font-weight: 700;
-    transform: translateX(-15px);
+    /* transform: translateX(-15px); */
     margin-top: 60px;
 }
 
-.partner .text-title-lite-container > i {
-    background-color: #db2c2f;
-    color: #fbfbfb;
+.partner .text-title-lite-container > .logo-by-maurindo {
     border-radius: 10px;
     padding: 3px;
     text-shadow: none;
     transform: translateY(3px);
+    width: 111px;
 }
 
 .partner-desc.desc-1 .col {
@@ -1417,12 +1434,13 @@ footer ul > li i {
     
     .product > div:first-of-type > div:first-of-type > h3 {
         font-size: 18px;
+        padding-left: 45px;
     }
 
-    .product > div:first-of-type > div:first-of-type > h3 > i {
-        top: -15px;
-        left: -30px;
-        font-size: 40px;
+    .product > div:first-of-type > div:first-of-type > h3 > img {
+        top: -20px;
+        left: -35px;
+        width: 70px;
     }
 
     .product > div:first-of-type > div:last-of-type > div {
@@ -1487,8 +1505,12 @@ footer ul > li i {
         font-size: 18px;
     }
 
-    .service-desc.desc1 .carousel .carousel-item h3 > i {
+    .service-desc.desc1 .carousel .carousel-item h3 > .logo-by-maurindo {
         top: -19px;
+    }
+
+    .service-desc.desc1 .carousel .carousel-item h3 > .logo-by-maurindo > img {
+        transform: translate(-3px,12px);
     }
 
     .service-desc.desc1 .carousel .carousel-item p {
@@ -1562,17 +1584,28 @@ footer ul > li i {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }   
+
+    .navbar .navbar-brand img{
+        width: 40px;
+        transform: translateY(-2px);
     }
-    
+
     .carousel-caption h1 {
         font-size: 20px !important;
     }
 
-    .carousel-caption h1 > i {
+    .carousel-caption h1 > img {
         transform: translateY(-10px);
+        width: 60px;
     }
 
     .carousel-caption p {
+        font-size: 13px;
+        display: none;
+    }
+
+    .carousel-caption a {
         font-size: 13px;
     }
 
@@ -1592,8 +1625,8 @@ footer ul > li i {
         width: 100%;
     }
 
-    .service-detail > div > i {
-        transform: scale(0.9);
+    .service-detail > div > .logo-by-maurindo {
+        transform: scale(0.6);
     }
 
     .product > h3:first-of-type {
