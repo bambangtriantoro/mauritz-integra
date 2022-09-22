@@ -70,6 +70,9 @@
                         <li class="col-auto me-3"><a target='_blank' href="https://www.tiktok.com/@mauritzintegra"><img
                                     src="https://pngimg.com/uploads/tiktok/tiktok_PNG8.png" width="30"
                                     class="me-1 mb-1" alt=""></a></li>
+                        <li class="col-auto me-3"><a target='_blank' href="https://www.tiktok.com/@maureenintegra"><img
+                                    src="https://pngimg.com/uploads/tiktok/tiktok_PNG8.png" width="30"
+                                    class="me-1 mb-1" alt=""></a></li>
                     </ul>
                 </div>
             </div>

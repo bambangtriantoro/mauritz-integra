@@ -723,6 +723,14 @@ section h2 > span {
     height: auto;
 }
 
+.contact-us > div > div:first-of-type .card-body > div > div i.yellow {
+    background-color: #ff8800;
+}
+
+.contact-us > div > div:first-of-type .card-body > div > div i.green {
+    background-color: #36a53d;
+}
+
 .contact-us > div > div:first-of-type .card-body > div > div p {
     margin: 0;
     font-weight: 600;

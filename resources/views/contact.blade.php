@@ -26,7 +26,7 @@
                         </div>
                         <div
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
-                            <i class='bx bxs-envelope'></i>
+                            <i class='bx bxs-envelope yellow'></i>
                             <div>
                                 <p><a target="_blank" href="mailto: info@maurindo.co.id">info@maurindo.co.id</a>
                                 </p>
@@ -36,7 +36,7 @@
                         </div>
                         <div
                             class="col-auto d-flex justify-content-start justify-content-lg-center align-items-center gap-3">
-                            <i class='bx bxl-whatsapp'></i>
+                            <i class='bx bxl-whatsapp green'></i>
                             <div class="d-flex flex-wrap">
                                 <p class="me-3"><a target='_blank' href=" https://wa.me/+62811858977">+62811858977</a>
                                 </p>
