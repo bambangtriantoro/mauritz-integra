@@ -366,7 +366,7 @@
             <h3 class="animate" data-animate="animate__fadeInUp"><span>Belanja</span> Sekarang!</h3>
             <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 animate"
                 data-animate="animate__zoomIn">
-                <a target="_blank" href="https://shopee.co.id/maurindotekniksolusi">
+                <a type="button" data-bs-toggle="modal" data-bs-target="#modalShopee">
                     <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" class="img-fluid"
                         alt="shopee link">
                 </a>
@@ -374,7 +374,7 @@
                     <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" class="img-fluid"
                         alt="shopee link">
                 </a> --}}
-                <a target="_blank" href="https://www.tokopedia.com/mauin?source=universe&st=product">
+                <a type="button" data-bs-toggle="modal" data-bs-target="#modalTokopedia">
                     <img src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/arael/kratos/36c1015e.png"
                         class="img-fluid" alt="tokopedia link">
                 </a>
@@ -382,7 +382,7 @@
                     <img src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/arael/kratos/36c1015e.png"
                         class="img-fluid" alt="tokopedia link">
                 </a> --}}
-                <a target="_blank" href="https://www.blibli.com/merchant/mauritz-integra/MAI-60046">
+                <a type="button" data-bs-toggle="modal" data-bs-target="#modalBlibli">
                     <img src="https://d2k52l910ymyzx.cloudfront.net/home/wp-content/uploads/2022/01/24112756/1_Mn1__te_k3ALl0qySqLy1A.png"
                         class="img-fluid" alt="blibli link">
                 </a>
@@ -400,11 +400,173 @@
                     <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/wgwdrf8fsk9fnc2wngdf"
                         class="img-fluid" alt="bukalapak link">
                 </a>
-                <a target="_blank" href="https://www.tiktok.com/@mauritzintegra">
+                <a type="button" data-bs-toggle="modal" data-bs-target="#modalTiktok">
                     <img src="https://pngimg.com/uploads/tiktok/tiktok_PNG8.png" class="img-fluid" alt="tiktok link">
                 </a>
             </div>
         </section>
+    </div>
+
+    {{-- Shopee Modal --}}
+    <div class="modal fade shop-now-modal" id="modalShopee" tabindex="-1" aria-labelledby="modalShopeeLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-orange text-white">
+                    <h5 class="modal-title " id="modalShopeeLabel">
+                        <img src="https://www.pngmart.com/files/12/Shopee-Logo-PNG-File.png" width="40"
+                            class="img-fluid" alt="">
+                        Belanja di Shopee
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center g-3">
+                        <a target="_blank" href="https://shopee.co.id/maurindotekniksolusi"
+                            class="col w-100 text-center bg-orange mx-3">
+                            Mauritz Integra
+                        </a>
+                        <a target="_blank" href="https://shopee.co.id/maureenintegrastore"
+                            class="col w-100 text-center bg-orange mx-3">Maureen Integra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Tokopedia Modal --}}
+    <div class="modal fade shop-now-modal" id="modalTokopedia" tabindex="-1" aria-labelledby="tokopediaLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-green text-white">
+                    <h5 class="modal-title " id="tokopediaLabel">
+                        <img src="https://assets.tokopedia.net/assets-tokopedia-lite/v2/arael/kratos/36c1015e.png"
+                            class="img-fluid" alt="tokopedia link" width="50">
+                        Belanja di Tokopedia
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center g-3">
+                        <a target="_blank" href="https://www.tokopedia.com/mauin?source=universe&st=product"
+                            class="col w-100 text-center bg-green mx-3">
+                            Mauritz Integra
+                        </a>
+                        <a target="_blank" href="https://www.tokopedia.com/maureenintegrast?source=universe&st=product"
+                            class="col w-100 text-center bg-green mx-3">Maureen Integra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Blibli Modal --}}
+    <div class="modal fade shop-now-modal" id="modalBlibli" tabindex="-1" aria-labelledby="blibliLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-light-blue text-white">
+                    <h5 class="modal-title " id="blibliLabel">
+                        <img src="https://d2k52l910ymyzx.cloudfront.net/home/wp-content/uploads/2022/01/24112756/1_Mn1__te_k3ALl0qySqLy1A.png"
+                            class="img-fluid" alt="Blibli link" width="50">
+                        Belanja di Blibli
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center g-3">
+                        <a target="_blank" href="https://www.blibli.com/merchant/mauritz-integra/MAI-60046"
+                            class="col w-100 text-center bg-light-blue mx-3">
+                            Mauritz Integra
+                        </a>
+                        <a target="_blank" href="https://www.blibli.com/merchant/maureen-integra-official-store/MAI-60126"
+                            class="col w-100 text-center bg-light-blue mx-3">Maureen Integra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Lazada Modal
+    <div class="modal fade shop-now-modal" id="modalLazada" tabindex="-1" aria-labelledby="lazadaLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-dark-blue text-white">
+                    <h5 class="modal-title " id="lazadaLabel">
+                        <img src="https://assets.Lazada.net/assets-Lazada-lite/v2/arael/kratos/36c1015e.png"
+                            class="img-fluid" alt="Lazada link" width="50">
+                        Belanja di Lazada
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center g-3">
+                        <a target="_blank" href="https://www.tokopedia.com/mauin?source=universe&st=product"
+                            class="col w-100 text-center bg-dark-blue mx-3">
+                            Mauritz Integra
+                        </a>
+                        <a target="_blank" href="https://www.tokopedia.com/maureenintegrast?source=universe&st=product"
+                            class="col w-100 text-center bg-dark-blue mx-3">Maureen Integra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Bukalapak Modal
+    <div class="modal fade shop-now-modal" id="modalBukalapak" tabindex="-1" aria-labelledby="bukalapakLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-red text-white">
+                    <h5 class="modal-title " id="bukalapakLabel">
+                        <img src="https://assets.Bukalapak.net/assets-Bukalapak-lite/v2/arael/kratos/36c1015e.png"
+                            class="img-fluid" alt="Bukalapak link" width="50">
+                        Belanja di Bukalapak
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center g-3">
+                        <a target="_blank" href="https://www.tokopedia.com/mauin?source=universe'&st=product"
+                            class="col w-100 text-center bg-red mx-3">
+                            Mauritz Integra
+                        </a>
+                        <a target="_blank" href="https://www.tokopedia.com/maureenintegrast'?source=universe&st=product"
+                            class="col w-100 text-center bg-red mx-3">Maureen Integra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+
+    {{-- Tiktok Modal --}}
+    <div class="modal fade shop-now-modal" id="modalTiktok" tabindex="-1" aria-labelledby="tiktokLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-black text-white">
+                    <h5 class="modal-title " id="tiktokLabel">
+                        <img src="https://pngimg.com/uploads/tiktok/tiktok_PNG8.png" class="img-fluid" alt="Tiktok link"
+                            width="50">
+                        Belanja di Tiktok
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center g-3">
+                        <a target="_blank" href="https://www.tiktok.com/@mauritzintegra"
+                            class="col w-100 text-center bg-black mx-3">
+                            Mauritz Integra
+                        </a>
+                        <a target="_blank" href="https://www.tiktok.com/@maureenintegra"
+                            class="col w-100 text-center bg-black mx-3">Maureen Integra</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     {{-- Contact Us --}}
